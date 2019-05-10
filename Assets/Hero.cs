@@ -5,12 +5,27 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
+    private Vector3 startPosition;
+
     private Rigidbody2D rigid;
     public float jumpForce = 1.5f;
+    private GameManager gameManager;
+
+    private void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+        gameManager = FindObjectOfType<GameManager>();
+    }
 
     private void Start()
     {
-        rigid = GetComponent<Rigidbody2D>();
+        startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+    }
+
+    internal void ResetPosition()
+    {
+        transform.position = startPosition;
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     public void OnHookRelease()
@@ -31,5 +46,15 @@ public class Hero : MonoBehaviour
     {
         // TODO: Return true if user clicks fast to gain height.
         return false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<HeroKiller>())
+            gameManager.OnHeroDeath();
+
+        if (collision.gameObject.GetComponent<Goal>())
+            gameManager.OnHeroReachedGoal();
+
     }
 }

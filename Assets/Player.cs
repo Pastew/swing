@@ -6,20 +6,20 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private GameObject hookGO;
-    private Hero ball;
+    private Hero hero;
 
     void Start()
     {
         hookGO = FindObjectOfType<Hook>().gameObject;
-        ball = FindObjectOfType<Hero>();
+        hero = FindObjectOfType<Hero>();
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(1))
         {
-            ball.transform.position = new Vector2(-7, 4);
-            ball.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            hero.ResetPosition();
+            hookGO.GetComponent<Hook>().ResetPosition();
         }
 
         if (Input.GetMouseButtonDown(0))
@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             hookGO.SetActive(false);
-            ball.OnHookRelease();
+            hero.OnHookRelease();
         }
 
         // Move hook after finger
