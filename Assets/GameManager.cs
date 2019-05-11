@@ -8,32 +8,48 @@ public class GameManager : MonoBehaviour
     private Hero hero;
     private Hook hook;
 
+    private Player player;
+    private LevelManager levelManager;
+
     private void Awake()
     {
-        hero = FindObjectOfType<Hero>();
-        hook = FindObjectOfType<Hook>();
+        levelManager = FindObjectOfType<LevelManager>();
+        player = FindObjectOfType<Player>();
     }
 
     void Start()
     {
-        
+        // Dev only if TODO: remove it 
+        if (FindObjectOfType<Hero>())
+        {
+            int developmentLevelIndex = Int32.Parse(FindObjectOfType<Hero>().gameObject.transform.parent.name.Split('_')[1]);
+            levelManager.DevSetCurrentLevel(FindObjectOfType<Hero>().gameObject.transform.parent.gameObject);
+            levelManager.DevSetCurrentLevelIndex(developmentLevelIndex);
+        }
+        else
+        {
+            levelManager.Loadlevel(0);
+        }
+        FindGameObjects();
     }
 
-    void Update()
-    {
-        
-    }
 
     internal void OnHeroDeath()
     {
-        hook.gameObject.SetActive(true);
-        hook.ResetPosition();
-
-        hero.ResetPosition();
+        levelManager.ReLoadCurrentlevel();
+        FindGameObjects();
     }
 
-    internal void OnHeroReachedGoal()
+    public void OnHeroReachedGoal()
     {
-        print("Win");
+        levelManager.LoadNextLevel();
+        FindGameObjects();
+    }
+
+    private void FindGameObjects()
+    {
+        hero = FindObjectOfType<Hero>();
+        hook = FindObjectOfType<Hook>();
+        player.FindGameObjects();
     }
 }

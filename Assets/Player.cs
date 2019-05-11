@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private GameObject hookGO;
     private Hero hero;
 
-    void Start()
+    public void FindGameObjects()
     {
         hookGO = FindObjectOfType<Hook>().gameObject;
         hero = FindObjectOfType<Hero>();

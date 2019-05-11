@@ -13,6 +13,7 @@ public class Hook : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         hero = FindObjectOfType<Hero>();
+        GetComponent<DistanceJoint2D>().connectedBody = hero.GetComponent<Rigidbody2D>();
     }
 
     private void Start()

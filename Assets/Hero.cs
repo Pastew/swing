@@ -50,7 +50,7 @@ public class Hero : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<HeroKiller>())
+        if (collision.gameObject.GetComponent<Ferr2DT_PathTerrain>())
             gameManager.OnHeroDeath();
 
         if (collision.gameObject.GetComponent<Goal>())
