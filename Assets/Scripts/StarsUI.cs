@@ -17,6 +17,13 @@ public class StarsUI : MonoBehaviour
     public Color starFullColor;
     public Color starEmptyColor;
 
+
+    private void Awake()
+    {
+        starFullColor = new Color(1, 0.8f, 0, 1);
+        starEmptyColor = new Color(1,1,1, 1);
+    }
+
     void OnEnable()
     {
         stars = new Image[3];

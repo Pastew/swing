@@ -28,7 +28,6 @@ public class ColorManager : MonoBehaviour
 
     private void Awake()
     {
-        starsUI = FindObjectOfType<StarsUI>();
         swingEdgeMaterial = (Resources.Load("TerrainMaterials/SwingEdgeMaterial") as Material);
         swingFillMaterial = (Resources.Load("TerrainMaterials/SwingFillMaterial") as Material);
         heroPrefab = (Resources.Load("Prefabs/Hero") as GameObject);
@@ -53,6 +52,7 @@ public class ColorManager : MonoBehaviour
     {
         Camera.main.backgroundColor = cameraColor;
 
+        starsUI = FindObjectOfType<StarsUI>();
         starsUI.starEmptyColor = starEmptyColor;
         starsUI.starFullColor = starFullColor;
 
