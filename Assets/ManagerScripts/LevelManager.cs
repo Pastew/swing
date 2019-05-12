@@ -7,6 +7,12 @@ public class LevelManager : MonoBehaviour
 {
     private int currentLevelIndex;
     private GameObject currentLevel;
+    private GameManager gameManager;
+
+    private void Awake()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
 
     public void Loadlevel(int levelIndex)
     {
@@ -24,6 +30,8 @@ public class LevelManager : MonoBehaviour
             Debug.LogError("Level you're trying to load doesn't exist: " + path + ".  will load level 0");
             Loadlevel(0);
         }
+
+        gameManager.OnLevelLoaded();
     }
 
     public void LoadNextLevel()

@@ -20,6 +20,7 @@ public class Hero : MonoBehaviour
     private void Start()
     {
         startPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        Jump(2);
     }
 
     internal void ResetPosition()
@@ -33,11 +34,11 @@ public class Hero : MonoBehaviour
         Jump();
     }
 
-    private void Jump()
+    private void Jump(float multiplier=1f)
     {
         if (!PlayerIsCheating())
         {
-            Vector2 jumpVector = Vector2.up * jumpForce;
+            Vector2 jumpVector = Vector2.up * jumpForce * multiplier;
             rigid.AddForce(jumpVector, ForceMode2D.Impulse);
         }
     }

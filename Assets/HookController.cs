@@ -3,16 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class HookController : MonoBehaviour
 {
     private GameObject hookGO;
     private Hero hero;
 
     private bool canInteractWithGame = false;
 
+    private void Awake()
+    {
+        hookGO = transform.GetChild(0).gameObject;
+        hookGO.SetActive(false);
+    }
     public void FindGameObjects()
     {
-        hookGO = FindObjectOfType<Hook>().gameObject;
         hero = FindObjectOfType<Hero>();
     }
 

@@ -12,8 +12,6 @@ public class Hook : MonoBehaviour
     private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        hero = FindObjectOfType<Hero>();
-        GetComponent<DistanceJoint2D>().connectedBody = hero.GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -28,6 +26,8 @@ public class Hook : MonoBehaviour
 
     void OnEnable()
     {
+        hero = FindObjectOfType<Hero>();
+        GetComponent<DistanceJoint2D>().connectedBody = hero.GetComponent<Rigidbody2D>();
         UpdateLine();
     }
 
@@ -40,5 +40,10 @@ public class Hook : MonoBehaviour
     {
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, hero.transform.position);
+    }
+
+    public void FindGameObjects()
+    {
+        throw new NotImplementedException();
     }
 }
