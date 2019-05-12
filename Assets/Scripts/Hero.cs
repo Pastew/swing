@@ -50,7 +50,7 @@ public class Hero : MonoBehaviour
 
 
     // Others
-    private void Jump(float multiplier=1f)
+    private void Jump(float multiplier = 1f)
     {
         if (!PlayerIsCheating())
         {
@@ -65,5 +65,5 @@ public class Hero : MonoBehaviour
         return false;
     }
 
-  
+
 }
