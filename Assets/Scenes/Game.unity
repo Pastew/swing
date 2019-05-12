@@ -210,6 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0fd850447188a4a9557754387c21ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starFullColor: {r: 0, g: 0, b: 0, a: 0}
+  starEmptyColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &292332160
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,7 +864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1067,7 +1069,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1254,7 +1256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6431373}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.85490197}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1375,6 +1377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1488676728}
+  - component: {fileID: 1488676729}
   m_Layer: 0
   m_Name: ColorManager
   m_TagString: Untagged
@@ -1396,6 +1399,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488676729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488676727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24cfbb5d9abc924eba33d4a60c7606f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  starFullColor: {r: 1, g: 0.9060749, b: 0, a: 1}
+  starEmptyColor: {r: 1, g: 1, b: 1, a: 1}
+  swingEdgeMaterialColor: {r: 0.24705882, g: 0.24705882, b: 0.24705882, a: 1}
+  swingFillMaterialColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1686013681
 GameObject:
   m_ObjectHideFlags: 0
