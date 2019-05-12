@@ -25,6 +25,7 @@ public class UIManager : MonoBehaviour
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
         starsUI = transform.Find("Stars").gameObject;
+        HideAllUI();
     }
 
     private void Start()
@@ -49,13 +50,19 @@ public class UIManager : MonoBehaviour
     public void OnPlayNextLevelButtonClick()
     {
         gameManager.OnPlayNextLevelButtonPressed();
+        HideAllUI();
+    }
+
+    private void HideAllUI()
+    {
         SetMenuCanvasVisible(false);
+        starsUI.SetActive(false);
     }
 
     public void OnRepeatButtonClick()
     {
         gameManager.OnRepeatButtonClick();
-        SetMenuCanvasVisible(false);
+        HideAllUI();
     }
 
     // Counter
