@@ -73,7 +73,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.1100452
+  m_Distance: 5.9439545
   m_MaxDistanceOnly: 0
 --- !u!212 &5017414894694539043
 SpriteRenderer:
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5017414894694539103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58c614ee1d11685419d65213b98042ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ed9b2ca6a4a14c4b9924ce64b4b00e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!120 &5017414894694539041

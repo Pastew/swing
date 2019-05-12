@@ -31,6 +31,11 @@ public class Hook : MonoBehaviour
         UpdateLine();
     }
 
+    private void OnDisable()
+    {
+        hero.OnHookRelease();
+    }
+
     private void Update()
     {
         UpdateLine();

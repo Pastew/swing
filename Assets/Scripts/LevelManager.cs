@@ -9,6 +9,9 @@ public class LevelManager : MonoBehaviour
     private GameObject currentLevel;
     private GameManager gameManager;
 
+    public GameObject heroPrefab;
+    private GameObject hero;
+
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -29,9 +32,17 @@ public class LevelManager : MonoBehaviour
         {
             Debug.LogError("Level you're trying to load doesn't exist: " + path + ".  will load level 0");
             Loadlevel(0);
+            return;
         }
 
+        ReloadHero();
         gameManager.OnLevelLoaded();
+    }
+
+    private void ReloadHero()
+    {
+        Destroy(hero);
+        hero = Instantiate(heroPrefab, GetStartPosition(), Quaternion.identity);
     }
 
     public void LoadNextLevel()
@@ -45,13 +56,13 @@ public class LevelManager : MonoBehaviour
         Loadlevel(currentLevelIndex);
     }
 
-    internal void DevSetCurrentLevel(GameObject gameObject)
-    {
-        currentLevel = gameObject;
-    }
-
     internal void DevSetCurrentLevelIndex(int developmentLevelIndex)
     {
         currentLevelIndex = developmentLevelIndex;
+    }
+
+    internal Vector3 GetStartPosition()
+    {
+        return currentLevel.GetComponentInChildren<StartPosition>().transform.position;
     }
 }
