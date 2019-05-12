@@ -1415,7 +1415,7 @@ MonoBehaviour:
   cameraColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
   goalColor: {r: 1, g: 1, b: 1, a: 1}
   heroColor: {r: 0.8352941, g: 0.87058824, b: 0.8509804, a: 1}
-  starColor: {r: 1, g: 0.85490197, b: 0, a: 1}
+  starColor: {r: 1, g: 1, b: 1, a: 1}
   starFullColor: {r: 1, g: 0.85490197, b: 0, a: 1}
   starEmptyColor: {r: 1, g: 1, b: 1, a: 1}
   swingEdgeMaterialColor: {r: 0.24705882, g: 0.24705882, b: 0.24705882, a: 1}
