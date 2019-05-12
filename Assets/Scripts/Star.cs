@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Star : MonoBehaviour
 {
     private float rotateSpeed = 50f;
+
+    private void Start()
+    {
+        transform.Rotate(Vector3.forward, Random.Range(0, 360));
+    }
 
     private void Update()
     {
@@ -14,6 +18,7 @@ public class Star : MonoBehaviour
 
     internal void OnCollected()
     {
+        FindObjectOfType<StarsManager>().OnStarCollected(transform.position);
         Destroy(gameObject);
     }
 }

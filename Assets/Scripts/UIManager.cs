@@ -14,21 +14,36 @@ public class UIManager : MonoBehaviour
     private float oneCountdownLength = 0.3f;
 
     // Childs
-    private GameObject menuCanvas;
-    private GameObject counterCanvas;
-
+    private GameObject menuUI;
+    private GameObject counterUI;
+    private GameObject starsUI;
 
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        menuCanvas = transform.Find("MenuCanvas").gameObject;
-        counterCanvas = transform.Find("CounterCanvas").gameObject;
+
+        menuUI = transform.Find("Menu").gameObject;
+        counterUI = transform.Find("Counter").gameObject;
+        starsUI = transform.Find("Stars").gameObject;
+    }
+
+    private void Start()
+    {
+        menuUI.transform.Find("Play").GetComponent<Button>().onClick.AddListener(OnPlayNextLevelButtonClick);
+        menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonClick);
     }
 
     // Menu canvas
+    internal void ShowLevelResultsScreen(int collectedStars)
+    {
+        SetMenuCanvasVisible(true);
+        starsUI.SetActive(true);
+        starsUI.GetComponent<StarsUI>().ShowStars(collectedStars);
+    }
+
     public void SetMenuCanvasVisible(bool visible)
     {
-        menuCanvas.SetActive(visible);
+        menuUI.SetActive(visible);
     }
 
     public void OnPlayNextLevelButtonClick()
@@ -46,12 +61,12 @@ public class UIManager : MonoBehaviour
     // Counter
     private void SetCounterCanvasText(string text)
     {
-        counterCanvas.GetComponentInChildren<Text>().text = text;
+        counterUI.GetComponentInChildren<Text>().text = text;
     }
 
     private void SetCoutnerCanvasActive(bool active)
     {
-        counterCanvas.SetActive(active);
+        counterUI.SetActive(active);
     }
 
     internal void StartCountdown()

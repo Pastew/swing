@@ -13,12 +13,14 @@ public class GameManager : MonoBehaviour
     private InputManager inputManager;
     private LevelManager levelManager;
     private UIManager uiManager;
+    private StarsManager starsManager;
 
     private void Awake()
     {
         levelManager = FindObjectOfType<LevelManager>();
         inputManager = FindObjectOfType<InputManager>();
         uiManager = FindObjectOfType<UIManager>();
+        starsManager = FindObjectOfType<StarsManager>();
     }
 
     void Start()
@@ -35,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void OnHeroReachedGoal()
     {
-        ShowCanvas();
+        uiManager.ShowLevelResultsScreen(starsManager.CollectedStars);
         inputManager.OnReachedGoal();
     }
 
@@ -48,6 +50,7 @@ public class GameManager : MonoBehaviour
     {
         inputManager.SetCanUseHook(true);
         FindObjectOfType<Hero>().OnCountdownFinished();
+        starsManager.ResetStarsCounter();
     }
 
     internal void OnRepeatButtonClick()
@@ -56,15 +59,8 @@ public class GameManager : MonoBehaviour
     }
 
     // ============ UI ============
-    private void ShowCanvas()
-    {
-        uiManager.SetMenuCanvasVisible(true);
-    }
-
     public void OnPlayNextLevelButtonPressed()
     {
         levelManager.LoadNextLevel();
     }
-
-
 }
