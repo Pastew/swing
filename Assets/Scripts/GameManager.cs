@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    // Development options
+    [Tooltip("Only for development build")]
+    public int startingLevel = 0;
+
+    // External dependencies
     private InputManager inputManager;
     private LevelManager levelManager;
     private UIManager uiManager;
@@ -18,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        levelManager.Loadlevel(0);
+        levelManager.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
     }
 
     // ============ Game Events ============
@@ -61,5 +66,5 @@ public class GameManager : MonoBehaviour
         levelManager.LoadNextLevel();
     }
 
-    
+
 }

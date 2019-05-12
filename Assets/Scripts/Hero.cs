@@ -38,7 +38,9 @@ public class Hero : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<Ferr2DT_PathTerrain>())
+        {
             gameManager.OnHeroDeath();
+        }
 
         if (collision.gameObject.GetComponent<Goal>())
         {
@@ -48,6 +50,14 @@ public class Hero : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Star star = collision.gameObject.GetComponent<Star>();
+        if (star)
+        {
+            star.OnCollected();
+        }
+    }
 
     // Others
     private void Jump(float multiplier = 1f)
