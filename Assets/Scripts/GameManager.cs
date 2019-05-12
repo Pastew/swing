@@ -45,6 +45,11 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<Hero>().OnCountdownFinished();
     }
 
+    internal void OnRepeatButtonClick()
+    {
+        levelManager.ReLoadCurrentlevel();
+    }
+
     // ============ UI ============
     private void ShowCanvas()
     {
@@ -55,4 +60,6 @@ public class GameManager : MonoBehaviour
     {
         levelManager.LoadNextLevel();
     }
+
+    
 }

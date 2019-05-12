@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
 
     // Parameters
     [Tooltip("In seconds")]
-    private float oneCountdownLength = 0.5f;
+    private float oneCountdownLength = 0.3f;
 
     // Childs
     private GameObject menuCanvas;
@@ -37,6 +37,12 @@ public class UIManager : MonoBehaviour
         SetMenuCanvasVisible(false);
     }
 
+    public void OnRepeatButtonClick()
+    {
+        gameManager.OnRepeatButtonClick();
+        SetMenuCanvasVisible(false);
+    }
+
     // Counter
     private void SetCounterCanvasText(string text)
     {
@@ -50,7 +56,7 @@ public class UIManager : MonoBehaviour
 
     internal void StartCountdown()
     {
-        StartCoroutine(Countdown(3));
+        StartCoroutine(Countdown(5));
     }
 
     IEnumerator Countdown(int seconds)
