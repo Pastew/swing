@@ -43,12 +43,12 @@ public class GameManager : MonoBehaviour
 
     internal void OnLevelLoaded()
     {
+        inputManager.SetCanUseHook(true);
         uiManager.StartCountdown();
     }
 
     public void OnCountdownFinished()
     {
-        inputManager.SetCanUseHook(true);
         FindObjectOfType<Hero>().OnCountdownFinished();
         starsManager.ResetStarsCounter();
     }
