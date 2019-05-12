@@ -18,7 +18,8 @@ public class LevelManager : MonoBehaviour
         try
         {
             currentLevel = Instantiate(Resources.Load(path, typeof(GameObject))) as GameObject;
-        }catch(ArgumentException argEx)
+        }
+        catch (ArgumentException argEx)
         {
             Debug.LogError("Level you're trying to load doesn't exist: " + path + ".  will load level 0");
             Loadlevel(0);

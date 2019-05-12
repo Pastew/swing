@@ -54,7 +54,10 @@ public class Hero : MonoBehaviour
             gameManager.OnHeroDeath();
 
         if (collision.gameObject.GetComponent<Goal>())
+        {
             gameManager.OnHeroReachedGoal();
-
+            rigid.isKinematic = true;
+            rigid.velocity = Vector3.zero;
+        }
     }
 }

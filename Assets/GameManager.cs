@@ -10,11 +10,13 @@ public class GameManager : MonoBehaviour
 
     private Player player;
     private LevelManager levelManager;
+    private UIManager uiManager;
 
     private void Awake()
     {
         levelManager = FindObjectOfType<LevelManager>();
         player = FindObjectOfType<Player>();
+        uiManager = FindObjectOfType<UIManager>();
     }
 
     void Start()
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
             levelManager.Loadlevel(0);
         }
         FindGameObjects();
+        player.SetCanInteractWithGame(true);
     }
 
 
@@ -42,8 +45,13 @@ public class GameManager : MonoBehaviour
 
     public void OnHeroReachedGoal()
     {
-        levelManager.LoadNextLevel();
-        FindGameObjects();
+        ShowCanvas();
+        player.SetCanInteractWithGame(false);
+    }
+
+    private void ShowCanvas()
+    {
+        uiManager.SetCanvasVisible(true);
     }
 
     private void FindGameObjects()
@@ -51,5 +59,12 @@ public class GameManager : MonoBehaviour
         hero = FindObjectOfType<Hero>();
         hook = FindObjectOfType<Hook>();
         player.FindGameObjects();
+    }
+
+    public void OnPlayNextLevelButtonPressed()
+    {
+        levelManager.LoadNextLevel();
+        FindGameObjects();
+        player.SetCanInteractWithGame(true);
     }
 }

@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     private GameObject hookGO;
     private Hero hero;
 
+    private bool canInteractWithGame = false;
+
     public void FindGameObjects()
     {
         hookGO = FindObjectOfType<Hook>().gameObject;
@@ -16,6 +18,9 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (!canInteractWithGame)
+            return;
+
         if (Input.GetMouseButtonDown(1))
         {
             hero.ResetPosition();
@@ -44,5 +49,10 @@ public class Player : MonoBehaviour
     {
         Vector3 newHookPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         return new Vector3(newHookPos.x, newHookPos.y, 0);
+    }
+
+    internal void SetCanInteractWithGame(bool newValue)
+    {
+        canInteractWithGame = newValue;
     }
 }
