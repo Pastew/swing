@@ -17,10 +17,6 @@ public class ColorManager : MonoBehaviour
     GameObject starPrefab;
     public Color starColor;
 
-    private StarsUI starsUI;
-    public Color starFullColor;
-    public Color starEmptyColor;
-
     Material swingEdgeMaterial;
     Material swingFillMaterial;
     public Color swingEdgeMaterialColor;
@@ -51,10 +47,6 @@ public class ColorManager : MonoBehaviour
     private void UpdateColors()
     {
         Camera.main.backgroundColor = cameraColor;
-
-        starsUI = FindObjectOfType<StarsUI>();
-        starsUI.starEmptyColor = starEmptyColor;
-        starsUI.starFullColor = starFullColor;
 
         swingEdgeMaterial.color = swingEdgeMaterialColor;
         swingFillMaterial.color = swingFillMaterialColor;

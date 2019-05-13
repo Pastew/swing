@@ -13,25 +13,14 @@ public class StarsUI : MonoBehaviour
     private Sprite starFull;
     private Sprite starEmpty;
 
-    // Colors set by ColorManager
-    public Color starFullColor;
-    public Color starEmptyColor;
-
-
-    private void Awake()
-    {
-        starFullColor = new Color(1, 0.8f, 0, 1);
-        starEmptyColor = new Color(1,1,1, 1);
-    }
-
     void OnEnable()
     {
         stars = new Image[3];
         for (int i = 0; i < 3; ++i)
             stars[i] = transform.Find("Star" + (i + 1)).GetComponent<Image>();
 
-        starEmpty = Resources.Load<Sprite>("Images/starEmpty") as Sprite;
-        starFull = Resources.Load<Sprite>("Images/star") as Sprite;
+        starEmpty = Resources.Load<Sprite>("Images/starUIEmpty") as Sprite;
+        starFull = Resources.Load<Sprite>("Images/starUIFull") as Sprite;
     }
 
     internal void ShowStars(int collectedStars)
@@ -42,12 +31,10 @@ public class StarsUI : MonoBehaviour
             if (collectedStars >= i + 1)
             {
                 stars[i].sprite = starFull;
-                stars[i].color = starFullColor;
             }
             else
             {
                 stars[i].sprite = starEmpty;
-                stars[i].color = starEmptyColor;
             }
         }
 

@@ -191,8 +191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0fd850447188a4a9557754387c21ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starFullColor: {r: 0, g: 0, b: 0, a: 0}
-  starEmptyColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &292332160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,8 +1414,6 @@ MonoBehaviour:
   goalColor: {r: 1, g: 1, b: 1, a: 1}
   heroColor: {r: 0.8352941, g: 0.87058824, b: 0.8509804, a: 1}
   starColor: {r: 1, g: 1, b: 1, a: 1}
-  starFullColor: {r: 1, g: 0.85490197, b: 0, a: 1}
-  starEmptyColor: {r: 1, g: 1, b: 1, a: 1}
   swingEdgeMaterialColor: {r: 0.24705882, g: 0.24705882, b: 0.24705882, a: 1}
   swingFillMaterialColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1686013681
@@ -1470,7 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.84313726, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1871,7 +1867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.84313726, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1926,7 +1922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.84313726, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
