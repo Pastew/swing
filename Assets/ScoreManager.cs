@@ -14,6 +14,11 @@ public class ScoreManager : MonoBehaviour
     float timeNeededForNextTimeUnitElapsed;
     private bool timerStopped = true;
 
+    private void Start()
+    {
+        print("MaxPossibleScore = " + GetMaxPossibleScore());
+    }
+
     private void Update()
     {
         timeNeededForNextTimeUnitElapsed -= Time.deltaTime;
@@ -40,7 +45,7 @@ public class ScoreManager : MonoBehaviour
 
     private int CalculateFinalScore(Score score)
     {
-        return startingScore - score.timeElapsed + score.bonusPoints * bonus - score.bonusPoints * clickCost;
+        return startingScore - score.timeElapsed + score.bonusPoints * bonus - score.clicks * clickCost;
     }
 
     public void BonusPointCollected()
@@ -56,7 +61,6 @@ public class ScoreManager : MonoBehaviour
     public void OnTimeUnityElapsed()
     {
         score.timeElapsed++;
-        print(score.timeElapsed);
     }
 
     public int GetMaxPossibleScore()
