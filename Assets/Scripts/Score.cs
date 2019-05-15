@@ -4,4 +4,5 @@
     public int timeElapsed;
     public int clicks;
     public int finalScore;
+    public int stars;
 }

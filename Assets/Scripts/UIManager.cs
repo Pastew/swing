@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     {
         SetMenuCanvasVisible(true);
         starsUI.SetActive(true);
-        starsUI.GetComponent<StarsUI>().ShowStars(score.bonusPoints);
+        starsUI.GetComponent<StarsUI>().ShowStars(score.stars);
         print("Clicks: " + score.clicks);
         print("Time elapsed: " + score.timeElapsed);
         print("Final score: " + score.finalScore);
