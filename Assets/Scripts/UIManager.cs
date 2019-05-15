@@ -35,11 +35,11 @@ public class UIManager : MonoBehaviour
     }
 
     // Menu canvas
-    internal void ShowLevelResultsScreen(int collectedStars)
+    internal void ShowLevelResultsScreen(Score score)
     {
         SetMenuCanvasVisible(true);
         starsUI.SetActive(true);
-        starsUI.GetComponent<StarsUI>().ShowStars(collectedStars);
+        starsUI.GetComponent<StarsUI>().ShowStars(score.bonusPoints);
     }
 
     public void SetMenuCanvasVisible(bool visible)

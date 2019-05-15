@@ -18,7 +18,7 @@ public class Star : MonoBehaviour
 
     internal void OnCollected()
     {
-        FindObjectOfType<StarsManager>().OnStarCollected(transform.position);
+        FindObjectOfType<ScoreManager>().BonusPointCollected();
         Destroy(gameObject);
     }
 }
