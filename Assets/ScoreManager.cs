@@ -6,18 +6,35 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     private Score score;
-    readonly int startingScore = 25;
-    readonly int bonus = 10;
+    readonly int startingScore = 40;
+    readonly int bonus = 15;
     readonly int clickCost = 5;
+
+    readonly float timeUnit = 1;
+    float timeNeededForNextTimeUnitElapsed;
+    private bool timerStopped = true;
+
+    private void Update()
+    {
+        timeNeededForNextTimeUnitElapsed -= Time.deltaTime;
+        if (!timerStopped && timeNeededForNextTimeUnitElapsed <= 0)
+        {
+            OnTimeUnityElapsed();
+            timeNeededForNextTimeUnitElapsed = timeUnit;
+        }
+    }
 
     public void ResetScore()
     {
         score = new Score();
+        timeNeededForNextTimeUnitElapsed = timeUnit;
+        timerStopped = false;
     }
 
     public Score GetScore()
     {
         score.finalScore = CalculateFinalScore(score);
+        timerStopped = true;
         return score;
     }
 
@@ -31,7 +48,6 @@ public class ScoreManager : MonoBehaviour
         score.bonusPoints++;
     }
 
-
     public void OnUserClicked()
     {
         score.clicks++;
@@ -39,12 +55,12 @@ public class ScoreManager : MonoBehaviour
 
     public void OnTimeUnityElapsed()
     {
-        score.timeElapsed--;
+        score.timeElapsed++;
+        print(score.timeElapsed);
     }
 
     public int GetMaxPossibleScore()
     {
         return startingScore + bonus * 3 - clickCost;
     }
-
 }

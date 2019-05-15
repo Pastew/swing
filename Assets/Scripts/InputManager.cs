@@ -8,9 +8,12 @@ public class InputManager : MonoBehaviour
     private GameObject hookGO;
 
     private bool canInteractWithGame = false;
+    private ScoreManager scoreManager;
 
     private void Awake()
     {
+        scoreManager = FindObjectOfType<ScoreManager>();
+
         hookGO = transform.GetChild(0).gameObject;
         hookGO.SetActive(false);
     }
@@ -22,13 +25,25 @@ public class InputManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            hookGO.transform.position = GetNewHookPosition();
-            hookGO.SetActive(true);
+            OnUserClicked();
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            hookGO.SetActive(false);
+            OnUserReleased();
         }
+    }
+
+    private void OnUserReleased()
+    {
+        hookGO.SetActive(false);
+    }
+
+    private void OnUserClicked()
+    {
+        hookGO.transform.position = GetNewHookPosition();
+        hookGO.SetActive(true);
+
+        scoreManager.OnUserClicked();
     }
 
     private Vector3 GetNewHookPosition()

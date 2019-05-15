@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
     {
         levelManager.ReLoadCurrentlevel();
         inputManager.OnHeroDeath();
-        scoreManager.ResetScore();
     }
 
     public void OnHeroReachedGoal()
@@ -45,13 +44,13 @@ public class GameManager : MonoBehaviour
     internal void OnLevelLoaded()
     {
         inputManager.SetCanUseHook(true);
-        scoreManager.ResetScore();
         uiManager.StartCountdown();
     }
 
     public void OnCountdownFinished()
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
+        scoreManager.ResetScore();
     }
 
     internal void OnRepeatButtonClick()

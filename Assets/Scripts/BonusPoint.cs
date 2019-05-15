@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Star : MonoBehaviour
+public class BonusPoint : MonoBehaviour
 {
     private float rotateSpeed = 50f;
 

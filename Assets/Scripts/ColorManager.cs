@@ -14,7 +14,7 @@ public class ColorManager : MonoBehaviour
     GameObject heroPrefab;
     public Color heroColor;
 
-    GameObject starPrefab;
+    GameObject bonusPointPrefab;
     public Color starColor;
 
     Material swingEdgeMaterial;
@@ -28,7 +28,7 @@ public class ColorManager : MonoBehaviour
         swingFillMaterial = (Resources.Load("TerrainMaterials/SwingFillMaterial") as Material);
         heroPrefab = (Resources.Load("Prefabs/Hero") as GameObject);
         goalPrefab = (Resources.Load("Prefabs/Goal") as GameObject);
-        starPrefab = (Resources.Load("Prefabs/Star") as GameObject);
+        bonusPointPrefab = (Resources.Load("Prefabs/BonusPoint") as GameObject);
     }
 
     private void Start()
@@ -69,13 +69,13 @@ public class ColorManager : MonoBehaviour
             goalPrefab.GetComponent<SpriteRenderer>().color = goalColor;
         }
 
-        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Star>())
+        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<BonusPoint>())
         {
-            FindObjectOfType<Star>().GetComponent<SpriteRenderer>().color = starColor;
+            FindObjectOfType<BonusPoint>().GetComponent<SpriteRenderer>().color = starColor;
         }
         else
         {
-            starPrefab.GetComponent<SpriteRenderer>().color = starColor;
+            bonusPointPrefab.GetComponent<SpriteRenderer>().color = starColor;
         }
     }
 }
