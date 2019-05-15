@@ -56,11 +56,6 @@ public class LevelManager : MonoBehaviour
         Loadlevel(currentLevelIndex);
     }
 
-    internal void DevSetCurrentLevelIndex(int developmentLevelIndex)
-    {
-        currentLevelIndex = developmentLevelIndex;
-    }
-
     internal Vector3 GetStartPosition()
     {
         return currentLevel.GetComponentInChildren<StartPosition>().transform.position;

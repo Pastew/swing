@@ -11,7 +11,8 @@ public class UIManager : MonoBehaviour
 
     // Parameters
     [Tooltip("In seconds")]
-    private float oneCountdownLength = 0.3f;
+    private int countdownTicks = 4;
+    private float oneCountdownLength = 0.5f;
 
     // Childs
     private GameObject menuUI;
@@ -25,13 +26,21 @@ public class UIManager : MonoBehaviour
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
         starsUI = transform.Find("Stars").gameObject;
+
+        SetupButtonListeners();
         HideAllUI();
     }
 
-    private void Start()
+    private void SetupButtonListeners()
     {
         menuUI.transform.Find("Play").GetComponent<Button>().onClick.AddListener(OnPlayNextLevelButtonClick);
         menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonClick);
+    }
+
+    internal void ShowStartingMenu()
+    {
+        HideAllUI();
+        SetMenuCanvasVisible(true);
     }
 
     // Menu canvas
@@ -68,26 +77,20 @@ public class UIManager : MonoBehaviour
         HideAllUI();
     }
 
-    // Counter
+    // Countdown
     private void SetCounterCanvasText(string text)
     {
         counterUI.GetComponentInChildren<Text>().text = text;
     }
 
-    private void SetCoutnerCanvasActive(bool active)
-    {
-        counterUI.SetActive(active);
-    }
-
     internal void StartCountdown()
     {
-        StartCoroutine(Countdown(5));
+        StartCoroutine(Countdown(countdownTicks));
     }
 
     IEnumerator Countdown(int seconds)
     {
         int count = seconds;
-        SetCoutnerCanvasActive(true);
 
         while (count > 0)
         {
@@ -96,7 +99,7 @@ public class UIManager : MonoBehaviour
             count--;
         }
 
-        SetCoutnerCanvasActive(false);
+        SetCounterCanvasText("");
         gameManager.OnCountdownFinished();
     }
 }

@@ -25,7 +25,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        levelManager.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
+        //levelManager.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
+        uiManager.ShowStartingMenu();
     }
 
     // ============ Game Events ============
