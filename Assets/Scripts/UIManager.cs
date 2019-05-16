@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     private GameObject menuUI;
     private GameObject counterUI;
     private GameObject starsUI;
+    private GameObject hudUI;
 
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class UIManager : MonoBehaviour
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
         starsUI = transform.Find("Stars").gameObject;
+        hudUI = transform.Find("HUD").gameObject;
 
         SetupButtonListeners();
         HideAllUI();
@@ -40,6 +42,7 @@ public class UIManager : MonoBehaviour
     internal void ShowStartingMenu()
     {
         HideAllUI();
+        hudUI.SetActive(false);
         SetMenuCanvasVisible(true);
     }
 
@@ -59,22 +62,25 @@ public class UIManager : MonoBehaviour
         menuUI.SetActive(visible);
     }
 
-    public void OnPlayNextLevelButtonClick()
-    {
-        gameManager.OnPlayNextLevelButtonPressed();
-        HideAllUI();
-    }
-
     private void HideAllUI()
     {
         SetMenuCanvasVisible(false);
         starsUI.SetActive(false);
     }
 
+    public void OnPlayNextLevelButtonClick()
+    {
+        gameManager.OnPlayNextLevelButtonPressed();
+        HideAllUI();
+        hudUI.SetActive(true);
+    }
+
+
     public void OnRepeatButtonClick()
     {
         gameManager.OnRepeatButtonClick();
         HideAllUI();
+        hudUI.SetActive(true);
     }
 
     // Countdown
@@ -101,5 +107,12 @@ public class UIManager : MonoBehaviour
 
         SetCounterCanvasText("");
         gameManager.OnCountdownFinished();
+    }
+
+    // HUD
+    public void UpdateScoreUI(int newScore, int change=0)
+    {
+        hudUI.GetComponentInChildren<Slider>().value = newScore;
+        hudUI.GetComponentInChildren<Text>().text = newScore.ToString();
     }
 }

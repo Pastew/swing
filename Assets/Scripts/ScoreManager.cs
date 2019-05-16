@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     private Score score;
-    readonly int startingScore = 40;
+    readonly int startingScore = 30;
     readonly int bonus = 15;
     readonly int clickCost = 5;
 
@@ -16,6 +16,13 @@ public class ScoreManager : MonoBehaviour
     float timeNeededForNextTimeUnitElapsed;
     private bool timerStopped = true;
 
+    private UIManager uiManager;
+
+    private void Awake()
+    {
+        uiManager = FindObjectOfType<UIManager>();
+    }
+
     private void Start()
     {
         print("MaxPossibleScore = " + GetMaxPossibleScore());
@@ -23,10 +30,12 @@ public class ScoreManager : MonoBehaviour
 
     private void Update()
     {
-        timeNeededForNextTimeUnitElapsed -= Time.deltaTime;
-        if (!timerStopped && timeNeededForNextTimeUnitElapsed <= 0)
+        if(!timerStopped)
+            timeNeededForNextTimeUnitElapsed -= Time.deltaTime;
+
+        if (timeNeededForNextTimeUnitElapsed <= 0)
         {
-            OnTimeUnityElapsed();
+            OnTimeUnitElapsed();
             timeNeededForNextTimeUnitElapsed = timeUnit;
         }
     }
@@ -34,8 +43,9 @@ public class ScoreManager : MonoBehaviour
     public void ResetScore()
     {
         score = new Score();
+        timerStopped = true;
         timeNeededForNextTimeUnitElapsed = timeUnit;
-        timerStopped = false;
+        uiManager.UpdateScoreUI(CalculateFinalScore(score));
     }
 
     public Score GetScore()
@@ -50,16 +60,24 @@ public class ScoreManager : MonoBehaviour
     public void BonusPointCollected()
     {
         score.bonusPoints++;
+        uiManager.UpdateScoreUI(CalculateFinalScore(score), bonus);
+    }
+
+    internal void StartTimer()
+    {
+        timerStopped = false;
     }
 
     public void OnUserClicked()
     {
         score.clicks++;
+        uiManager.UpdateScoreUI(CalculateFinalScore(score), -clickCost);
     }
 
-    public void OnTimeUnityElapsed()
+    public void OnTimeUnitElapsed()
     {
         score.timeElapsed++;
+        uiManager.UpdateScoreUI(CalculateFinalScore(score), -1);
     }
 
 

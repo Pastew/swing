@@ -45,13 +45,15 @@ public class GameManager : MonoBehaviour
     internal void OnLevelLoaded()
     {
         inputManager.SetCanUseHook(true);
+        scoreManager.ResetScore();
         uiManager.StartCountdown();
     }
 
     public void OnCountdownFinished()
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
-        scoreManager.ResetScore();
+        scoreManager.StartTimer();
+        print("GO");
     }
 
     internal void OnRepeatButtonClick()
