@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 322116064}
   - component: {fileID: 322116063}
   - component: {fileID: 322116065}
+  - component: {fileID: 322116066}
   m_Layer: 5
   m_Name: Clock
   m_TagString: Untagged
@@ -496,6 +497,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &322116066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322116061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbbf24f817f2944a0fa409b82d0ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clockTickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &368297755
 GameObject:
   m_ObjectHideFlags: 0
