@@ -52,10 +52,10 @@ public class Hero : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        BonusPoint star = collision.gameObject.GetComponent<BonusPoint>();
-        if (star)
+        BonusPoint bonusPoint = collision.gameObject.GetComponent<BonusPoint>();
+        if (bonusPoint)
         {
-            star.OnCollected();
+            gameManager.OnBonusPointCollected(bonusPoint);
         }
     }
 

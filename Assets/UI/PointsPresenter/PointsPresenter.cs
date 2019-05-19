@@ -11,13 +11,14 @@ public class PointsPresenter : MonoBehaviour
 
     public enum PointType { timeTickPoint, bonusPoint, clickPoint };
 
-
     private Clock clock;
 
     private void Awake()
     {
         clock = FindObjectOfType<Clock>();
-        clock.AddOnTickListener(OnClockTick);
+        clock.SubscribeToClockTick(OnClockTick);
+
+        GameManager = FindObjectOfType<GameManager>();
     }
 
     public void SpawnPoint(Vector3 pos, PointType pointType)

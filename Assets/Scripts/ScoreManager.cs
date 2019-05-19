@@ -17,19 +17,22 @@ public class ScoreManager : MonoBehaviour
 
     private UIManager uiManager;
     private Clock clock;
+    private GameManager gameManager;
 
     private void Awake()
     {
         uiManager = FindObjectOfType<UIManager>();
         clock = FindObjectOfType<Clock>();
-        clock.AddOnTickListener(OnTimeUnitElapsed);
+        gameManager = FindObjectOfType<GameManager>();
+
+        clock.SubscribeToClockTick(OnTimeUnitElapsed);
+        gameManager.SubscribeToBonusPointCollected(OnBonusPointCollected);
     }
 
     private void Start()
     {
         print("MaxPossibleScore = " + GetMaxPossibleScore());
     }
-
 
     public void ResetScore()
     {
@@ -48,7 +51,7 @@ public class ScoreManager : MonoBehaviour
     }
 
     // Game events
-    public void BonusPointCollected()
+    public void OnBonusPointCollected(BonusPoint bonusPoint)
     {
         score.bonusPoints++;
         uiManager.UpdateScoreUI(CalculateFinalScore(score), bonus);

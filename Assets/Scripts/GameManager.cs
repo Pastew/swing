@@ -2,6 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class BonusPointCollectedEvent : UnityEvent<BonusPoint>
+{
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -15,12 +21,17 @@ public class GameManager : MonoBehaviour
     private UIManager uiManager;
     private ScoreManager scoreManager;
 
+    private BonusPointCollectedEvent bonusPointCollectedEvent;
+
     private void Awake()
     {
         levelManager = FindObjectOfType<LevelManager>();
         inputManager = FindObjectOfType<InputManager>();
         uiManager = FindObjectOfType<UIManager>();
         scoreManager = FindObjectOfType<ScoreManager>();
+
+        if (bonusPointCollectedEvent == null)
+            bonusPointCollectedEvent = new BonusPointCollectedEvent();
     }
 
     void Start()
@@ -47,6 +58,17 @@ public class GameManager : MonoBehaviour
         inputManager.SetCanUseHook(true);
         scoreManager.ResetScore();
         uiManager.StartCountdown();
+    }
+
+    internal void OnBonusPointCollected(BonusPoint bonusPoint)
+    {
+        bonusPointCollectedEvent.Invoke(bonusPoint);
+        Destroy(bonusPoint.gameObject);
+    }
+
+    public void SubscribeToBonusPointCollected(UnityAction<BonusPoint> subscriber)
+    {
+        bonusPointCollectedEvent.AddListener(subscriber);
     }
 
     public void OnCountdownFinished()

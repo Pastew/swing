@@ -16,20 +16,19 @@ public class Clock : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        if (clockTickEvent == null)
+            clockTickEvent = new UnityEvent();
     }
 
     void Start()
     {
-        if (clockTickEvent == null)
-            clockTickEvent = new UnityEvent();
-
         if (autoStart)
             StartClock();
         else
             StopClock();
     }
 
-    public void AddOnTickListener(UnityAction clockTickSubscriber)
+    public void SubscribeToClockTick(UnityAction clockTickSubscriber)
     {
         clockTickEvent.AddListener(clockTickSubscriber);
     }

@@ -15,10 +15,4 @@ public class BonusPoint : MonoBehaviour
     {
         transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
     }
-
-    internal void OnCollected()
-    {
-        FindObjectOfType<ScoreManager>().BonusPointCollected();
-        Destroy(gameObject);
-    }
 }
