@@ -514,6 +514,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  autoStart: 0
 --- !u!1 &368297755
 GameObject:
   m_ObjectHideFlags: 0

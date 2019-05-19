@@ -8,10 +8,25 @@ public class Clock : MonoBehaviour
 {
     public UnityEvent clockTickEvent;
 
+    [Tooltip("Select if clock should start by itself automatically after creation")]
+    public bool autoStart = false;
+
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Start()
     {
         if (clockTickEvent == null)
             clockTickEvent = new UnityEvent();
+
+        if (autoStart)
+            StartClock();
+        else
+            StopClock();
     }
 
     public void AddOnTickListener(UnityAction clockTickSubscriber)
@@ -23,6 +38,16 @@ public class Clock : MonoBehaviour
     public void ClockTick()
     {
         clockTickEvent.Invoke();
-        print("Tick");
+    }
+
+    public void StopClock()
+    {
+        animator.enabled = false;
+    }
+
+    public void StartClock()
+    {
+        animator.SetTrigger("Restart");
+        animator.enabled = true;
     }
 }

@@ -14,13 +14,15 @@ public class ScoreManager : MonoBehaviour
 
     readonly float timeUnit = 1;
     float timeNeededForNextTimeUnitElapsed;
-    private bool timerStopped = true;
 
     private UIManager uiManager;
+    private Clock clock;
 
     private void Awake()
     {
         uiManager = FindObjectOfType<UIManager>();
+        clock = FindObjectOfType<Clock>();
+        clock.AddOnTickListener(OnTimeUnitElapsed);
     }
 
     private void Start()
@@ -28,22 +30,11 @@ public class ScoreManager : MonoBehaviour
         print("MaxPossibleScore = " + GetMaxPossibleScore());
     }
 
-    private void Update()
-    {
-        if(!timerStopped)
-            timeNeededForNextTimeUnitElapsed -= Time.deltaTime;
-
-        if (timeNeededForNextTimeUnitElapsed <= 0)
-        {
-            OnTimeUnitElapsed();
-            timeNeededForNextTimeUnitElapsed = timeUnit;
-        }
-    }
 
     public void ResetScore()
     {
         score = new Score();
-        timerStopped = true;
+        clock.StopClock();
         timeNeededForNextTimeUnitElapsed = timeUnit;
         uiManager.UpdateScoreUI(CalculateFinalScore(score));
     }
@@ -52,7 +43,7 @@ public class ScoreManager : MonoBehaviour
     {
         score.finalScore = CalculateFinalScore(score);
         score.stars = CalculateStars();
-        timerStopped = true;
+        clock.StopClock();
         return score;
     }
 
@@ -65,7 +56,7 @@ public class ScoreManager : MonoBehaviour
 
     internal void StartTimer()
     {
-        timerStopped = false;
+        clock.StartClock();
     }
 
     public void OnUserClicked()
