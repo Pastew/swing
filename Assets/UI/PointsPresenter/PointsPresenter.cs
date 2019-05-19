@@ -12,13 +12,20 @@ public class PointsPresenter : MonoBehaviour
     public enum PointType { timeTickPoint, bonusPoint, clickPoint };
 
     private Clock clock;
+    private GameManager gameManager;
 
     private void Awake()
     {
         clock = FindObjectOfType<Clock>();
         clock.SubscribeToClockTick(OnClockTick);
 
-        GameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
+        gameManager.SubscribeToBonusPointCollected(OnBonusPointCollected);
+    }
+
+    private void OnBonusPointCollected(BonusPoint bonusPoint)
+    {
+        throw new NotImplementedException();
     }
 
     public void SpawnPoint(Vector3 pos, PointType pointType)
