@@ -8,7 +8,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -17,24 +16,12 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="star.svg"
+   sodipodi:docname="removeAds.svg"
    inkscape:export-filename="C:\dev\Swing\Assets\Images\star.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient6341">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop6337" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop6339" />
-    </linearGradient>
     <linearGradient
        id="linearGradient6283"
        osb:paint="solid">
@@ -43,17 +30,6 @@
          offset="0"
          id="stop6281" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6341"
-       id="radialGradient6345"
-       cx="84.212395"
-       cy="57.795815"
-       fx="84.212395"
-       fy="57.795815"
-       r="13.493046"
-       gradientTransform="matrix(1,0,0,1.0108491,0,-0.62703156)"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -63,14 +39,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="318.51109"
+     inkscape:cx="202.43966"
      inkscape:cy="890.24128"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -81,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,24 +82,31 @@
        d="M 83.388089,58.32831 54.350078,47.465853 29.776791,66.369629 31.134363,35.396155 5.5622403,17.867159 35.439277,9.5869566 44.208123,-20.150335 61.315575,5.7056924 92.307142,4.8560314 73.003093,29.116138 Z"
        inkscape:transform-center-x="2.1137865"
        inkscape:transform-center-y="-2.3445122" />
-    <path
-       sodipodi:type="star"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.265;stroke:url(#radialGradient6345);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:bevel"
-       id="path4526"
-       sodipodi:sides="5"
-       sodipodi:cx="83.388084"
-       sodipodi:cy="58.328308"
-       sodipodi:r1="14.355629"
-       sodipodi:r2="6.9289594"
-       sodipodi:arg1="-2.6363025"
-       sodipodi:arg2="-2.0079839"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 70.82642,51.379303 9.62799,0.671742 5.660803,-7.81695 2.336348,9.364342 9.183646,2.968173 -8.184047,5.11574 0.015,9.651382 -7.394368,-6.202641 -9.174374,2.996709 3.614077,-8.949183 z"
-       inkscape:transform-center-x="-0.84272825"
-       inkscape:transform-center-y="-0.54439516"
-       inkscape:export-xdpi="476.7355"
-       inkscape:export-ydpi="476.7355" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.56499994;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path828"
+       cx="47.317184"
+       cy="52.523914"
+       r="13.536985"
+       inkscape:export-xdpi="470.51999"
+       inkscape:export-ydpi="470.51999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+       x="47.856064"
+       y="49.614582"
+       id="text822"
+       inkscape:export-xdpi="470.51999"
+       inkscape:export-ydpi="470.51999"><tspan
+         sodipodi:role="line"
+         x="38.931545"
+         y="49.614582"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+         id="tspan824">No </tspan><tspan
+         sodipodi:role="line"
+         x="38.931545"
+         y="62.84375"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';stroke-width:0.26458332;text-anchor:middle;text-align:center;"
+         id="tspan1385">Ads</tspan></text>
   </g>
 </svg>

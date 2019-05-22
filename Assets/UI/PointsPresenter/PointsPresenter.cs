@@ -25,7 +25,7 @@ public class PointsPresenter : MonoBehaviour
 
     private void OnBonusPointCollected(BonusPoint bonusPoint)
     {
-        throw new NotImplementedException();
+        print("Showed point");
     }
 
     public void SpawnPoint(Vector3 pos, PointType pointType)

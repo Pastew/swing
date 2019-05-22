@@ -11,6 +11,8 @@ public class BonusPointCollectedEvent : UnityEvent<BonusPoint>
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     // Development options
     [Tooltip("Only for development build")]
     public int startingLevel = 0;
@@ -25,6 +27,9 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        if (instance == null)
+            instance = this;
+
         levelManager = FindObjectOfType<LevelManager>();
         inputManager = FindObjectOfType<InputManager>();
         uiManager = FindObjectOfType<UIManager>();

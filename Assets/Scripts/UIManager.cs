@@ -6,8 +6,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    // External dependencies
-    private GameManager gameManager;
+    public static UIManager instance;
 
     // Parameters
     [Tooltip("In seconds")]
@@ -22,7 +21,8 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        if (instance == null)
+            instance = this;
 
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
@@ -31,6 +31,20 @@ public class UIManager : MonoBehaviour
 
         SetupButtonListeners();
         HideAllUI();
+    }
+
+    private void Start()
+    {
+        HideDisableAdsIfPurchased();
+    }
+
+    public void HideDisableAdsIfPurchased()
+    {
+        print("HideDisableAdsIfPurchased");
+        if (!GameSaveManager.instance.AdsEnabled())
+        {
+            menuUI.transform.Find("NoAds").gameObject.GetComponent<Image>().enabled = false;
+        }
     }
 
     private void SetupButtonListeners()
@@ -70,7 +84,7 @@ public class UIManager : MonoBehaviour
 
     public void OnPlayNextLevelButtonClick()
     {
-        gameManager.OnPlayNextLevelButtonPressed();
+        GameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
         hudUI.SetActive(true);
     }
@@ -78,7 +92,7 @@ public class UIManager : MonoBehaviour
 
     public void OnRepeatButtonClick()
     {
-        gameManager.OnRepeatButtonClick();
+        GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
         hudUI.SetActive(true);
     }
@@ -106,11 +120,11 @@ public class UIManager : MonoBehaviour
         }
 
         SetCounterCanvasText("");
-        gameManager.OnCountdownFinished();
+        GameManager.instance.OnCountdownFinished();
     }
 
     // HUD
-    public void UpdateScoreUI(int newScore, int change=0)
+    public void UpdateScoreUI(int newScore, int change = 0)
     {
         hudUI.GetComponentInChildren<Slider>().value = newScore;
 
