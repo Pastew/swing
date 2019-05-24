@@ -49,8 +49,14 @@ public class UIManager : MonoBehaviour
 
     private void SetupButtonListeners()
     {
-        menuUI.transform.Find("Play").GetComponent<Button>().onClick.AddListener(OnPlayNextLevelButtonClick);
-        menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonClick);
+        menuUI.transform.Find("Play").GetComponent<Button>().onClick.AddListener(OnPlayNextLevelButtonPressed);
+        menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonPressed);
+        menuUI.transform.Find("BuyCoins").GetComponent<Button>().onClick.AddListener(OnBuyCoinsButtonPressed);
+    }
+
+    private void OnBuyCoinsButtonPressed()
+    {
+        
     }
 
     internal void ShowStartingMenu()
@@ -82,7 +88,7 @@ public class UIManager : MonoBehaviour
         starsUI.SetActive(false);
     }
 
-    public void OnPlayNextLevelButtonClick()
+    public void OnPlayNextLevelButtonPressed()
     {
         GameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
@@ -90,7 +96,7 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public void OnRepeatButtonClick()
+    public void OnRepeatButtonPressed()
     {
         GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
