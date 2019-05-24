@@ -1343,7 +1343,7 @@ PrefabInstance:
     - target: {fileID: 4285347599654113223, guid: 0caa11b78d999b2468ec9e1ed81d8854,
         type: 3}
       propertyPath: productId
-      value: coins3
+      value: coins4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0caa11b78d999b2468ec9e1ed81d8854, type: 3}
@@ -2903,7 +2903,7 @@ GameObject:
   - component: {fileID: 1730074985}
   - component: {fileID: 1730074984}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: CoinsShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3820,6 +3820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285347599654113223, guid: 0caa11b78d999b2468ec9e1ed81d8854,
+        type: 3}
+      propertyPath: productId
+      value: coins1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0caa11b78d999b2468ec9e1ed81d8854, type: 3}
