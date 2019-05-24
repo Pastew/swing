@@ -2,18 +2,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class UserClickedEvent : UnityEvent<Vector2> { }
 
 public class InputManager : MonoBehaviour
 {
-    private GameObject hookGO;
+    public static InputManager instance;
 
+    private GameObject hookGO;
     private bool canInteractWithGame = false;
-    private ScoreManager scoreManager;
+
+    private UserClickedEvent userClickedEvent;
 
     private void Awake()
     {
-        scoreManager = FindObjectOfType<ScoreManager>();
-
+        instance = this;
+        userClickedEvent = new UserClickedEvent();
         hookGO = transform.GetChild(0).gameObject;
         hookGO.SetActive(false);
     }
@@ -33,6 +39,11 @@ public class InputManager : MonoBehaviour
         }
     }
 
+    internal void SubscribeToUserClicked(UnityAction<Vector2> subscriber)
+    {
+        userClickedEvent.AddListener(subscriber);
+    }
+
     private void OnUserReleased()
     {
         hookGO.SetActive(false);
@@ -43,7 +54,7 @@ public class InputManager : MonoBehaviour
         hookGO.transform.position = GetNewHookPosition();
         hookGO.SetActive(true);
 
-        scoreManager.OnUserClicked();
+        userClickedEvent.Invoke(hookGO.transform.position);
     }
 
     private Vector3 GetNewHookPosition()

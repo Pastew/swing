@@ -12,9 +12,12 @@ public class Clock : MonoBehaviour
     public bool autoStart = false;
 
     private Animator animator;
+    public static Clock instance;
 
     private void Awake()
     {
+        instance = this;
+
         animator = GetComponent<Animator>();
         if (clockTickEvent == null)
             clockTickEvent = new UnityEvent();

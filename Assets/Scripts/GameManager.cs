@@ -5,9 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [System.Serializable]
-public class BonusPointCollectedEvent : UnityEvent<BonusPoint>
-{
-}
+public class BonusPointCollectedEvent : UnityEvent<BonusPoint> { }
 
 public class GameManager : MonoBehaviour
 {
@@ -17,52 +15,38 @@ public class GameManager : MonoBehaviour
     [Tooltip("Only for development build")]
     public int startingLevel = 0;
 
-    // External dependencies
-    private InputManager inputManager;
-    private LevelManager levelManager;
-    private UIManager uiManager;
-    private ScoreManager scoreManager;
-
     private BonusPointCollectedEvent bonusPointCollectedEvent;
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
-
-        levelManager = FindObjectOfType<LevelManager>();
-        inputManager = FindObjectOfType<InputManager>();
-        uiManager = FindObjectOfType<UIManager>();
-        scoreManager = FindObjectOfType<ScoreManager>();
-
-        if (bonusPointCollectedEvent == null)
-            bonusPointCollectedEvent = new BonusPointCollectedEvent();
+        instance = this;
+        bonusPointCollectedEvent = new BonusPointCollectedEvent();
     }
 
     void Start()
     {
-        //levelManager.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
-        uiManager.ShowMenu();
+        //LevelManager.instance.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
+        UIManager.instance.ShowMenu();
     }
 
     // ============ Game Events ============
     internal void OnHeroDeath()
     {
-        levelManager.ReLoadCurrentlevel();
-        inputManager.OnHeroDeath();
+        LevelManager.instance.ReLoadCurrentlevel();
+        InputManager.instance.OnHeroDeath();
     }
 
     public void OnHeroReachedGoal()
     {
-        uiManager.ShowLevelResultsScreen(scoreManager.GetScore());
-        inputManager.OnReachedGoal();
+        UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.GetScore());
+        InputManager.instance.OnReachedGoal();
     }
 
     internal void OnLevelLoaded()
     {
-        inputManager.SetCanUseHook(true);
-        scoreManager.ResetScore();
-        uiManager.StartCountdown();
+        InputManager.instance.SetCanUseHook(true);
+        ScoreManager.instance.ResetScore();
+        UIManager.instance.StartCountdown();
     }
 
     internal void OnBonusPointCollected(BonusPoint bonusPoint)
@@ -79,18 +63,18 @@ public class GameManager : MonoBehaviour
     public void OnCountdownFinished()
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
-        scoreManager.StartTimer();
+        ScoreManager.instance.StartTimer();
         print("GO");
     }
 
     internal void OnRepeatButtonClick()
     {
-        levelManager.ReLoadCurrentlevel();
+        LevelManager.instance.ReLoadCurrentlevel();
     }
 
     // ============ UI ============
     public void OnPlayNextLevelButtonPressed()
     {
-        levelManager.LoadNextLevel();
+        LevelManager.instance.LoadNextLevel();
     }
 }

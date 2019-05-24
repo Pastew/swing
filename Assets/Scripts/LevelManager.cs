@@ -7,14 +7,13 @@ public class LevelManager : MonoBehaviour
 {
     private int currentLevelIndex;
     private GameObject currentLevel;
-    private GameManager gameManager;
-
     public GameObject heroPrefab;
     private GameObject hero;
+    internal static LevelManager instance;
 
     private void Awake()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        instance = this;
     }
 
     public void Loadlevel(int levelIndex)
@@ -36,7 +35,7 @@ public class LevelManager : MonoBehaviour
         }
 
         ReloadHero();
-        gameManager.OnLevelLoaded();
+        GameManager.instance.OnLevelLoaded();
     }
 
     private void ReloadHero()

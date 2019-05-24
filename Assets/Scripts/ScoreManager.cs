@@ -15,38 +15,34 @@ public class ScoreManager : MonoBehaviour
     readonly float timeUnit = 1;
     float timeNeededForNextTimeUnitElapsed;
 
-    private UIManager uiManager;
-    private Clock clock;
-    private GameManager gameManager;
+    internal static ScoreManager instance;
 
     private void Awake()
     {
-        uiManager = FindObjectOfType<UIManager>();
-        clock = FindObjectOfType<Clock>();
-        gameManager = FindObjectOfType<GameManager>();
-
-        clock.SubscribeToClockTick(OnTimeUnitElapsed);
-        gameManager.SubscribeToBonusPointCollected(OnBonusPointCollected);
+        instance = this;
     }
 
     private void Start()
     {
-        print("MaxPossibleScore = " + GetMaxPossibleScore());
+        Debug.Log("MaxPossibleScore = " + GetMaxPossibleScore());
+        Clock.instance.SubscribeToClockTick(OnTimeUnitElapsed);
+        GameManager.instance.SubscribeToBonusPointCollected(OnBonusPointCollected);
+        InputManager.instance.SubscribeToUserClicked(OnUserClicked);
     }
 
     public void ResetScore()
     {
         score = new Score();
-        clock.StopClock();
+        Clock.instance.StopClock();
         timeNeededForNextTimeUnitElapsed = timeUnit;
-        uiManager.UpdateScoreUI(CalculateFinalScore(score));
+        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score));
     }
 
     public Score GetScore()
     {
         score.finalScore = CalculateFinalScore(score);
         score.stars = CalculateStars();
-        clock.StopClock();
+        Clock.instance.StopClock();
         return score;
     }
 
@@ -54,24 +50,23 @@ public class ScoreManager : MonoBehaviour
     public void OnBonusPointCollected(BonusPoint bonusPoint)
     {
         score.bonusPoints++;
-        uiManager.UpdateScoreUI(CalculateFinalScore(score), bonus);
+        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score), bonus);
     }
 
     internal void StartTimer()
     {
-        clock.StartClock();
+        Clock.instance.StartClock();
     }
 
-    public void OnUserClicked()
+    public void OnUserClicked(Vector2 pos)
     {
         score.clicks++;
-        uiManager.UpdateScoreUI(CalculateFinalScore(score), -clickCost);
     }
 
     public void OnTimeUnitElapsed()
     {
         score.timeElapsed++;
-        uiManager.UpdateScoreUI(CalculateFinalScore(score), -1);
+        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score), -1);
     }
 
 
