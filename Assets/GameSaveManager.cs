@@ -28,6 +28,13 @@ public class GameSaveManager : MonoBehaviour
         return gs;
     }
 
+    internal int AddCoins(int purchasedCoinsValue)
+    {
+        gameSave.coins += purchasedCoinsValue;
+        SaveGameSave();
+        return gameSave.coins;
+    }
+
     private void SaveGameSave()
     {
         print("Save game save stub");

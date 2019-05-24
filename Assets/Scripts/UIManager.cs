@@ -17,7 +17,14 @@ public class UIManager : MonoBehaviour
     private GameObject menuUI;
     private GameObject counterUI;
     private GameObject starsUI;
+
+    internal void SetCoinsText(object newCoinsValue)
+    {
+        throw new NotImplementedException();
+    }
+
     private GameObject hudUI;
+    private GameObject coinsText;
 
     private void Awake()
     {
@@ -28,6 +35,7 @@ public class UIManager : MonoBehaviour
         counterUI = transform.Find("Counter").gameObject;
         starsUI = transform.Find("Stars").gameObject;
         hudUI = transform.Find("HUD").gameObject;
+        coinsText = transform.Find("CoinsPanel").Find("CoinsText").gameObject;
 
         SetupButtonListeners();
         HideAllUI();
@@ -51,13 +59,8 @@ public class UIManager : MonoBehaviour
     {
         menuUI.transform.Find("Play").GetComponent<Button>().onClick.AddListener(OnPlayNextLevelButtonPressed);
         menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonPressed);
-        menuUI.transform.Find("BuyCoins").GetComponent<Button>().onClick.AddListener(OnBuyCoinsButtonPressed);
     }
 
-    private void OnBuyCoinsButtonPressed()
-    {
-        
-    }
 
     internal void ShowStartingMenu()
     {
@@ -101,6 +104,12 @@ public class UIManager : MonoBehaviour
         GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
         hudUI.SetActive(true);
+    }
+
+    // Coins
+    public void SetCoinsText(int coins)
+    {
+        coinsText.GetComponent<Text>().text = coins.ToString();
     }
 
     // Countdown
