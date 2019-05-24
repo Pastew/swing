@@ -7,52 +7,36 @@ using UnityEngine;
 public class PointsPresenter : MonoBehaviour
 {
     public GameObject timeTickPointPrefab, bonusPointPrefab, clickPointPrefab;
-    public GameObject tickPointsSpawnPosition;
 
     public enum PointType { timeTickPoint, bonusPoint, clickPoint };
 
     private Clock clock;
-    private GameManager gameManager;
 
     private void Awake()
     {
         clock = FindObjectOfType<Clock>();
         clock.SubscribeToClockTick(OnClockTick);
+    }
 
-        gameManager = FindObjectOfType<GameManager>();
-        gameManager.SubscribeToBonusPointCollected(OnBonusPointCollected);
+    void Start()
+    {
+        GameManager.instance.SubscribeToBonusPointCollected(OnBonusPointCollected);
     }
 
     private void OnBonusPointCollected(BonusPoint bonusPoint)
     {
-        print("Showed point");
-    }
+        Vector2 viewportPoint = Camera.main.WorldToViewportPoint(bonusPoint.transform.position);
 
-    public void SpawnPoint(Vector3 pos, PointType pointType)
-    {
-        switch (pointType)
-        {
-            case PointType.bonusPoint:
-                Spawn(pos, bonusPointPrefab);
-                break;
-            case PointType.timeTickPoint:
-                Spawn(pos, timeTickPointPrefab);
-                break;
-            case PointType.clickPoint:
-                Spawn(pos, clickPointPrefab);
-                break;
-        }
+        GameObject pointGO = Instantiate(bonusPointPrefab, transform);
+        pointGO.GetComponent<RectTransform>().anchorMin = viewportPoint;
+        pointGO.GetComponent<RectTransform>().anchorMax = viewportPoint;
+        Destroy(pointGO, 0.8f);
     }
 
     private void OnClockTick()
     {
-        Spawn(Vector3.zero, timeTickPointPrefab);
-    }
-
-    private void Spawn(Vector3 pos, GameObject pointPrefab)
-    {
-        GameObject pointGO = Instantiate(pointPrefab, transform);
+        Vector2 pos = clock.GetComponent<RectTransform>().position;
+        GameObject pointGO = Instantiate(timeTickPointPrefab, transform);
         pointGO.GetComponent<RectTransform>().position = pos;
-        Destroy(pointGO, 0.8f);
     }
 }
