@@ -17,13 +17,8 @@ public class UIManager : MonoBehaviour
     private GameObject menuUI;
     private GameObject counterUI;
     private GameObject starsUI;
-
-    internal void SetCoinsText(object newCoinsValue)
-    {
-        throw new NotImplementedException();
-    }
-
     private GameObject hudUI;
+    private GameObject coinsPanel;
     private GameObject coinsText;
 
     private void Awake()
@@ -35,7 +30,8 @@ public class UIManager : MonoBehaviour
         counterUI = transform.Find("Counter").gameObject;
         starsUI = transform.Find("Stars").gameObject;
         hudUI = transform.Find("HUD").gameObject;
-        coinsText = transform.Find("CoinsPanel").Find("CoinsText").gameObject;
+        coinsPanel = menuUI.transform.Find("CoinsPanel").gameObject;
+        coinsText = coinsPanel.transform.Find("CoinsText").gameObject;
 
         SetupButtonListeners();
         HideAllUI();
@@ -62,7 +58,7 @@ public class UIManager : MonoBehaviour
     }
 
 
-    internal void ShowStartingMenu()
+    internal void ShowMenu()
     {
         HideAllUI();
         hudUI.SetActive(false);
