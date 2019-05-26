@@ -12,10 +12,15 @@ public class ScoreSlider : MonoBehaviour
     private int targetScore = 0;
 
     private Slider slider;
+    public static ScoreSlider instance;
+
+    private Animator animator;
 
     void Awake()
     {
+        instance = this;
         slider = GetComponent<Slider>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -28,5 +33,17 @@ public class ScoreSlider : MonoBehaviour
     private float CalculateCurrentDisplayingScore()
     {
         return Mathf.Lerp(currentDisplayingScore, targetScore, Time.deltaTime * lerpSpeed);
+    }
+
+    public void ShowStars()
+    {
+        int starsToShow = ScoreManager.instance.GetScore().stars;
+
+        animator.SetTrigger("showStars" + starsToShow);
+    }
+
+    public void StarsInSliderIdle()
+    {
+        animator.SetTrigger("starsInSliderIdle");
     }
 }

@@ -16,7 +16,6 @@ public class UIManager : MonoBehaviour
     // Childs
     private GameObject menuUI;
     private GameObject counterUI;
-    private GameObject starsUI;
     private GameObject hudUI;
     private GameObject coinsPanel;
     private GameObject coinsText;
@@ -28,7 +27,6 @@ public class UIManager : MonoBehaviour
 
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
-        starsUI = transform.Find("Stars").gameObject;
         hudUI = transform.Find("HUD").gameObject;
         coinsPanel = menuUI.transform.Find("CoinsPanel").gameObject;
         coinsText = coinsPanel.transform.Find("CoinsText").gameObject;
@@ -69,8 +67,7 @@ public class UIManager : MonoBehaviour
     internal void ShowLevelResultsScreen(Score score)
     {
         SetMenuCanvasVisible(true);
-        starsUI.SetActive(true);
-        starsUI.GetComponent<StarsUI>().ShowStars(score.stars);
+        ScoreSlider.instance.ShowStars();
         print("Clicks: " + score.clicks);
         print("Time elapsed: " + score.timeElapsed);
         print("Final score: " + score.finalScore);
@@ -84,7 +81,6 @@ public class UIManager : MonoBehaviour
     private void HideAllUI()
     {
         SetMenuCanvasVisible(false);
-        starsUI.SetActive(false);
     }
 
     public void OnPlayNextLevelButtonPressed()
@@ -92,6 +88,7 @@ public class UIManager : MonoBehaviour
         GameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
         hudUI.SetActive(true);
+        ScoreSlider.instance.StarsInSliderIdle();
     }
 
 
@@ -100,6 +97,7 @@ public class UIManager : MonoBehaviour
         GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
         hudUI.SetActive(true);
+        ScoreSlider.instance.StarsInSliderIdle();
     }
 
     // Coins

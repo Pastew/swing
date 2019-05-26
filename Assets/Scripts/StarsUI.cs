@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// TODO Delete this class
 public class StarsUI : MonoBehaviour
 {
     // Childs
