@@ -1717,7 +1717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f03e2707b6710f24ab137625f4ecb087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gapBetweenAnimatingResultRefresh: 0.01
 --- !u!1 &863768664
 GameObject:
   m_ObjectHideFlags: 0
