@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
 
     internal void OnLevelLoaded()
     {
-        InputManager.instance.SetCanUseHook(true);
+        InputManager.instance.SetCanUseHook(false);
         ScoreManager.instance.ResetScore();
         UIManager.instance.StartCountdown();
     }
@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
         ScoreManager.instance.StartTimer();
+        InputManager.instance.SetCanUseHook(true);
         print("GO");
     }
 
