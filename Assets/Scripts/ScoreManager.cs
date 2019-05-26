@@ -35,14 +35,13 @@ public class ScoreManager : MonoBehaviour
         score = new Score();
         Clock.instance.StopClock();
         timeNeededForNextTimeUnitElapsed = timeUnit;
-        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score));
+        UIManager.instance.UpdateScoreText(CalculateFinalScore(score));
     }
 
     public Score GetScore()
     {
         score.finalScore = CalculateFinalScore(score);
         score.stars = CalculateStars();
-        Clock.instance.StopClock();
         return score;
     }
 
@@ -50,7 +49,7 @@ public class ScoreManager : MonoBehaviour
     public void OnBonusPointCollected(BonusPoint bonusPoint)
     {
         score.bonusPoints++;
-        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score), bonus);
+        UIManager.instance.UpdateScoreText(CalculateFinalScore(score), bonus);
     }
 
     internal void StartTimer()
@@ -66,7 +65,7 @@ public class ScoreManager : MonoBehaviour
     public void OnTimeUnitElapsed()
     {
         score.timeElapsed++;
-        UIManager.instance.UpdateScoreUI(CalculateFinalScore(score), -1);
+        UIManager.instance.UpdateScoreText(CalculateFinalScore(score), -1);
     }
 
 

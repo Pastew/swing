@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     public void OnHeroReachedGoal()
     {
         UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.GetScore());
+        Clock.instance.StopClock();
         InputManager.instance.OnReachedGoal();
     }
 

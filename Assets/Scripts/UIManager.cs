@@ -135,10 +135,8 @@ public class UIManager : MonoBehaviour
     }
 
     // HUD
-    public void UpdateScoreUI(int newScore, int change = 0)
+    public void UpdateScoreText(int newScore, int change = 0)
     {
-        hudUI.GetComponentInChildren<Slider>().value = newScore;
-
         if (newScore >= 0)
             hudUI.GetComponentInChildren<Text>().text = newScore.ToString();
         else
