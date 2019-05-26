@@ -687,9 +687,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 363
-        y: 12
-        width: 105
-        height: 105
+        y: 9
+        width: 112
+        height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +728,10 @@ TextureImporter:
       name: Play
       rect:
         serializedVersion: 2
-        x: 1930
+        x: 1910
         y: 24
-        width: 99
-        height: 111
+        width: 119
+        height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
