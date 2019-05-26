@@ -101,5 +101,4 @@ public class ScoreManager : MonoBehaviour
         Debug.LogError("This should never happen!");
         return 0;
     }
-
 }

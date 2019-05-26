@@ -67,7 +67,7 @@ public class UIManager : MonoBehaviour
     internal void ShowLevelResultsScreen(Score score)
     {
         SetMenuCanvasVisible(true);
-        ScoreSlider.instance.ShowStars();
+        ScoreSlider.instance.ShowStarsResult();
         print("Clicks: " + score.clicks);
         print("Time elapsed: " + score.timeElapsed);
         print("Final score: " + score.finalScore);
