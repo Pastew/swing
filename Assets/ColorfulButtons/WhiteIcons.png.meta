@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 15875730ae7718b4caeddac036902189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9105004539108609552
+    second: IconBackground
+  - first:
+      213: -7154743929666804241
+    second: Pause
+  - first:
+      213: 8418034744547163462
+    second: WhiteIcons_2
+  - first:
+      213: 1807149679872726839
+    second: Replay
+  - first:
+      213: -6119246750379336416
+    second: Gamepad
+  - first:
+      213: 8458672092136311240
+    second: Settings
+  - first:
+      213: 2667146280302378656
+    second: Sound
+  - first:
+      213: -5145286523904698645
+    second: Speaker
+  - first:
+      213: -2505608168556518965
+    second: WhiteIcons_8
+  - first:
+      213: -2255040696938008269
+    second: WhiteIcons_9
+  - first:
+      213: -7027514338038874442
+    second: WhiteIcons_10
+  - first:
+      213: -5546005022957744472
+    second: TrashCan
+  - first:
+      213: -5698635725026191038
+    second: hearth
+  - first:
+      213: 3429431208364230882
+    second: BackDouble
+  - first:
+      213: -8945947667700968906
+    second: ForwardDouble
+  - first:
+      213: -3729791120468540857
+    second: Back
+  - first:
+      213: 3574863877395560749
+    second: WhiteIcons_16
+  - first:
+      213: -471147412136521777
+    second: Home
+  - first:
+      213: 8847678025299821820
+    second: WhiteIcons_18
+  - first:
+      213: -7423670634683607603
+    second: SpeakerOff
+  - first:
+      213: -2929802534039155759
+    second: WhiteIcons_20
+  - first:
+      213: -3797443398677042731
+    second: Message
+  - first:
+      213: 5083350353561633698
+    second: Share
+  - first:
+      213: -7062323903029872218
+    second: Trophy
+  - first:
+      213: -3831122948863293981
+    second: Facebook
+  - first:
+      213: -1827982391370608673
+    second: Instagram
+  - first:
+      213: -4277491642367857757
+    second: WhiteIcons_26
+  - first:
+      213: -8253879752326464864
+    second: WhiteIcons_27
+  - first:
+      213: -2497151612855318474
+    second: WhiteIcons_28
+  - first:
+      213: 650707083953217614
+    second: WhiteIcons_29
+  - first:
+      213: -7927564734949128852
+    second: WhiteIcons_30
+  - first:
+      213: 5715894608508907240
+    second: Menu
+  - first:
+      213: -3258852409627129759
+    second: Plus
+  - first:
+      213: -945392807012640139
+    second: Close
+  - first:
+      213: 8870076832288534868
+    second: WhiteIcons_34
+  - first:
+      213: -7318314142375579610
+    second: WhiteIcons_35
+  - first:
+      213: -1243827326000856128
+    second: Lighting
+  - first:
+      213: -2035344710598335449
+    second: Play
+  - first:
+      213: 2087747696685253793
+    second: Divide
+  - first:
+      213: -3966947851290198423
+    second: Mnus
+  - first:
+      213: -2980578306001006487
+    second: Shop
+  - first:
+      213: 1634860257703171846
+    second: WhiteIcons_41
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IconBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 226
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d6cf2eb9e451446acf77c8fad306dc
+      internalID: 9105004539108609552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 944
+        width: 89
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49169eb858973fc4c994bb729469e4b7
+      internalID: -7154743929666804241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Replay
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 931
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb7d20cf56516c4591c2bfe85e535c7
+      internalID: 1807149679872726839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamepad
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 970
+        width: 139
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46142b81ad87b5a4a8f77f6c32e732a9
+      internalID: -6119246750379336416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 945
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd81a89e4b71a44e94371c2f6ba47f9
+      internalID: 8458672092136311240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sound
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 949
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b4534ce7d5d384c8f1e2256c612f2b
+      internalID: 2667146280302378656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speaker
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 956
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aaf6dea6ec18f4bb2a94ecf0501866
+      internalID: -5145286523904698645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashCan
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 636
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ffc473f01ba504f8a7805bfb501df7
+      internalID: -5546005022957744472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hearth
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 639
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5e9e05fa7f22442b4e5f547c10233f
+      internalID: -5698635725026191038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDouble
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 649
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d60a18598984844fa57c75e7c412ea5
+      internalID: 3429431208364230882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForwardDouble
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 649
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ffaeb60a3b6cd4f99d518781491ea8
+      internalID: -8945947667700968906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 632
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d601f7bccb0bd894783dbf889fcac466
+      internalID: -3729791120468540857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteIcons_16
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 632
+        width: 71
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663a0d15f25a66546929f22aba2ef870
+      internalID: 3574863877395560749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 628
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef995e6bd18e614d975e3d9489ad273
+      internalID: -471147412136521777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeakerOff
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 323
+        width: 130
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe3a31b23e57274fad60bb8fad997cc
+      internalID: -7423670634683607603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Message
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 326
+        width: 117
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384672d9ea21c8c408e933595c6ca2cc
+      internalID: -3797443398677042731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Share
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 320
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa132099edf4d3c44b1eca638f855722
+      internalID: 5083350353561633698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trophy
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 321
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8709dd3bfa7cc0b4e88fa005a7079096
+      internalID: -7062323903029872218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Facebook
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 309
+        width: 57
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a15ea56761fff4383c24f554082cc7
+      internalID: -3831122948863293981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instagram
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 327
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1aeb3b614997e4397138f86188beff
+      internalID: -1827982391370608673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 333
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114829b9c5bffdf4b902d14b5f4df9cf
+      internalID: 5715894608508907240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plus
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb0acb52a9bfa042a419c49a82a6dc9
+      internalID: -3258852409627129759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Close
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 12
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b3d6e42be7c9940bc1a1f761df50ee
+      internalID: -945392807012640139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lighting
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 9
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30299d6556552a479fa25f4daac1cdb
+      internalID: -1243827326000856128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 24
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ba010171cf434794dc24577af3847
+      internalID: -2035344710598335449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Divide
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 129
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897416f7f52c0c43beb33313e37e81a
+      internalID: 2087747696685253793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mnus
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 49
+        width: 121
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00f873e7efffb743867fa2343ac0a9c
+      internalID: -3966947851290198423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 15
+        width: 138
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b789fa7296bbda468294349a6991440
+      internalID: -2980578306001006487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 214ffb5b3168ab14093caf04eba98b12
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
