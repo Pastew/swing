@@ -629,12 +629,12 @@ PrefabInstance:
     - target: {fileID: 9009762907058853407, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 9009762907058853407, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 9009762907058853407, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
@@ -675,6 +675,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009762907828949082, guid: 6edd30154dd083c44a5de07598112235,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009762907828949082, guid: 6edd30154dd083c44a5de07598112235,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 9009762907828949083, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
@@ -2247,12 +2257,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.3
       objectReference: {fileID: 0}
-    - target: {fileID: 9009762907828949083, guid: 6edd30154dd083c44a5de07598112235,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3258852409627129759, guid: 15875730ae7718b4caeddac036902189,
-        type: 3}
     - target: {fileID: 9009762907058853401, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
       propertyPath: m_Color.a
@@ -2298,6 +2302,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9009762907828949083, guid: 6edd30154dd083c44a5de07598112235,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3258852409627129759, guid: 15875730ae7718b4caeddac036902189,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6edd30154dd083c44a5de07598112235, type: 3}
 --- !u!224 &1040412731 stripped
@@ -2931,12 +2941,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9009762907828949083, guid: 6edd30154dd083c44a5de07598112235,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -945392807012640139, guid: 15875730ae7718b4caeddac036902189,
-        type: 3}
     - target: {fileID: 9009762907058853400, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2972,6 +2976,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9009762907828949083, guid: 6edd30154dd083c44a5de07598112235,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -945392807012640139, guid: 15875730ae7718b4caeddac036902189,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6edd30154dd083c44a5de07598112235, type: 3}
 --- !u!224 &1672936492 stripped
