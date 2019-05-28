@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     internal void OnLevelLoaded()
     {
-        if (LevelManager.instance.GetCurrentLevelIndex() <= 1)
+        if (LevelManager.instance.GetCurrentLevelIndex() <= 2)
             UIManager.instance.ShowTutorial();
 
         InputManager.instance.SetCanUseHook(false);
