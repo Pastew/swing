@@ -7,6 +7,9 @@ using UnityEngine.Events;
 [System.Serializable]
 public class BonusPointCollectedEvent : UnityEvent<BonusPoint> { }
 
+[System.Serializable]
+public class LevelLoadedEvent : UnityEvent { }
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -16,11 +19,13 @@ public class GameManager : MonoBehaviour
     public int startingLevel = 0;
 
     private BonusPointCollectedEvent bonusPointCollectedEvent;
+    private LevelLoadedEvent levelLoadedEvent;
 
     private void Awake()
     {
         instance = this;
         bonusPointCollectedEvent = new BonusPointCollectedEvent();
+        levelLoadedEvent = new LevelLoadedEvent();
     }
 
     void Start()
@@ -47,7 +52,7 @@ public class GameManager : MonoBehaviour
     {
         InputManager.instance.SetCanUseHook(false);
         ScoreManager.instance.ResetScore();
-        UIManager.instance.StartCountdown();
+        levelLoadedEvent.Invoke();
     }
 
     internal void OnBonusPointCollected(BonusPoint bonusPoint)
@@ -59,6 +64,11 @@ public class GameManager : MonoBehaviour
     public void SubscribeToBonusPointCollected(UnityAction<BonusPoint> subscriber)
     {
         bonusPointCollectedEvent.AddListener(subscriber);
+    }
+
+    public void SubscribeToLevelLoadedEvent(UnityAction subscriber)
+    {
+        levelLoadedEvent.AddListener(subscriber);
     }
 
     public void OnCountdownFinished()

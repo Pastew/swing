@@ -35,7 +35,6 @@ public class ScoreManager : MonoBehaviour
         score = new Score();
         Clock.instance.StopClock();
         timeNeededForNextTimeUnitElapsed = timeUnit;
-        UIManager.instance.UpdateScoreText(CalculateFinalScore(score));
     }
 
     public Score GetScore()
@@ -83,8 +82,7 @@ public class ScoreManager : MonoBehaviour
     private int CalculateStars()
     {
         int s = CalculateFinalScore(score);
-
-        int unit = GetMaxPossibleScore() / 4;
+        int unit = OneStarTreshold();
 
         if (s < unit)
             return 0;
@@ -100,5 +98,10 @@ public class ScoreManager : MonoBehaviour
 
         Debug.LogError("This should never happen!");
         return 0;
+    }
+
+    public int OneStarTreshold()
+    {
+        return GetMaxPossibleScore() / 4;
     }
 }

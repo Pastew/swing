@@ -38,6 +38,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         HideDisableAdsIfPurchased();
+        GameManager.instance.SubscribeToLevelLoadedEvent(OnLevelLoaded);
     }
 
     public void HideDisableAdsIfPurchased()
@@ -55,6 +56,12 @@ public class UIManager : MonoBehaviour
         menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonPressed);
     }
 
+    internal void OnLevelLoaded()
+    {
+        ScoreSlider.instance.ResetScoreSlider();
+        UpdateScoreText(ScoreManager.instance.GetScore().finalScore);
+        StartCountdown();
+    }
 
     internal void ShowMenu()
     {

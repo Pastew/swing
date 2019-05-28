@@ -8,7 +8,7 @@ public class ScoreSlider : MonoBehaviour
 {
     public static ScoreSlider instance;
 
-    public float lerpSpeed = 3;
+    public float lerpSpeed = 8;
 
     private float currentDisplayingScore = 0;
     private int targetScore = 0;
@@ -38,11 +38,6 @@ public class ScoreSlider : MonoBehaviour
             stars[i] = transform.Find("star" + (i + 1)).GetComponent<Image>();
     }
 
-    void Start()
-    {
-        previousStarsNumber = ScoreManager.instance.GetScore().stars;
-    }
-
     void Update()
     {
         Score currentScore = ScoreManager.instance.GetScore();
@@ -59,6 +54,17 @@ public class ScoreSlider : MonoBehaviour
             previousStarsNumber = currentScore.stars;
         }
     }
+
+    public void ResetScoreSlider()
+    {
+        ShowStarOnSliderChange(3, false);
+        ShowStarOnSliderChange(2, false);
+        ShowStarOnSliderChange(1, true);
+
+        previousStarsNumber = 0;
+        int currentStarsNumber =  ScoreManager.instance.GetScore().stars;
+    }
+
 
     private float CalculateCurrentDisplayingScore()
     {
