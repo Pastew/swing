@@ -50,6 +50,9 @@ public class GameManager : MonoBehaviour
 
     internal void OnLevelLoaded()
     {
+        if (LevelManager.instance.GetCurrentLevelIndex() <= 1)
+            UIManager.instance.ShowTutorial();
+
         InputManager.instance.SetCanUseHook(false);
         ScoreManager.instance.ResetScore();
         levelLoadedEvent.Invoke();

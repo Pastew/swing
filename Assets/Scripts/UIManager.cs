@@ -56,6 +56,11 @@ public class UIManager : MonoBehaviour
         menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonPressed);
     }
 
+    internal void ShowTutorial()
+    {
+        transform.Find("TutorialPanel").gameObject.SetActive(true);
+    }
+
     internal void OnLevelLoaded()
     {
         ScoreSlider.instance.ResetScoreSlider();

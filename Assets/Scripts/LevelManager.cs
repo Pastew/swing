@@ -59,4 +59,9 @@ public class LevelManager : MonoBehaviour
     {
         return currentLevel.GetComponentInChildren<StartPosition>().transform.position;
     }
+
+    internal int GetCurrentLevelIndex()
+    {
+        return currentLevelIndex;
+    }
 }
