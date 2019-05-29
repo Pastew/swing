@@ -11,6 +11,13 @@ public class CameraMovement : MonoBehaviour
 
     public float maxCamX = 1, maxCamY = 1;
 
+    private Vector3 startingPos;
+
+    private void Awake()
+    {
+        startingPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+    }
+
     private void Update()
     {
         Hero target = FindObjectOfType<Hero>();
@@ -31,5 +38,10 @@ public class CameraMovement : MonoBehaviour
     public float remap(float a0, float a1, float b0, float b1, float a)
     {
         return b0 + (b1 - b0) * ((a - a0) / (a1 - a0));
+    }
+
+    public void Reset()
+    {
+        transform.position = startingPos;
     }
 }
