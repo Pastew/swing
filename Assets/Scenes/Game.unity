@@ -5147,6 +5147,18 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2772695181438315162, guid: e00810308ad607e4aa23af28c33eb9c1,
+        type: 3}
+      propertyPath: bonusPointPrefab
+      value: 
+      objectReference: {fileID: 5606334959305148004, guid: b8ce704f6379ea0498ac301e542f08b0,
+        type: 3}
+    - target: {fileID: 2772695181438315162, guid: e00810308ad607e4aa23af28c33eb9c1,
+        type: 3}
+      propertyPath: clickPointPrefab
+      value: 
+      objectReference: {fileID: 6395107266239539240, guid: 0a4c57b955240f54fa23f5bec4dbc9c0,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e00810308ad607e4aa23af28c33eb9c1, type: 3}
 --- !u!1 &4285347597931248160
