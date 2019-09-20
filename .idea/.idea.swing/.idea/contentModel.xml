@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AdManager.cs" t="Include" />
+        <e p="Credits.txt" t="Include" />
+        <e p="Ferr" t="Include">
+          <e p="2D" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Ferr2D_PathEditor.cs" t="Include" />
+              <e p="Ferr2D_Visual.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="clipper.cs" t="Include" />
+              <e p="Ferr2D_DynamicMesh.cs" t="Include" />
+              <e p="Ferr2D_IPath.cs" t="Include" />
+              <e p="Ferr2D_Path.cs" t="Include" />
+              <e p="Ferr2D_Triangulator.cs" t="Include" />
+              <e p="poly2tri" t="Include">
+                <e p="AUTHORS.txt" t="Include" />
+                <e p="LICENSE.txt" t="Include" />
+                <e p="P2T.cs" t="Include" />
+                <e p="Triangulation" t="Include">
+                  <e p="Delaunay" t="Include">
+                    <e p="DelaunayTriangle.cs" t="Include" />
+                    <e p="Sweep" t="Include">
+                      <e p="AdvancingFront.cs" t="Include" />
+                      <e p="AdvancingFrontNode.cs" t="Include" />
+                      <e p="DTSweep.cs" t="Include" />
+                      <e p="DTSweepBasin.cs" t="Include" />
+                      <e p="DTSweepConstraint.cs" t="Include" />
+                      <e p="DTSweepContext.cs" t="Include" />
+                      <e p="DTSweepDebugContext.cs" t="Include" />
+                      <e p="DTSweepEdgeEvent.cs" t="Include" />
+                      <e p="DTSweepPointComparator.cs" t="Include" />
+                      <e p="PointOnEdgeException.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="ITriangulatable.cs" t="Include" />
+                  <e p="Orientation.cs" t="Include" />
+                  <e p="Polygon" t="Include">
+                    <e p="Contour.cs" t="Include" />
+                    <e p="Polygon.cs" t="Include" />
+                    <e p="PolygonPoint.cs" t="Include" />
+                    <e p="PolygonSet.cs" t="Include" />
+                    <e p="PolygonUtil.cs" t="Include" />
+                  </e>
+                  <e p="Sets" t="Include">
+                    <e p="ConstrainedPointSet.cs" t="Include" />
+                    <e p="PointSet.cs" t="Include" />
+                  </e>
+                  <e p="TriangulationAlgorithm.cs" t="Include" />
+                  <e p="TriangulationConstraint.cs" t="Include" />
+                  <e p="TriangulationContext.cs" t="Include" />
+                  <e p="TriangulationDebugContext.cs" t="Include" />
+                  <e p="TriangulationMode.cs" t="Include" />
+                  <e p="TriangulationPoint.cs" t="Include" />
+                  <e p="Util" t="Include">
+                    <e p="PointGenerator.cs" t="Include" />
+                    <e p="PolygonGenerator.cs" t="Include" />
+                    <e p="TriangulationUtil.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Utility" t="Include">
+                  <e p="FixedArray3.cs" t="Include" />
+                  <e p="FixedBitArray3.cs" t="Include" />
+                  <e p="MathUtil.cs" t="Include" />
+                  <e p="Point2D.cs" t="Include" />
+                  <e p="Point2DList.cs" t="Include" />
+                  <e p="Rect2D.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="2DTerrain" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Ferr2DT_Builder.cs" t="Include" />
+              <e p="Ferr2DT_Caps.cs" t="Include" />
+              <e p="Ferr2DT_MaterialSelector.cs" t="Include" />
+              <e p="Ferr2DT_Menu.cs" t="Include" />
+              <e p="Ferr2DT_PathTerrainEditor.cs" t="Include" />
+              <e p="Ferr2DT_PathTerrainEditor_Legacy.cs" t="Include" />
+              <e p="Ferr2DT_SceneOverlay.cs" t="Include" />
+              <e p="Ferr2DT_TerrainMaterialEditor.cs" t="Include" />
+              <e p="Ferr2DT_TerrainMaterialWindow.cs" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Assets" t="Include">
+                <e p="BlobShadow.cs" t="Include" />
+                <e p="InfiniteTerrain.cs" t="Include" />
+                <e p="InfiniteTerrainCamera.cs" t="Include" />
+                <e p="InfiniteTerrainChunk.cs" t="Include" />
+                <e p="ProceduralInsert.cs" t="Include" />
+                <e p="Toss.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Ferr2DT_Material_Partial.cs" t="Include" />
+              <e p="Ferr2DT_PathTerrain.cs" t="Include" />
+              <e p="Ferr2DT_PathTerrain_Legacy.cs" t="Include" />
+              <e p="Ferr2DT_SegmentDescription_Partial.cs" t="Include" />
+              <e p="Ferr2DT_TerrainMaterial.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Ferr2DTCommon.cginc" t="Include" />
+              <e p="LightmapColored.shader" t="Include" />
+              <e p="LightmapColoredTransparent.shader" t="Include" />
+              <e p="LitColored.shader" t="Include" />
+              <e p="LitColoredTint.shader" t="Include" />
+              <e p="LitColoredTintTransparent.shader" t="Include" />
+              <e p="LitColoredTransparent.shader" t="Include" />
+              <e p="LitWavyTransparent.shader" t="Include" />
+              <e p="UnitColoredTransparent.shader" t="Include" />
+              <e p="UnlitColored.shader" t="Include" />
+              <e p="UnlitColoredTint.shader" t="Include" />
+              <e p="UnlitColoredTintTransparent.shader" t="Include" />
+              <e p="UnlitWavyTransparent.shader" t="Include" />
+              <e p="Vertlit.shader" t="Include" />
+              <e p="VertlitTransparent.shader" t="Include" />
+              <e p="VertlitWavyTransparent.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Common" t="Include">
+            <e p="2DT" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Ferr2DT_MaterialInspector.cs" t="Include" />
+              </e>
+              <e p="Ferr2DT_Material.cs" t="Include" />
+              <e p="Ferr2DT_SegmentDescription.cs" t="Include" />
+              <e p="IFerr2DTMaterial.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="ClampDrawer.cs" t="Include" />
+              <e p="EditorTools.cs" t="Include" />
+              <e p="InspectorHandles.cs" t="Include" />
+              <e p="InspectorNameDrawer.cs" t="Include" />
+              <e p="ProceduralMeshSaver.cs" t="Include" />
+              <e p="RestoreMeshInspector.cs" t="Include" />
+              <e p="UnlitVertexColorEditor.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IBlendPaintable.cs" t="Include" />
+              <e p="IBlendPaintType.cs" t="Include" />
+              <e p="IProceduralMesh.cs" t="Include" />
+              <e p="IToFromDataString.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CameraShake.cs" t="Include" />
+              <e p="ClampAttribute.cs" t="Include" />
+              <e p="ColorUtil.cs" t="Include" />
+              <e p="DataStringUtil.cs" t="Include" />
+              <e p="EditInIsolation.cs" t="Include" />
+              <e p="Export.cs" t="Include" />
+              <e p="GizmoUtil.cs" t="Include" />
+              <e p="InspectorName.cs" t="Include" />
+              <e p="Juice.cs" t="Include" />
+              <e p="LambdaComparer.cs" t="Include" />
+              <e p="LayerUtil.cs" t="Include" />
+              <e p="LayoutAdvancer.cs" t="Include" />
+              <e p="LogoLock.cs" t="Include" />
+              <e p="ProceduralMeshUtil.cs" t="Include" />
+              <e p="RecolorTree.cs" t="Include" />
+              <e p="RenderUtility.cs" t="Include" />
+              <e p="RestoreMesh.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="SOUtil.cs" t="Include" />
+              <e p="VectorExtensions.cs" t="Include" />
+              <e p="WebMessager.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="GizmoShader2D.shader" t="Include" />
+              <e p="GizmoShader3D.shader" t="Include" />
+              <e p="LitVertexColor.shader" t="Include" />
+              <e p="ShadowOnly.shader" t="Include" />
+              <e p="UnlitSolidColor.shader" t="Include" />
+              <e p="UnlitSolidColorTransparent.shader" t="Include" />
+              <e p="UnlitVertexColor.shader" t="Include" />
+              <e p="UnlitVertexColorTransparent.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Docs" t="Include">
+            <e p="Ferr2DTerrainTool - Readme.txt" t="Include" />
+          </e>
+          <e p="Path" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Path2DPropertyDrawer.cs" t="Include" />
+              <e p="PathEditorUtil.cs" t="Include" />
+              <e p="PointControlPropertyDrawer.cs" t="Include" />
+            </e>
+            <e p="IEdgeOverride.cs" t="Include" />
+            <e p="ILerpable.cs" t="Include" />
+            <e p="Path2D.cs" t="Include" />
+            <e p="PathDistanceMask.cs" t="Include" />
+            <e p="PathDMPoint.cs" t="Include" />
+            <e p="PathUtil.cs" t="Include" />
+            <e p="SVG" t="Include">
+              <e p="ISVGElement.cs" t="Include" />
+              <e p="SVG.cs" t="Include" />
+              <e p="SVGLine.cs" t="Include" />
+              <e p="SVGPath.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="GameSave.cs" t="Include" />
+        <e p="GameSaveManager.cs" t="Include" />
+        <e p="IAPMoneyManager.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="UDP" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Analytics" t="Include">
+                <e p="Common.cs" t="Include" />
+                <e p="EditorAnalytcisApi.cs" t="Include" />
+                <e p="ProjectBuildEvent.cs" t="Include" />
+                <e p="ProjectOpenEvent.cs" t="Include" />
+                <e p="SdkImportEvent.cs" t="Include" />
+                <e p="WebRequestQueue.cs" t="Include" />
+              </e>
+              <e p="AppStoreModel.cs" t="Include" />
+              <e p="AppStoreOnboardApi.cs" t="Include" />
+              <e p="AppStoreSettingsEditor.cs" t="Include" />
+              <e p="BuildConfig.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UnityChannel" t="Include">
+            <e p="XiaomiSupport" t="Include">
+              <e p="AppStoreSettings.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AppStoreModel.cs" t="Include" />
+                <e p="AppStoreOnboardApi.cs" t="Include" />
+                <e p="AppStoreSettingsEditor.cs" t="Include" />
+                <e p="XiaomiPackageNameExtension.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UnityPurchasing" t="Include">
+            <e p="Editor" t="Include">
+              <e p="IAPButtonEditor.cs" t="Include" />
+            </e>
+            <e p="script" t="Include">
+              <e p="CodelessIAPStoreListener.cs" t="Include" />
+              <e p="ComboBox.cs" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="DemoInventory.cs" t="Include" />
+              </e>
+              <e p="IAPButton.cs" t="Include" />
+              <e p="IAPConfigurationHelper.cs" t="Include" />
+              <e p="IAPDemo.cs" t="Include" />
+              <e p="IAPDemoProductUI.cs" t="Include" />
+              <e p="IAPListener.cs" t="Include" />
+              <e p="link.xml" t="Include" />
+              <e p="PurchasingCheck.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ScoreSlider.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BonusPoint.cs" t="Include" />
+          <e p="CameraMovement.cs" t="Include" />
+          <e p="ColorManager.cs" t="Include" />
+          <e p="FPSForcer.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="Goal.cs" t="Include" />
+          <e p="Hero.cs" t="Include" />
+          <e p="Hook.cs" t="Include" />
+          <e p="InputManager.cs" t="Include" />
+          <e p="LevelManager.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="ScoreManager.cs" t="Include" />
+          <e p="StartPosition.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="Buttons" t="Include">
+            <e p="Credits.txt" t="Include" />
+          </e>
+          <e p="Clock" t="Include">
+            <e p="Clock.cs" t="Include" />
+          </e>
+          <e p="PointsPresenter" t="Include">
+            <e p="PointsPresenter.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="swing.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_swing.-1041192412.00" t="ExcludeRecursive" />
+  </component>
+</project>

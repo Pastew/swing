@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UDP/UDP.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UDP/UDP.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/AppStoreSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/AppStoreSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/Editor/XiaomiPackageNameExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/Editor/XiaomiPackageNameExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.mm.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.m.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.m.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/live/winrt.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/live/winrt.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/IAPMoneyManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1569011355028" expanded="true" signature="6:108" ph="..." />
+                <marker date="1569011355028" expanded="true" signature="154:494" ph="{...}" />
+                <marker date="1569011355028" expanded="true" signature="202:492" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <marker date="1552869360000" expanded="true" signature="94:272" ph="/* You must obfuscate your secrets using Window &gt; Unity IAP &gt; Receipt Validation Obfuscator ... */" />
+                <marker date="1552869360000" expanded="true" signature="281:789" ph="/* ##define DELAY_CONFIRMATION // Returns PurchaseProcessingResult.Pending from ProcessPurchase, then calls Confir ... */" />
+                <marker date="1552869360000" expanded="false" signature="797:960" ph="..." />
+                <marker date="1552869360000" expanded="true" signature="1048:1189" ph="/// An example of Unity IAP functionality. ... " />
+                <marker date="1552869360000" expanded="true" signature="1279:40728" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="2687:2789" ph="/// This will be called when Unity IAP has finished initialising. ... " />
+                <marker date="1552869360000" expanded="true" signature="2879:8413" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="3517:3983" ph="/* Sample code for expose product sku details for google play store ... */" />
+                <marker date="1552869360000" expanded="true" signature="4035:4224" ph="/* On Apple platforms we need to handle deferred purchases caused by Apple's Ask to Buy feature. ... */" />
+                <marker date="1552869360000" expanded="true" signature="4450:4605" ph="/* Sample code for expose product sku details for apple store ... */" />
+                <marker date="1552869360000" expanded="true" signature="4700:8259" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="4752:8249" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="4858:5256" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="5312:5596" ph="/* Set all these products to be visible in the user's App Store according to Apple's Promotional IAP feature ... */" />
+                <marker date="1552869360000" expanded="true" signature="10868:10955" ph="/// This will be called when a purchase completes. ... " />
+                <marker date="1552869360000" expanded="true" signature="11028:15647" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="11386:11997" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="11584:11987" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="13863:14160" ph="/* For improved security, consider comparing the signed ... */" />
+                <marker date="1552869360000" expanded="true" signature="14856:15383" ph="/* Indicate if we have handled this purchase. ... */" />
+                <marker date="1552869360000" expanded="true" signature="16337:16429" ph="/// This will be called if an attempted purchase fails. ... " />
+                <marker date="1552869360000" expanded="true" signature="16501:18907" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="16844:17028" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="17067:18862" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="17316:17719" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="17733:17864" ph="/* Determine if the user already owns this item and that it can be added to ... */" />
+                <marker date="1552869360000" expanded="true" signature="17952:18129" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="18209:18424" ph="/* In Unity 5.3 the enum PurchaseFailureReason.DuplicateTransaction ... */" />
+                <marker date="1552869360000" expanded="true" signature="18978:19710" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="19059:19704" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="19773:19868" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="19930:20117" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="20142:29761" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="20216:20498" ph="/* The FakeStore supports: no-ui (always succeeding), basic ui (purchase pass/fail), and ... */" />
+                <marker date="1552869360000" expanded="true" signature="20947:21122" ph="/* CloudMoolah Configuration setings ... */" />
+                <marker date="1552869360000" expanded="true" signature="21324:21494" ph="/* This enables the CloudMoolah test mode for local testing. ... */" />
+                <marker date="1552869360000" expanded="true" signature="21593:21809" ph="/* This records whether we are using Cloud Moolah IAP. ... */" />
+                <marker date="1552869360000" expanded="true" signature="21962:22294" ph="/* UnityChannel, provides access to Xiaomi MiPay. ... */" />
+                <marker date="1552869360000" expanded="true" signature="22641:23053" ph="/* Define our products. ... */" />
+                <marker date="1552869360000" expanded="true" signature="23171:23630" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="23228:23513" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="23340:23432" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="23530:23620" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="23640:23975" ph="/* In this case our products have the same identifier across all the App stores, ... */" />
+                <marker date="1552869360000" expanded="true" signature="24066:24377" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="24738:24994" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="25198:25213" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="25530:25541" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="25622:25633" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="25646:26068" ph="/* Write Amazon's JSON description of our products to storage when using Amazon's local sandbox. ... */" />
+                <marker date="1552869360000" expanded="true" signature="26172:26502" ph="/* This records whether we are using Samsung IAP. Currently ISamsungAppsExtensions.RestoreTransactions ... */" />
+                <marker date="1552869360000" expanded="true" signature="26656:26843" ph="/* This selects the GroupId that was created in the Tizen Store for this set of products ... */" />
+                <marker date="1552869360000" expanded="true" signature="26971:27167" ph="/* On iOS and tvOS we can intercept promotional purchases that come directly from the App Store. ... */" />
+                <marker date="1552869360000" expanded="true" signature="27802:27924" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="28018:28072" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="28085:29755" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="28108:28857" ph="/* Call UnityChannel initialize and (later) login asynchronously ... */" />
+                <marker date="1552869360000" expanded="true" signature="29452:29561" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="29914:30582" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30171:30232" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30288:30353" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30401:30465" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30516:30576" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30588:30704" ph="/// This will be called after a call to IAppleExtensions.RestoreTransactions(). ... " />
+                <marker date="1552869360000" expanded="true" signature="30758:30825" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="30831:31196" ph="/// iOS Specific. ... " />
+                <marker date="1552869360000" expanded="true" signature="31238:31313" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="31491:31696" ph="/* Promotional purchase has been detected. Handle this event by, e.g. presenting a parental gate. ... */" />
+                <marker date="1552869360000" expanded="true" signature="32158:32820" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="32876:34504" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="32924:33024" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="33059:33160" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="33222:33324" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="33334:33494" ph="/* For platforms needing Login, games utilizing a connected backend ... */" />
+                <marker date="1552869360000" expanded="true" signature="33550:33684" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="33694:33901" ph="/* Don't need to draw our UI whilst a purchase is in progress. ... */" />
+                <marker date="1552869360000" expanded="true" signature="33948:34397" ph="/* Sample code how to add accountId in developerPayload to pass it to getBuyIntentExtraParams ... */" />
+                <marker date="1552869360000" expanded="true" signature="34542:36152" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="34590:35449" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="34639:34762" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="34779:35439" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="35029:35423" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="35496:35593" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="35810:35887" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="35933:36038" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36051:36146" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36188:36933" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36233:36343" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36432:36666" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36750:36871" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="36972:37628" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="37072:37204" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="37365:37620" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="37664:37840" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="37721:37804" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="37892:38893" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="38266:38887" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="38938:39103" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="38999:39097" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="39177:39340" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="39238:39334" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="39378:39897" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="39934:39987" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="40026:40079" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="40121:40726" ph="{...}" />
+                <marker date="1552869360000" expanded="true" signature="40219:40720" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <marker date="1540319350000" expanded="false" signature="27:119" ph="..." />
+                <marker date="1540319350000" expanded="true" signature="153:7402" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="347:7400" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="384:446" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="545:565" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="685:705" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="1681:2558" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="1795:2344" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="1837:1938" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="1992:2096" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2184:2330" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2399:2548" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2441:2534" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2583:2872" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2644:2862" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2795:2848" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2898:3067" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="2959:3057" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="3099:3366" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="3160:3356" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="3390:5667" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="3450:5657" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="3690:3883" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="4113:4324" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="4495:4712" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="4883:5409" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="5108:5389" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="5430:5643" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="5718:5798" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="5808:5908" ph="/* Invoked to process a purchase of the product associated with this button ... */" />
+                <marker date="1540319350000" expanded="true" signature="5985:6324" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="6334:6433" ph="/* Invoked on a failed purchase of the product associated with this button ... */" />
+                <marker date="1540319350000" expanded="true" signature="6517:6733" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="6769:7394" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="6895:7384" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="6948:7054" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="7100:7218" ph="{...}" />
+                <marker date="1540319350000" expanded="true" signature="7258:7370" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>in</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IAPMoneyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ferr/Path/Editor/PathEditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.swing/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="" />
+      <created>1569011921835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569011921835</updated>
+      <workItem from="1569011924878" duration="486000" />
+      <workItem from="1569013302651" duration="3000" />
+      <workItem from="1569013586734" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="844000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12271062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Ferr/Path/Editor/PathEditorUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/IAPMoneyManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1569011355028" expanded="true" signature="6:108" ph="..." />
+            <marker date="1569011355028" expanded="true" signature="154:494" ph="{...}" />
+            <marker date="1569011355028" expanded="true" signature="202:492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <marker date="1552869360000" expanded="true" signature="94:272" ph="/* You must obfuscate your secrets using Window &gt; Unity IAP &gt; Receipt Validation Obfuscator ... */" />
+            <marker date="1552869360000" expanded="true" signature="281:789" ph="/* ##define DELAY_CONFIRMATION // Returns PurchaseProcessingResult.Pending from ProcessPurchase, then calls Confir ... */" />
+            <marker date="1552869360000" expanded="false" signature="797:960" ph="..." />
+            <marker date="1552869360000" expanded="true" signature="1048:1189" ph="/// An example of Unity IAP functionality. ... " />
+            <marker date="1552869360000" expanded="true" signature="1279:40728" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="2687:2789" ph="/// This will be called when Unity IAP has finished initialising. ... " />
+            <marker date="1552869360000" expanded="true" signature="2879:8413" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="3517:3983" ph="/* Sample code for expose product sku details for google play store ... */" />
+            <marker date="1552869360000" expanded="true" signature="4035:4224" ph="/* On Apple platforms we need to handle deferred purchases caused by Apple's Ask to Buy feature. ... */" />
+            <marker date="1552869360000" expanded="true" signature="4450:4605" ph="/* Sample code for expose product sku details for apple store ... */" />
+            <marker date="1552869360000" expanded="true" signature="4700:8259" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="4752:8249" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="4858:5256" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="5312:5596" ph="/* Set all these products to be visible in the user's App Store according to Apple's Promotional IAP feature ... */" />
+            <marker date="1552869360000" expanded="true" signature="10868:10955" ph="/// This will be called when a purchase completes. ... " />
+            <marker date="1552869360000" expanded="true" signature="11028:15647" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="11386:11997" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="11584:11987" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="13863:14160" ph="/* For improved security, consider comparing the signed ... */" />
+            <marker date="1552869360000" expanded="true" signature="14856:15383" ph="/* Indicate if we have handled this purchase. ... */" />
+            <marker date="1552869360000" expanded="true" signature="16337:16429" ph="/// This will be called if an attempted purchase fails. ... " />
+            <marker date="1552869360000" expanded="true" signature="16501:18907" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="16844:17028" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="17067:18862" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="17316:17719" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="17733:17864" ph="/* Determine if the user already owns this item and that it can be added to ... */" />
+            <marker date="1552869360000" expanded="true" signature="17952:18129" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="18209:18424" ph="/* In Unity 5.3 the enum PurchaseFailureReason.DuplicateTransaction ... */" />
+            <marker date="1552869360000" expanded="true" signature="18978:19710" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="19059:19704" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="19773:19868" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="19930:20117" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="20142:29761" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="20216:20498" ph="/* The FakeStore supports: no-ui (always succeeding), basic ui (purchase pass/fail), and ... */" />
+            <marker date="1552869360000" expanded="true" signature="20947:21122" ph="/* CloudMoolah Configuration setings ... */" />
+            <marker date="1552869360000" expanded="true" signature="21324:21494" ph="/* This enables the CloudMoolah test mode for local testing. ... */" />
+            <marker date="1552869360000" expanded="true" signature="21593:21809" ph="/* This records whether we are using Cloud Moolah IAP. ... */" />
+            <marker date="1552869360000" expanded="true" signature="21962:22294" ph="/* UnityChannel, provides access to Xiaomi MiPay. ... */" />
+            <marker date="1552869360000" expanded="true" signature="22641:23053" ph="/* Define our products. ... */" />
+            <marker date="1552869360000" expanded="true" signature="23171:23630" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="23228:23513" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="23340:23432" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="23530:23620" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="23640:23975" ph="/* In this case our products have the same identifier across all the App stores, ... */" />
+            <marker date="1552869360000" expanded="true" signature="24066:24377" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="24738:24994" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="25198:25213" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="25530:25541" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="25622:25633" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="25646:26068" ph="/* Write Amazon's JSON description of our products to storage when using Amazon's local sandbox. ... */" />
+            <marker date="1552869360000" expanded="true" signature="26172:26502" ph="/* This records whether we are using Samsung IAP. Currently ISamsungAppsExtensions.RestoreTransactions ... */" />
+            <marker date="1552869360000" expanded="true" signature="26656:26843" ph="/* This selects the GroupId that was created in the Tizen Store for this set of products ... */" />
+            <marker date="1552869360000" expanded="true" signature="26971:27167" ph="/* On iOS and tvOS we can intercept promotional purchases that come directly from the App Store. ... */" />
+            <marker date="1552869360000" expanded="true" signature="27802:27924" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="28018:28072" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="28085:29755" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="28108:28857" ph="/* Call UnityChannel initialize and (later) login asynchronously ... */" />
+            <marker date="1552869360000" expanded="true" signature="29452:29561" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="29914:30582" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30171:30232" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30288:30353" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30401:30465" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30516:30576" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30588:30704" ph="/// This will be called after a call to IAppleExtensions.RestoreTransactions(). ... " />
+            <marker date="1552869360000" expanded="true" signature="30758:30825" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="30831:31196" ph="/// iOS Specific. ... " />
+            <marker date="1552869360000" expanded="true" signature="31238:31313" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="31491:31696" ph="/* Promotional purchase has been detected. Handle this event by, e.g. presenting a parental gate. ... */" />
+            <marker date="1552869360000" expanded="true" signature="32158:32820" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="32876:34504" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="32924:33024" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="33059:33160" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="33222:33324" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="33334:33494" ph="/* For platforms needing Login, games utilizing a connected backend ... */" />
+            <marker date="1552869360000" expanded="true" signature="33550:33684" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="33694:33901" ph="/* Don't need to draw our UI whilst a purchase is in progress. ... */" />
+            <marker date="1552869360000" expanded="true" signature="33948:34397" ph="/* Sample code how to add accountId in developerPayload to pass it to getBuyIntentExtraParams ... */" />
+            <marker date="1552869360000" expanded="true" signature="34542:36152" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="34590:35449" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="34639:34762" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="34779:35439" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="35029:35423" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="35496:35593" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="35810:35887" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="35933:36038" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36051:36146" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36188:36933" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36233:36343" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36432:36666" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36750:36871" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="36972:37628" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="37072:37204" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="37365:37620" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="37664:37840" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="37721:37804" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="37892:38893" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="38266:38887" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="38938:39103" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="38999:39097" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="39177:39340" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="39238:39334" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="39378:39897" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="39934:39987" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="40026:40079" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="40121:40726" ph="{...}" />
+            <marker date="1552869360000" expanded="true" signature="40219:40720" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <marker date="1540319350000" expanded="false" signature="27:119" ph="..." />
+            <marker date="1540319350000" expanded="true" signature="153:7402" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="347:7400" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="384:446" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="545:565" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="685:705" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="1681:2558" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="1795:2344" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="1837:1938" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="1992:2096" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2184:2330" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2399:2548" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2441:2534" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2583:2872" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2644:2862" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2795:2848" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2898:3067" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="2959:3057" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="3099:3366" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="3160:3356" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="3390:5667" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="3450:5657" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="3690:3883" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="4113:4324" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="4495:4712" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="4883:5409" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="5108:5389" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="5430:5643" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="5718:5798" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="5808:5908" ph="/* Invoked to process a purchase of the product associated with this button ... */" />
+            <marker date="1540319350000" expanded="true" signature="5985:6324" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="6334:6433" ph="/* Invoked on a failed purchase of the product associated with this button ... */" />
+            <marker date="1540319350000" expanded="true" signature="6517:6733" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="6769:7394" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="6895:7384" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="6948:7054" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="7100:7218" ph="{...}" />
+            <marker date="1540319350000" expanded="true" signature="7258:7370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
