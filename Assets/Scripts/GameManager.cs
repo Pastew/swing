@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable]
+[Serializable]
 public class BonusPointCollectedEvent : UnityEvent<BonusPoint> { }
 
-[System.Serializable]
+[Serializable]
 public class LevelLoadedEvent : UnityEvent { }
 
 public class GameManager : MonoBehaviour
@@ -79,7 +77,6 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<Hero>().OnCountdownFinished();
         ScoreManager.instance.StartTimer();
         InputManager.instance.SetCanUseHook(true);
-        print("GO");
     }
 
     internal void OnRepeatButtonClick()
