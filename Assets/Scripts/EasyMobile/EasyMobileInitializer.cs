@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using EasyMobile;
+﻿using EasyMobile;
 using UnityEngine;
 
 public class EasyMobileInitializer : MonoBehaviour
@@ -13,14 +12,8 @@ public class EasyMobileInitializer : MonoBehaviour
 
     private void DefaultDialog_Completed(ConsentDialog dialog, ConsentDialog.CompletedResults results)
     {
-        bool shouldGrant = true;
-        foreach (KeyValuePair<string, bool> kvp in results.toggleValues)
-            if (kvp.Value != true)
-                shouldGrant = false;
-        
-        if(shouldGrant)
-            Advertising.GrantDataPrivacyConsent();
-        
+        Advertising.GrantDataPrivacyConsent();
+
         if (!RuntimeManager.IsInitialized())
         {
             RuntimeManager.Init();

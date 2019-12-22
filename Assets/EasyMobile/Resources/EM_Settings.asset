@@ -211,6 +211,9 @@ MonoBehaviour:
     mAndroidMaxLoginRequests: 0
     mGpgsDebugLogEnabled: 0
     mGpgsPopupGravity: 0
+    mGpgsShouldRequestServerAuthCode: 0
+    mGpgsForceRefreshServerAuthCode: 0
+    mGpgsOauthScopes: []
     mLeaderboards: []
     mAchievements: []
     mAndroidXmlResources: 
@@ -256,92 +259,24 @@ MonoBehaviour:
       mValue: android.permission.RECEIVE_BOOT_COMPLETED
   mPrivacySettings:
     mDefaultConsentDialog:
-      mContent: "pastew.com built the Swing app as a Freemium app. This SERVICE is
-        provided by pastew.com at no cost and is intended for use as is.\n\nThis page
-        is used to inform visitors regarding my policies with the collection, use,
-        and disclosure of Personal Information if anyone decided to use my Service.\n\nIf
-        you choose to use my Service, then you agree to the collection and use of
-        information in relation to this policy. The Personal Information that I collect
-        is used for providing and improving the Service. I will not use or share your
-        information with anyone except as described in this Privacy Policy.\n\nThe
-        terms used in this Privacy Policy have the same meanings as in our Terms and
-        Conditions, which is accessible at Swing unless otherwise defined in this
-        Privacy Policy.\n\n<b>Information Collection and Use\n</b>\nFor a better experience,
-        while using our Service, I may require you to provide us with certain personally
-        identifiable information. The information that I request will be retained
-        on your device and is not collected by me in any way.\n\nThe app does use
-        third party services that may collect information used to identify you.\n\nLink
-        to privacy policy of third party service providers used by the app\n\nGoogle
-        Play Services\nUnity\n\n<b>Log Data\n</b>\nI want to inform you that whenever
-        you use my Service, in a case of an error in the app I collect data and information
-        (through third party products) on your phone called Log Data. This Log Data
-        may include information such as your device Internet Protocol (\u201CIP\u201D)
-        address, device name, operating system version, the configuration of the app
-        when utilizing my Service, the time and date of your use of the Service, and
-        other statistics.\n\n<b>Cookies\n</b>\nCookies are files with a small amount
-        of data that are commonly used as anonymous unique identifiers. These are
-        sent to your browser from the websites that you visit and are stored on your
-        device's internal memory.\n\nThis Service does not use these \u201Ccookies\u201D
-        explicitly. However, the app may use third party code and libraries that use
-        \u201Ccookies\u201D to collect information and improve their services. You
-        have the option to either accept or refuse these cookies and know when a cookie
-        is being sent to your device. If you choose to refuse our cookies, you may
-        not be able to use some portions of this Service.\n\n<b>Service Providers\n</b>\nI
-        may employ third-party companies and individuals due to the following reasons:\n\nTo
-        facilitate our Service;\nTo provide the Service on our behalf;\nTo perform
-        Service-related services; or\nTo assist us in analyzing how our Service is
-        used.\nI want to inform users of this Service that these third parties have
-        access to your Personal Information. The reason is to perform the tasks assigned
-        to them on our behalf. However, they are obligated not to disclose or use
-        the information for any other purpose.\n\n<b>Security\n</b>\nI value your
-        trust in providing us your Personal Information, thus we are striving to use
-        commercially acceptable means of protecting it. But remember that no method
-        of transmission over the internet, or method of electronic storage is 100%
-        secure and reliable, and I cannot guarantee its absolute security.\n\n<b>Links
-        to Other Sites\n</b>\nThis Service may contain links to other sites. If you
-        click on a third-party link, you will be directed to that site. Note that
-        these external sites are not operated by me. Therefore, I strongly advise
-        you to review the Privacy Policy of these websites. I have no control over
-        and assume no responsibility for the content, privacy policies, or practices
-        of any third-party sites or services.\n\n<b>Children\u2019s Privacy\n</b>\nThese
-        Services do not address anyone under the age of 13. I do not knowingly collect
-        personally identifiable information from children under 13. In the case I
-        discover that a child under 13 has provided me with personal information,
-        I immediately delete this from our servers. If you are a parent or guardian
-        and you are aware that your child has provided us with personal information,
-        please contact me so that I will be able to do necessary actions.\n\n<b>Changes
-        to This Privacy Policy\n</b>\nI may update our Privacy Policy from time to
-        time. Thus, you are advised to review this page periodically for any changes.
-        I will notify you of any changes by posting the new Privacy Policy on this
-        page. These changes are effective immediately after they are posted on this
-        page.\n\n<b>Contact Us\n</b>\nIf you have any questions or suggestions about
-        my Privacy Policy, do not hesitate to contact me at kpastew@gmail.com.\n\nThis
-        privacy policy page was created at privacypolicytemplate.net and modified/generated
-        by App Privacy Policy Generator\n\n</EM_CONSENT_TOGGLE. Id = TG1121470464>\n</EM_CONSENT_TOGGLE.
-        Id = TG1099064832>\n</EM_CONSENT_BUTTON. Id = BT2106345472>\n"
+      mContent: 'This game collect and uses data about you to enable core gameplay
+        (e.g., saving your progress), fulfil your purchases, tailor your game experience,
+        improve our games, and provide personalised advertisements.
+
+        To continue playing, you need to confirm that you agree our Privacy Policy.
+
+
+        <a href="https://swing.flycricket.io/privacy.html">Privacy Policy</a>
+
+
+        </EM_CONSENT_BUTTON. Id = BT2106345472>
+
+'
       mTitle: Privacy Consent
-      mToggles:
-      - id: TG1121470464
-        title: Advertising
-        onDescription: 'Our ad providers will collect data and use a unique identifier
-          on your device to show you relevant ads. Here''re their policies: <a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a>
-          and <a href="https://unity3d.com/legal/privacy-policy">Unity Ads</a>.'
-        offDescription: 
-        isOn: 1
-        interactable: 1
-        shouldToggleDescription: 0
-      - id: TG1099064832
-        title: Analytics
-        onDescription: We use Unity Analytics service to collect certain analytical
-          information necessary for us to improve this app. You can't opt-out, if
-          you don't agree for using Unity Analytics please exit this game.
-        offDescription: 
-        isOn: 1
-        interactable: 0
-        shouldToggleDescription: 0
+      mToggles: []
       mActionButtons:
       - id: BT2106345472
-        title: Confirm
+        title: I AGREE
         interactable: 1
         titleColor: {r: 1, g: 1, b: 1, a: 1}
         backgroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -411,4 +346,4 @@ MonoBehaviour:
   mIsNotificationModuleEnable: 0
   mIsSharingModuleEnable: 0
   mActiveModuleIndex: 6
-  mIsSelectingModule: 0
+  mIsSelectingModule: 1
