@@ -2,103 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/DemoHome.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/DemoHome.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/AdvertisingDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/AdvertisingDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/ContactsDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/ContactsDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_RacingGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_RacingGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_RealtimeKitchenSink.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_RealtimeKitchenSink.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_TicTacToe.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_TicTacToe.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_TurnBasedKitchenSink.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_Multiplayer_TurnBasedKitchenSink.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_SavedGames.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GameServicesDemo_SavedGames.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GifDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/GifDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/InAppPurchasingDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/InAppPurchasingDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/MediaDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/MediaDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeAPIsDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeAPIsDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeUIDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeUIDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NotificationsDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NotificationsDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/PrivacyDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/PrivacyDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/SharingDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/SharingDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/UtilitiesDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/UtilitiesDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GifDemo/GifDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GifDemo/GifDemo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/NativeApisIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/NativeApisIcon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/PlaymakerLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/PlaymakerLogo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-Black_HorizLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-Black_HorizLogo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-White_HorizLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-White_HorizLogo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ads-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ads-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/background.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/checked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/checked.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/circle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/easymobile-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/easymobile-icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/em-title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/em-title.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/game-service-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/game-service-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/gif-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/gif-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/iap-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/iap-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/logo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/media-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/media-icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/notifications-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/notifications-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/privacy-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/privacy-icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/racing3d-use-nitro-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/racing3d-use-nitro-icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/restart.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/restart.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/share-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/share-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-osprite.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-osprite.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-xsprite.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-xsprite.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-emptycircle.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-emptycircle.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/unchecked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/unchecked.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/utility-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/utility-icon.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_BuildManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_BuildManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants_Version.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants_Version.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_GameServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_GameServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EasyMobileSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EasyMobileSettings.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/GUISkins/Textures/toggle-switch-background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/GUISkins/Textures/toggle-switch-background.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-back.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-back.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-down.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-down.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-up.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-up.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Gif.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Gif.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Giphy/Giphy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Giphy/Giphy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Editor/MinDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Editor/MinDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/GifEncoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/GifEncoder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/GifFrame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/GifFrame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/LzwEncoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/LzwEncoder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/NeuQuant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Gif/NeuQuant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/MinAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/MinAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/ReflectionUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/ReflectionUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Moments/Scripts/Worker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/NativeGifTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/NativeGifTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Recorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Recorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServicesSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServicesSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.124.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.124.0.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AdManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/MenuOpenAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MenuOpenAnimation.anim" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +241,7 @@
       <workItem from="1569220093795" duration="11000" />
       <workItem from="1576964423408" duration="282000" />
       <workItem from="1576965058864" duration="5004000" />
-      <workItem from="1577042319587" duration="1117000" />
+      <workItem from="1577042319587" duration="1260000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -353,11 +257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576976248991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New EasyMobile. Advertising works ok">
+      <created>1577048047041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577048047041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7576000" />
+    <option name="totallyTimeSpent" value="7719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +316,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some refactor. imported unity monetization" />
     <MESSAGE value="ads, consest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ads, consest" />
+    <MESSAGE value="New EasyMobile. Advertising works ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="New EasyMobile. Advertising works ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
