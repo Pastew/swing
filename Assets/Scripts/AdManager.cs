@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using EasyMobile;
 using UnityEngine;
 
 public class AdManager : MonoBehaviour
@@ -8,33 +8,30 @@ public class AdManager : MonoBehaviour
 
     private float timer = 0;
 
+    private Action callback;
+    
     private void Awake()
     {
         if (instance == null)
             instance = this;
+        
+        Advertising.InterstitialAdCompleted += InterstitialAdCompletedHandler;
+    }
+    
+    public void TryShowInterstitial(Action callback)
+    {
+        this.callback = callback;
+        ConsentStatus moduleConsent = Advertising.DataPrivacyConsent;
+        Advertising.GrantDataPrivacyConsent(AdNetwork.UnityAds);
+
+        if (Advertising.IsInterstitialAdReady())
+            Advertising.ShowInterstitialAd();
+        else
+            callback();
     }
 
-    private void Update()
+    private void InterstitialAdCompletedHandler(InterstitialAdNetwork arg1, AdPlacement arg2)
     {
-        timer += Time.deltaTime;
-        if (timer > 5)
-        {
-            timer = 0;
-            ShowInterstitial();
-        }
-    }
-
-    public void ShowInterstitial()
-    {
-        if (!GameSaveManager.instance.AdsEnabled())
-            return;
-
-        print("ShowInterstitial");
-    }
-
-    public void OnDisableAdsPurchased()
-    {
-        GameSaveManager.instance.OnDisableAdsPurchased();
-        UIManager.instance.HideDisableAdsIfPurchased();
+        callback();
     }
 }

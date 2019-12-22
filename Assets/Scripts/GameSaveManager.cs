@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameSaveManager : MonoBehaviour
 {
@@ -23,8 +20,6 @@ public class GameSaveManager : MonoBehaviour
     {
         GameSave gs = new GameSave();
 
-        gs.adsEnabled = true;
-
         return gs;
     }
 
@@ -44,20 +39,7 @@ public class GameSaveManager : MonoBehaviour
     {
         GameSave gs = new GameSave();
 
-        gs.adsEnabled = true;
-
         return gs;
-    }
-
-    internal bool AdsEnabled()
-    {
-        return gameSave.adsEnabled;
-    }
-
-    public void OnDisableAdsPurchased()
-    {
-        gameSave.adsEnabled = false;
-        SaveGameSave();
     }
 
 }

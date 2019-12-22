@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using EasyMobile;
 using UnityEngine;
+using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -37,16 +39,15 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        HideDisableAdsIfPurchased();
+        HideRemoveAdsButtonIfPurchased();
         GameManager.instance.SubscribeToLevelLoadedEvent(OnLevelLoaded);
     }
 
-    public void HideDisableAdsIfPurchased()
+    public void HideRemoveAdsButtonIfPurchased()
     {
-        print("HideDisableAdsIfPurchased");
-        if (!GameSaveManager.instance.AdsEnabled())
+        if (Advertising.IsAdRemoved())
         {
-            menuUI.transform.Find("NoAds").gameObject.GetComponent<Image>().enabled = false;
+            menuUI.transform.Find("RemoveAds").gameObject.SetActive(false);
         }
     }
 

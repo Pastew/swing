@@ -3,10 +3,14 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [Serializable]
-public class BonusPointCollectedEvent : UnityEvent<BonusPoint> { }
+public class BonusPointCollectedEvent : UnityEvent<BonusPoint>
+{
+}
 
 [Serializable]
-public class LevelLoadedEvent : UnityEvent { }
+public class LevelLoadedEvent : UnityEvent
+{
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -40,6 +44,11 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnHeroReachedGoal()
+    {
+        AdManager.instance.TryShowInterstitial(ShowLevelResult);
+    }
+
+    private void ShowLevelResult()
     {
         UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.GetScore());
         Clock.instance.StopClock();
