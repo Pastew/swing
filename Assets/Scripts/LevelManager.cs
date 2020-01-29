@@ -29,8 +29,9 @@ public class LevelManager : MonoBehaviour
         }
         catch (ArgumentException argEx)
         {
-            Debug.LogError("Level you're trying to load doesn't exist: " + path + ".  will load level 0");
-            Loadlevel(0);
+            int lvlToLoad = 1;
+            Debug.LogError($"Level you're trying to load doesn't exist: {path}.  will load level {lvlToLoad}");
+            Loadlevel(lvlToLoad);
             return;
         }
 
