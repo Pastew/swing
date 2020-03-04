@@ -48,7 +48,6 @@ public class ScoreManager : MonoBehaviour
     public void OnBonusPointCollected(BonusPoint bonusPoint)
     {
         score.bonusPoints++;
-        UIManager.instance.UpdateScoreText(CalculateFinalScore(score), bonus);
     }
 
     internal void StartTimer()
@@ -64,9 +63,7 @@ public class ScoreManager : MonoBehaviour
     public void OnTimeUnitElapsed()
     {
         score.timeElapsed++;
-        UIManager.instance.UpdateScoreText(CalculateFinalScore(score), -1);
     }
-
 
     // Calculations
     private int CalculateFinalScore(Score score)

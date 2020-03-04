@@ -18,7 +18,6 @@ public class UIManager : MonoBehaviour
     // Childs
     private GameObject menuUI;
     private GameObject counterUI;
-    private GameObject hudUI;
     private GameObject coinsPanel;
     private GameObject coinsText;
 
@@ -29,7 +28,6 @@ public class UIManager : MonoBehaviour
 
         menuUI = transform.Find("Menu").gameObject;
         counterUI = transform.Find("Counter").gameObject;
-        hudUI = transform.Find("HUD").gameObject;
         coinsPanel = menuUI.transform.Find("CoinsPanel").gameObject;
         coinsText = coinsPanel.transform.Find("CoinsText").gameObject;
 
@@ -59,20 +57,17 @@ public class UIManager : MonoBehaviour
 
     internal void ShowTutorial()
     {
-        transform.Find("TutorialPanel").gameObject.SetActive(true);
     }
 
     internal void OnLevelLoaded()
     {
         ScoreSlider.instance.ResetScoreSlider();
-        UpdateScoreText(ScoreManager.instance.GetScore().finalScore);
         StartCountdown();
     }
 
     internal void ShowMenu()
     {
         HideAllUI();
-        hudUI.SetActive(false);
         SetMenuCanvasVisible(true);
     }
 
@@ -100,7 +95,6 @@ public class UIManager : MonoBehaviour
     {
         GameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
-        hudUI.SetActive(true);
         ScoreSlider.instance.StarsInSliderIdle();
     }
 
@@ -109,7 +103,6 @@ public class UIManager : MonoBehaviour
     {
         GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
-        hudUI.SetActive(true);
         ScoreSlider.instance.StarsInSliderIdle();
     }
 
@@ -143,14 +136,5 @@ public class UIManager : MonoBehaviour
 
         SetCounterCanvasText("");
         GameManager.instance.OnCountdownFinished();
-    }
-
-    // HUD
-    public void UpdateScoreText(int newScore, int change = 0)
-    {
-        if (newScore >= 0)
-            hudUI.GetComponentInChildren<Text>().text = newScore.ToString();
-        else
-            hudUI.GetComponentInChildren<Text>().text = "<0";
     }
 }
