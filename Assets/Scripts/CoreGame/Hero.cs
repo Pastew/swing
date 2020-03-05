@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
@@ -52,10 +49,10 @@ public class Hero : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        BonusPoint bonusPoint = collision.gameObject.GetComponent<BonusPoint>();
-        if (bonusPoint)
+        Star star = collision.gameObject.GetComponent<Star>();
+        if (star)
         {
-            gameManager.OnBonusPointCollected(bonusPoint);
+            gameManager.OnBonusPointCollected(star);
         }
     }
 

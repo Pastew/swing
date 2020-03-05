@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using EasyMobile;
 using UnityEngine;
-using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -11,8 +8,7 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     // Parameters
-    [Tooltip("In seconds")]
-    private int countdownTicks = 4;
+    [Tooltip("In seconds")] private int countdownTicks = 4;
     private float oneCountdownLength = 0.5f;
 
     // Childs
@@ -61,7 +57,6 @@ public class UIManager : MonoBehaviour
 
     internal void OnLevelLoaded()
     {
-        ScoreSlider.instance.ResetScoreSlider();
         StartCountdown();
     }
 
@@ -72,13 +67,11 @@ public class UIManager : MonoBehaviour
     }
 
     // Menu canvas
-    internal void ShowLevelResultsScreen(Score score)
+    internal void ShowLevelResultsScreen(LevelScore levelScore)
     {
         SetMenuCanvasVisible(true);
-        ScoreSlider.instance.ShowStarsResult();
-        print("Clicks: " + score.clicks);
-        print("Time elapsed: " + score.timeElapsed);
-        print("Final score: " + score.finalScore);
+        print("Clicks: " + levelScore.clicks);
+        print("Time elapsed: " + levelScore.time);
     }
 
     public void SetMenuCanvasVisible(bool visible)
@@ -95,7 +88,6 @@ public class UIManager : MonoBehaviour
     {
         GameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
-        ScoreSlider.instance.StarsInSliderIdle();
     }
 
 
@@ -103,7 +95,6 @@ public class UIManager : MonoBehaviour
     {
         GameManager.instance.OnRepeatButtonClick();
         HideAllUI();
-        ScoreSlider.instance.StarsInSliderIdle();
     }
 
     // Coins

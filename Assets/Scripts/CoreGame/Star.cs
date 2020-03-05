@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using CoreGame;
 using UnityEngine;
 
-public class BonusPoint : MonoBehaviour
+public class Star : MonoBehaviour, ICollectable 
 {
     private float rotateSpeed = 50f;
 

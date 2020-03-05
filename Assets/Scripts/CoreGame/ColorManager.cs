@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ColorManager : MonoBehaviour
 {
@@ -14,21 +12,21 @@ public class ColorManager : MonoBehaviour
     GameObject heroPrefab;
     public Color heroColor;
 
-    GameObject bonusPointPrefab;
+    GameObject starPrefab;
     public Color starColor;
 
-    Material swingEdgeMaterial;
-    Material swingFillMaterial;
-    public Color swingEdgeMaterialColor;
-    public Color swingFillMaterialColor;
+    Material edgeMaterial;
+    Material fillMaterial;
+    public Color edgeMaterialColor;
+    public Color fillMaterialColor;
 
     private void Awake()
     {
-        swingEdgeMaterial = (Resources.Load("TerrainMaterials/SwingEdgeMaterial") as Material);
-        swingFillMaterial = (Resources.Load("TerrainMaterials/SwingFillMaterial") as Material);
-        heroPrefab = (Resources.Load("Prefabs/Hero") as GameObject);
-        goalPrefab = (Resources.Load("Prefabs/Goal") as GameObject);
-        bonusPointPrefab = (Resources.Load("Prefabs/BonusPoint") as GameObject);
+        edgeMaterial = Resources.Load("TerrainMaterials/SwingEdgeMaterial") as Material;
+        fillMaterial = Resources.Load("TerrainMaterials/SwingFillMaterial") as Material;
+        heroPrefab = Resources.Load("Prefabs/Hero") as GameObject;
+        goalPrefab = Resources.Load("Prefabs/Goal") as GameObject;
+        starPrefab = Resources.Load("Prefabs/BonusPoint") as GameObject;
     }
 
     private void Start()
@@ -48,8 +46,8 @@ public class ColorManager : MonoBehaviour
     {
         Camera.main.backgroundColor = cameraColor;
 
-        swingEdgeMaterial.color = swingEdgeMaterialColor;
-        swingFillMaterial.color = swingFillMaterialColor;
+        edgeMaterial.color = edgeMaterialColor;
+        fillMaterial.color = fillMaterialColor;
 
         if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Hero>())
         {
@@ -69,13 +67,13 @@ public class ColorManager : MonoBehaviour
             goalPrefab.GetComponent<SpriteRenderer>().color = goalColor;
         }
 
-        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<BonusPoint>())
+        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Star>())
         {
-            FindObjectOfType<BonusPoint>().GetComponent<SpriteRenderer>().color = starColor;
+            FindObjectOfType<Star>().GetComponent<SpriteRenderer>().color = starColor;
         }
         else
         {
-            bonusPointPrefab.GetComponent<SpriteRenderer>().color = starColor;
+            starPrefab.GetComponent<SpriteRenderer>().color = starColor;
         }
     }
 }

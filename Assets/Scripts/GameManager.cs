@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [Serializable]
-public class BonusPointCollectedEvent : UnityEvent<BonusPoint>
+public class BonusPointCollectedEvent : UnityEvent<Star>
 {
 }
 
@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
 
     // Development options
     [Tooltip("Only for development build")]
-    public int startingLevel = 0;
 
     private BonusPointCollectedEvent bonusPointCollectedEvent;
     private LevelLoadedEvent levelLoadedEvent;
@@ -32,7 +31,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        //LevelManager.instance.Loadlevel(Debug.isDebugBuild ? startingLevel : 0);
         UIManager.instance.ShowMenu();
     }
 
@@ -50,8 +48,7 @@ public class GameManager : MonoBehaviour
 
     private void ShowLevelResult()
     {
-        UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.GetScore());
-        Clock.instance.StopClock();
+        UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.LevelScore);
         InputManager.instance.OnReachedGoal();
     }
 
@@ -65,13 +62,13 @@ public class GameManager : MonoBehaviour
         levelLoadedEvent.Invoke();
     }
 
-    internal void OnBonusPointCollected(BonusPoint bonusPoint)
+    internal void OnBonusPointCollected(Star star)
     {
-        bonusPointCollectedEvent.Invoke(bonusPoint);
-        Destroy(bonusPoint.gameObject);
+        bonusPointCollectedEvent.Invoke(star);
+        Destroy(star.gameObject);
     }
 
-    public void SubscribeToBonusPointCollected(UnityAction<BonusPoint> subscriber)
+    public void SubscribeToBonusPointCollected(UnityAction<Star> subscriber)
     {
         bonusPointCollectedEvent.AddListener(subscriber);
     }
@@ -84,7 +81,6 @@ public class GameManager : MonoBehaviour
     public void OnCountdownFinished()
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
-        ScoreManager.instance.StartTimer();
         InputManager.instance.SetCanUseHook(true);
     }
 

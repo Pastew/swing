@@ -2,41 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/UI/MenuOpenAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MenuOpenAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Packages/PlayMakerActions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/BonusPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/BonusPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gradients.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimatorController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimatorController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockBase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockBase.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockHand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockHand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/clock.svg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs.meta" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <marker date="1569011355090" expanded="false" signature="6:92" ph="..." />
-                <marker date="1569011355090" expanded="true" signature="127:1708" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="326:473" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="531:595" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="628:656" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="716:1059" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="792:851" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="907:1053" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="1116:1312" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="1227:1306" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="1372:1568" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="1411:1562" ph="{...}" />
-                <marker date="1569011355090" expanded="true" signature="1605:1704" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -60,30 +90,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/AppStoreSettingsEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ferr/2DTerrain/Examples/Assets/BlobShadow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ferr/Path/Editor/PathEditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSave.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/AppStoreSettingsEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,11 +130,25 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" />
       </list>
     </option>
   </component>
@@ -107,123 +160,47 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Modules" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Modules" type="1045f7f1:UnityExplorerNode" />
-              <item name="Advertising" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Modules" type="1045f7f1:UnityExplorerNode" />
-              <item name="Advertising" type="1045f7f1:UnityExplorerNode" />
-              <item name="NetworkClients" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="CoreGame" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="EasyMobile" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1YhkuopG7zMhW8EengCAX59pO15" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="69143">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="69143" />
-      <option name="userSelectedPid" value="false" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -242,6 +219,9 @@
       <workItem from="1576964423408" duration="282000" />
       <workItem from="1576965058864" duration="5004000" />
       <workItem from="1577042319587" duration="1260000" />
+      <workItem from="1583402439996" duration="1048000" />
+      <workItem from="1583406190370" duration="2965000" />
+      <workItem from="1583418216561" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -267,57 +247,35 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7719000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1965812" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31229946" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.4406417" />
-      <window_info anchor="bottom" id="Unity" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Change Signature" order="15" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some refactor. imported unity monetization" />
     <MESSAGE value="ads, consest" />
     <MESSAGE value="New EasyMobile. Advertising works ok" />
     <option name="LAST_COMMIT_MESSAGE" value="New EasyMobile. Advertising works ok" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup" timestamp="1583418290233">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1583418290233" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,905 +286,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" />
-    <entry file="file://$PROJECT_DIR$/Assets/Ferr/Path/Editor/PathEditorUtil.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <marker date="1552538688000" expanded="false" signature="28:74" ph="..." />
-            <marker date="1552538688000" expanded="true" signature="108:7889" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="115:305" ph="/// Automatically initializes Unity IAP with the products defined in the IAP Catalog (if enabled in the UI). ... " />
-            <marker date="1552538688000" expanded="true" signature="364:7887" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="1014:1285" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="1189:1275" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="1337:1798" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="1842:1921" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="1978:2211" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2004:2201" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2056:2154" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2221:2352" ph="/// Creates the static instance of CodelessIAPStoreListener and initializes purchasing ... " />
-            <marker date="1552538688000" expanded="true" signature="2421:2685" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2531:2675" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2734:2793" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2846:2905" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="2964:3209" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3031:3173" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3090:3159" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3262:3602" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3375:3465" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3651:3710" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3762:3824" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="3879:3943" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4001:4068" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4124:4686" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4170:4623" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4339:4585" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4412:4567" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4781:5044" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="4969:5034" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="5119:5248" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="5326:6843" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="5598:5980" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="5686:5966" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="5831:5903" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="6043:6297" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="6178:6242" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="6400:6723" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="6928:7881" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="7037:7271" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="7114:7257" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="7334:7463" ph="{...}" />
-            <marker date="1552538688000" expanded="true" signature="7566:7850" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-446">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <marker date="1540319350000" expanded="false" signature="27:119" ph="..." />
-            <marker date="1540319350000" expanded="true" signature="153:7402" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="347:7400" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="384:446" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="545:565" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="685:705" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="1681:2558" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="1795:2344" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="1837:1938" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="1992:2096" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2184:2330" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2399:2548" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2441:2534" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2583:2872" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2644:2862" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2795:2848" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2898:3067" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="2959:3057" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="3099:3366" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="3160:3356" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="3390:5667" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="3450:5657" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="3690:3883" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="4113:4324" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="4495:4712" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="4883:5409" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="5108:5389" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="5430:5643" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="5718:5798" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="5808:5908" ph="/* Invoked to process a purchase of the product associated with this button ... */" />
-            <marker date="1540319350000" expanded="true" signature="5985:6324" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="6334:6433" ph="/* Invoked on a failed purchase of the product associated with this button ... */" />
-            <marker date="1540319350000" expanded="true" signature="6517:6733" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="6769:7394" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="6895:7384" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="6948:7054" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="7100:7218" ph="{...}" />
-            <marker date="1540319350000" expanded="true" signature="7258:7370" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GameSave.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1569011355121" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569011355121" expanded="true" signature="138:1604" ph="{...}" />
-            <marker date="1569011355121" expanded="true" signature="237:460" ph="{...}" />
-            <marker date="1569011355121" expanded="true" signature="510:923" ph="{...}" />
-            <marker date="1569011355121" expanded="true" signature="986:1345" ph="{...}" />
-            <marker date="1569011355121" expanded="true" signature="1377:1602" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <marker date="1552869360000" expanded="true" signature="94:272" ph="/* You must obfuscate your secrets using Window &gt; Unity IAP &gt; Receipt Validation Obfuscator ... */" />
-            <marker date="1552869360000" expanded="true" signature="281:789" ph="/* ##define DELAY_CONFIRMATION // Returns PurchaseProcessingResult.Pending from ProcessPurchase, then calls Confir ... */" />
-            <marker date="1552869360000" expanded="false" signature="797:960" ph="..." />
-            <marker date="1552869360000" expanded="true" signature="1048:1189" ph="/// An example of Unity IAP functionality. ... " />
-            <marker date="1552869360000" expanded="true" signature="1279:40728" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="2687:2789" ph="/// This will be called when Unity IAP has finished initialising. ... " />
-            <marker date="1552869360000" expanded="true" signature="2879:8413" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="3517:3983" ph="/* Sample code for expose product sku details for google play store ... */" />
-            <marker date="1552869360000" expanded="true" signature="4035:4224" ph="/* On Apple platforms we need to handle deferred purchases caused by Apple's Ask to Buy feature. ... */" />
-            <marker date="1552869360000" expanded="true" signature="4450:4605" ph="/* Sample code for expose product sku details for apple store ... */" />
-            <marker date="1552869360000" expanded="true" signature="4700:8259" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="4752:8249" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="4858:5256" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="5312:5596" ph="/* Set all these products to be visible in the user's App Store according to Apple's Promotional IAP feature ... */" />
-            <marker date="1552869360000" expanded="true" signature="10868:10955" ph="/// This will be called when a purchase completes. ... " />
-            <marker date="1552869360000" expanded="true" signature="11028:15647" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="11386:11997" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="11584:11987" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="13863:14160" ph="/* For improved security, consider comparing the signed ... */" />
-            <marker date="1552869360000" expanded="true" signature="14856:15383" ph="/* Indicate if we have handled this purchase. ... */" />
-            <marker date="1552869360000" expanded="true" signature="16337:16429" ph="/// This will be called if an attempted purchase fails. ... " />
-            <marker date="1552869360000" expanded="true" signature="16501:18907" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="16844:17028" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="17067:18862" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="17316:17719" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="17733:17864" ph="/* Determine if the user already owns this item and that it can be added to ... */" />
-            <marker date="1552869360000" expanded="true" signature="17952:18129" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="18209:18424" ph="/* In Unity 5.3 the enum PurchaseFailureReason.DuplicateTransaction ... */" />
-            <marker date="1552869360000" expanded="true" signature="18978:19710" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="19059:19704" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="19773:19868" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="19930:20117" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="20142:29761" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="20216:20498" ph="/* The FakeStore supports: no-ui (always succeeding), basic ui (purchase pass/fail), and ... */" />
-            <marker date="1552869360000" expanded="true" signature="20947:21122" ph="/* CloudMoolah Configuration setings ... */" />
-            <marker date="1552869360000" expanded="true" signature="21324:21494" ph="/* This enables the CloudMoolah test mode for local testing. ... */" />
-            <marker date="1552869360000" expanded="true" signature="21593:21809" ph="/* This records whether we are using Cloud Moolah IAP. ... */" />
-            <marker date="1552869360000" expanded="true" signature="21962:22294" ph="/* UnityChannel, provides access to Xiaomi MiPay. ... */" />
-            <marker date="1552869360000" expanded="true" signature="22641:23053" ph="/* Define our products. ... */" />
-            <marker date="1552869360000" expanded="true" signature="23171:23630" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="23228:23513" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="23340:23432" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="23530:23620" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="23640:23975" ph="/* In this case our products have the same identifier across all the App stores, ... */" />
-            <marker date="1552869360000" expanded="true" signature="24066:24377" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="24738:24994" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="25198:25213" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="25530:25541" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="25622:25633" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="25646:26068" ph="/* Write Amazon's JSON description of our products to storage when using Amazon's local sandbox. ... */" />
-            <marker date="1552869360000" expanded="true" signature="26172:26502" ph="/* This records whether we are using Samsung IAP. Currently ISamsungAppsExtensions.RestoreTransactions ... */" />
-            <marker date="1552869360000" expanded="true" signature="26656:26843" ph="/* This selects the GroupId that was created in the Tizen Store for this set of products ... */" />
-            <marker date="1552869360000" expanded="true" signature="26971:27167" ph="/* On iOS and tvOS we can intercept promotional purchases that come directly from the App Store. ... */" />
-            <marker date="1552869360000" expanded="true" signature="27802:27924" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="28018:28072" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="28085:29755" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="28108:28857" ph="/* Call UnityChannel initialize and (later) login asynchronously ... */" />
-            <marker date="1552869360000" expanded="true" signature="29452:29561" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="29914:30582" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30171:30232" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30288:30353" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30401:30465" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30516:30576" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30588:30704" ph="/// This will be called after a call to IAppleExtensions.RestoreTransactions(). ... " />
-            <marker date="1552869360000" expanded="true" signature="30758:30825" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="30831:31196" ph="/// iOS Specific. ... " />
-            <marker date="1552869360000" expanded="true" signature="31238:31313" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="31491:31696" ph="/* Promotional purchase has been detected. Handle this event by, e.g. presenting a parental gate. ... */" />
-            <marker date="1552869360000" expanded="true" signature="32158:32820" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="32876:34504" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="32924:33024" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="33059:33160" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="33222:33324" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="33334:33494" ph="/* For platforms needing Login, games utilizing a connected backend ... */" />
-            <marker date="1552869360000" expanded="true" signature="33550:33684" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="33694:33901" ph="/* Don't need to draw our UI whilst a purchase is in progress. ... */" />
-            <marker date="1552869360000" expanded="true" signature="33948:34397" ph="/* Sample code how to add accountId in developerPayload to pass it to getBuyIntentExtraParams ... */" />
-            <marker date="1552869360000" expanded="true" signature="34542:36152" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="34590:35449" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="34639:34762" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="34779:35439" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="35029:35423" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="35496:35593" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="35810:35887" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="35933:36038" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36051:36146" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36188:36933" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36233:36343" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36432:36666" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36750:36871" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="36972:37628" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="37072:37204" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="37365:37620" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="37664:37840" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="37721:37804" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="37892:38893" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="38266:38887" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="38938:39103" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="38999:39097" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="39177:39340" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="39238:39334" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="39378:39897" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="39934:39987" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="40026:40079" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="40121:40726" ph="{...}" />
-            <marker date="1552869360000" expanded="true" signature="40219:40720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ColorManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/AdManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/IAPMoneyManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Goal.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hero.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/UnityAds/link.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="560" column="27" selection-start-line="560" selection-start-column="27" selection-end-line="560" selection-end-column="27" />
-          <folding>
-            <marker date="1576577512000" expanded="false" signature="6:211" ph="..." />
-            <marker date="1576577512000" expanded="true" signature="238:32458" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="285:32456" ph="{...}" />
-            <marker date="1576577512000" expanded="false" signature="301:1294" ph="Privacy Policy PlaceHolders &amp; URLs" />
-            <marker date="1576577512000" expanded="true" signature="754:1017" ph="/* The opt-out URL for Unity Analytics must be fetched at runtime, so we use a placeholder ... */" />
-            <marker date="1576577512000" expanded="false" signature="1304:1868" ph="Disclaimer" />
-            <marker date="1576577512000" expanded="false" signature="1878:6767" ph="Demo Consent Dialog - Sample Content In English" />
-            <marker date="1576577512000" expanded="true" signature="2053:2354" ph="/// ----------------------------------------------------------------- ... " />
-            <marker date="1576577512000" expanded="true" signature="4943:5362" ph="/* The title of the toggle for Unity Analytics consent in English ... */" />
-            <marker date="1576577512000" expanded="false" signature="6777:11933" ph="Demo Consent Dialog - Sample Content In French" />
-            <marker date="1576577512000" expanded="true" signature="6841:7274" ph="/// ----------------------------------------------------------------- ... " />
-            <marker date="1576577512000" expanded="false" signature="11943:12316" ph="Toggle and Button IDs" />
-            <marker date="1576577512000" expanded="false" signature="12326:12651" ph="Public Settings" />
-            <marker date="1576577512000" expanded="true" signature="12909:13363" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="13026:13115" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="13131:13241" ph="/* Fetch Unity Analytics URL for use in case the consent dialog ... */" />
-            <marker date="1576577512000" expanded="true" signature="13388:13570" ph="/* If we think consent is not needed for our app (or the current device ... */" />
-            <marker date="1576577512000" expanded="true" signature="13609:13757" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="13771:13959" ph="/* Here's the case where we want to ask for consent before initializing. ... */" />
-            <marker date="1576577512000" expanded="true" signature="14047:14458" ph="/* If there's a stored consent: ... */" />
-            <marker date="1576577512000" expanded="true" signature="14491:14639" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="14653:15306" ph="/* If there's no consent: ... */" />
-            <marker date="1576577512000" expanded="true" signature="15390:15532" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="15577:15885" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="15599:15817" ph="/* Failure: also show the demo consent dialog in English. ... */" />
-            <marker date="1576577512000" expanded="true" signature="15920:16109" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="16183:16514" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="16240:16450" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="16582:16706" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="16783:16920" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17003:17724" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17039:17386" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17110:17309" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17403:17714" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17465:17646" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="17734:18002" ph="/// Constructs the consent dialog. Set localize to true to use the ... " />
-            <marker date="1576577512000" expanded="true" signature="18077:23239" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="18100:19165" ph="/* Here we create a consent dialog completely from coding. ... */" />
-            <marker date="1576577512000" expanded="true" signature="20991:21418" ph="/* Build and append the Unity Analytics toggle. ... */" />
-            <marker date="1576577512000" expanded="true" signature="21980:22366" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="22383:22589" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="22773:22883" ph="/* Build and append the accept button. ... */" />
-            <marker date="1576577512000" expanded="false" signature="23249:26858" ph="Unity Analytics URL Fetching" />
-            <marker date="1576577512000" expanded="true" signature="23295:23485" ph="/// Fetchs the Unity Analytics opt out URL. ... " />
-            <marker date="1576577512000" expanded="true" signature="23589:26170" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="23754:23873" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="23903:24331" ph="/* Here we need to invokes the methods via reflection because we don't know if ... */" />
-            <marker date="1576577512000" expanded="true" signature="24682:24858" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="24901:25088" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="25406:25582" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="25810:26158" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="25878:25972" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="26043:26139" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="26268:26488" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="26588:26838" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="27504:30825" ph="Demo Consent Dialog Event Handlers" />
-            <marker date="1576577512000" expanded="true" signature="27504:27694" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="27766:27847" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="27959:30589" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="28213:29551" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="28353:29537" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="28599:28836" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="28893:29133" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="29198:29399" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="29245:29377" ph="/* We don't store the UnityAnalytics consent ourselves as it is managed ... */" />
-            <marker date="1576577512000" expanded="true" signature="29424:29519" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="29875:30012" ph="/* So now we have applied the consent, we can initialize EM runtime ... */" />
-            <marker date="1576577512000" expanded="true" signature="30061:30128" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="30145:30579" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="30176:30335" ph="/* The initialization has already been done. Inform the user ... */" />
-            <marker date="1576577512000" expanded="true" signature="30698:30805" ph="{...}" />
-            <marker date="1576577512000" expanded="false" signature="30835:32450" ph="Preview Consent Dialog Event Handlers" />
-            <marker date="1576577512000" expanded="true" signature="30947:31273" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="31348:31436" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="31551:32211" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="31753:32129" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="31897:32115" ph="{...}" />
-            <marker date="1576577512000" expanded="true" signature="32323:32430" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding>
-            <marker date="1576964531074" expanded="false" signature="6:92" ph="..." />
-            <marker date="1576964531074" expanded="true" signature="119:4622" ph="{...}" />
-            <marker date="1576964531074" expanded="true" signature="126:534" ph="/// This class represents a collection of individual consents for ... " />
-            <marker date="1576964531074" expanded="true" signature="585:4620" ph="{...}" />
-            <marker date="1576964531074" expanded="false" signature="668:1915" ph="3rd-party Services Consent" />
-            <marker date="1576964531074" expanded="true" signature="712:994" ph="/* The consent for the whole Advertising module. ... */" />
-            <marker date="1576964531074" expanded="true" signature="1077:1261" ph="/* The consent for the whole Notifications module. ... */" />
-            <marker date="1576964531074" expanded="true" signature="1345:1895" ph="/* Since this demo app also has In-App Purchase, which forces the use of ... */" />
-            <marker date="1576964531074" expanded="true" signature="1925:2120" ph="/// To JSON string. ... " />
-            <marker date="1576964531074" expanded="true" signature="2162:2227" ph="{...}" />
-            <marker date="1576964531074" expanded="true" signature="2237:2406" ph="/// Converts this object to JSON and stores in PlayerPrefs with the provided key. ... " />
-            <marker date="1576964531074" expanded="true" signature="2443:2515" ph="{...}" />
-            <marker date="1576964531074" expanded="true" signature="2525:2919" ph="/// Forwards the consent to relevant modules of EM. ... " />
-            <marker date="1576964531074" expanded="true" signature="2990:3751" ph="{...}" />
-            <marker date="1576964531074" expanded="true" signature="3761:3938" ph="/// Saves the give app consent to PlayerPrefs as JSON using the demo storage key. ... " />
-            <marker date="1576964531074" expanded="true" signature="4008:4107" ph="{...}" />
-            <marker date="1576964531074" expanded="true" signature="4117:4306" ph="/// Loads the demo app consent from PlayerPrefs, returns null if nothing stored previously. ... " />
-            <marker date="1576964531074" expanded="true" signature="4364:4614" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameSave.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1576971999811" expanded="true" signature="21:49" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-          <folding>
-            <marker date="1569011355091" expanded="false" signature="6:118" ph="..." />
-            <marker date="1569011355091" expanded="true" signature="240:1844" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="435:607" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="626:877" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="728:777" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="821:871" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="952:1014" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1049:1094" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1128:1291" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1333:1486" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1517:1596" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1644:1696" ph="{...}" />
-            <marker date="1569011355091" expanded="true" signature="1731:1842" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <marker date="1576972811957" expanded="false" signature="6:58" ph="..." />
-            <marker date="1576972811957" expanded="true" signature="137:141" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="200:204" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="246:2550" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="531:686" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="704:838" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="916:1025" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="1062:1139" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="1175:1355" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="1390:1644" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="1708:1813" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="1897:1967" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="2036:2098" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="2137:2300" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="2341:2405" ph="{...}" />
-            <marker date="1576972811957" expanded="true" signature="2489:2548" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3927">
-          <caret line="573" column="8" selection-start-line="573" selection-start-column="8" selection-end-line="573" selection-end-column="8" />
-          <folding>
-            <marker date="1576964531444" expanded="false" signature="6:119" ph="..." />
-            <marker date="1576964531444" expanded="true" signature="141:51350" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="215:51348" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="2014:2277" ph="/// Since &lt;see cref=&quot;AutoLoadAdsMode&quot;/&gt; can be changed in both &lt;see cref=&quot;Update&quot;/&gt; method and from outside scrip ... " />
-            <marker date="1576964531444" expanded="false" signature="2517:3386" ph="Ad Events" />
-            <marker date="1576964531444" expanded="true" signature="2544:2634" ph="/// Occurs when an interstitial ad is closed. ... " />
-            <marker date="1576964531444" expanded="true" signature="2740:2925" ph="/// Occurs when a rewarded ad is skipped (the user didn't complete watching ... " />
-            <marker date="1576964531444" expanded="true" signature="3021:3138" ph="/// Occurs when a rewarded ad completed and the user should be rewarded. ... " />
-            <marker date="1576964531444" expanded="true" signature="3236:3319" ph="/// Occurs when ads have been removed. ... " />
-            <marker date="1576964531444" expanded="false" signature="3396:10819" ph="Ad Clients" />
-            <marker date="1576964531444" expanded="true" signature="3424:3547" ph="/// Gets the AdColony client. ... " />
-            <marker date="1576964531444" expanded="true" signature="3603:3847" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="3629:3837" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="3857:3974" ph="/// Gets the AdMob client. ... " />
-            <marker date="1576964531444" expanded="true" signature="4024:4253" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="4050:4243" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="4263:4385" ph="/// Gets the AppLovin client. ... " />
-            <marker date="1576964531444" expanded="true" signature="4441:4685" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="4467:4675" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="4696:4822" ph="/// Gets the Chartboost client. ... " />
-            <marker date="1576964531444" expanded="true" signature="4882:5136" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="4908:5126" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="5146:5293" ph="/// Gets the Facebook Audience Network client. ... " />
-            <marker date="1576964531444" expanded="true" signature="5363:5642" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="5389:5632" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="5652:5770" ph="/// Gets the Heyzap client. ... " />
-            <marker date="1576964531444" expanded="true" signature="5822:6056" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="5848:6046" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="6066:6183" ph="/// Gets the MoPub client. ... " />
-            <marker date="1576964531444" expanded="true" signature="6233:6462" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="6259:6452" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="6472:6599" ph="/// Gets the ironSource client. ... " />
-            <marker date="1576964531444" expanded="true" signature="6659:6913" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="6685:6903" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="6923:7042" ph="/// Gets the Tapjoy client. ... " />
-            <marker date="1576964531444" expanded="true" signature="7094:7328" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7120:7318" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7338:7462" ph="/// Gets the Unity Ads client. ... " />
-            <marker date="1576964531444" expanded="true" signature="7518:7762" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7544:7752" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7821:8753" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7847:8743" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7913:8682" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="7981:8664" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="8818:9792" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="8844:9782" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="8916:9715" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="8984:9697" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="9853:10799" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="9879:10789" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="9947:10726" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="10015:10708" ph="{...}" />
-            <marker date="1576964531444" expanded="false" signature="10829:11717" ph="MonoBehaviour Events" />
-            <marker date="1576964531444" expanded="true" signature="10879:11014" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="11036:11289" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="11312:11697" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="11335:11468" ph="/* Always track EM_Settings.Advertising.AutoLoadAdsMode so that we can adjust ... */" />
-            <marker date="1576964531444" expanded="true" signature="11580:11687" ph="{...}" />
-            <marker date="1576964531444" expanded="false" signature="11727:14690" ph="Consent Management API" />
-            <marker date="1576964531444" expanded="true" signature="11767:11877" ph="/// Raised when the module-level data privacy consent is changed. ... " />
-            <marker date="1576964531444" expanded="true" signature="11953:12158" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="12168:12309" ph="/// The module-level data privacy consent status,  ... " />
-            <marker date="1576964531444" expanded="true" signature="12364:12467" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="12477:12774" ph="/// Grants module-level data privacy consent. ... " />
-            <marker date="1576964531444" expanded="true" signature="12827:12921" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="12931:13112" ph="/// Grants the provider-level data privacy consent for the specified ad network. ... " />
-            <marker date="1576964531444" expanded="true" signature="13184:13462" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="13207:13390" ph="/* Use GetAdClient so the client won't be initialized (until it's actually used). ... */" />
-            <marker date="1576964531444" expanded="true" signature="13472:13775" ph="/// Revokes the module-level data privacy consent. ... " />
-            <marker date="1576964531444" expanded="true" signature="13829:13924" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="13934:14115" ph="/// Revokes the provider-level data privacy consent of the specified ad network. ... " />
-            <marker date="1576964531444" expanded="true" signature="14188:14271" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="14281:14509" ph="/// Gets the data privacy consent status for the specified ad network. ... " />
-            <marker date="1576964531444" expanded="true" signature="14588:14670" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="14700:30390" ph="Ads API" />
-            <marker date="1576964531444" expanded="true" signature="14725:14886" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1576964531444" expanded="true" signature="14896:14979" ph="/// Gets or sets auto ad-loading mode. ... " />
-            <marker date="1576964531444" expanded="true" signature="15037:16431" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="15063:15138" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="15154:16421" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="15609:16407" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="16441:16597" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1576964531444" expanded="true" signature="16607:16763" ph="/// Shows the default banner ad at the specified position. ... " />
-            <marker date="1576964531444" expanded="true" signature="16830:16956" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="16966:17249" ph="/// Shows a banner ad of the default banner ad network ... " />
-            <marker date="1576964531444" expanded="true" signature="17335:17441" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="17451:17812" ph="/// Shows a banner ad of the specified ad network at the specified position and size ... " />
-            <marker date="1576964531444" expanded="true" signature="17925:18051" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="18061:18369" ph="/// Shows the banner ad with the specified parameters. ... " />
-            <marker date="1576964531444" expanded="true" signature="18505:18621" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="18631:18708" ph="/// Hides the default banner ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="18750:18840" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="18850:19151" ph="/// Hides the banner ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="19241:19341" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="19351:19431" ph="/// Destroys the default banner ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="19476:19569" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="19579:19883" ph="/// Destroys the banner ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="19976:20079" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="20089:20251" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1576964531444" expanded="true" signature="20261:20344" ph="/// Loads the default interstitial ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="20392:20494" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="20504:20700" ph="/// Loads the interstitial ad of the default interstitial ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="20769:20861" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="20871:21178" ph="/// Loads the interstitial ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="21280:21386" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="21396:21597" ph="/// Determines whether the default interstitial ad is ready to show. ... " />
-            <marker date="1576964531444" expanded="true" signature="21648:21760" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="21770:22097" ph="/// Determines whether the interstitial ad of the default interstitial ad network  ... " />
-            <marker date="1576964531444" expanded="true" signature="22169:22271" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="22281:22719" ph="/// Determines whether the interstitial ad of the specified ad network  ... " />
-            <marker date="1576964531444" expanded="true" signature="22824:22940" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="22950:23033" ph="/// Shows the default interstitial ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="23081:23183" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="23193:23389" ph="/// Shows the interstitial ad of the default interstitial ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="23458:23550" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="23560:23867" ph="/// Shows the interstitial ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="23969:24075" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="24085:24243" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1576964531444" expanded="true" signature="24253:24332" ph="/// Loads the default rewarded ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="24376:24470" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="24480:24668" ph="/// Loads the rewarded ad of the default rewarded ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="24733:24817" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="24827:25130" ph="/// Loads the rewarded ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="25224:25326" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="25336:25533" ph="/// Determines whether the default rewarded ad is ready to show. ... " />
-            <marker date="1576964531444" expanded="true" signature="25580:25684" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="25694:26012" ph="/// Determines whether the rewarded ad of the default rewarded ad network ... " />
-            <marker date="1576964531444" expanded="true" signature="26080:26174" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="26184:26617" ph="/// Determines whether the rewarded ad of the specified ad network ... " />
-            <marker date="1576964531444" expanded="true" signature="26714:26826" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="26836:26915" ph="/// Shows the default rewarded ad. ... " />
-            <marker date="1576964531444" expanded="true" signature="26959:27053" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="27063:27251" ph="/// Shows the rewarded ad of the default rewarded ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="27316:27400" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="27410:27713" ph="/// Shows the rewarded ad of the specified ad network at the specified placement. ... " />
-            <marker date="1576964531444" expanded="true" signature="27807:27910" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="27920:28077" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1576964531444" expanded="true" signature="28087:28261" ph="/// Determines whether ads were removed. ... " />
-            <marker date="1576964531444" expanded="true" signature="28302:28414" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="28424:29132" ph="/// Removes ads permanently. This is intended to be used with the &quot;Remove Ads&quot; button. ... " />
-            <marker date="1576964531444" expanded="true" signature="29198:29788" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="29371:29498" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="29798:30103" ph="/// Resets the ads removal status and allows showing ads again. ... " />
-            <marker date="1576964531444" expanded="true" signature="30147:30356" ph="{...}" />
-            <marker date="1576964531444" expanded="false" signature="30400:33342" ph="Deprecated API" />
-            <marker date="1576964531444" expanded="true" signature="30570:30688" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="30855:31003" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="31167:31237" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="31247:31400" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="31500:31589" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="31599:31755" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="31858:31957" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="31967:32120" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="32220:32309" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="32319:32464" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="32556:32641" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="32651:32799" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="32894:32989" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="32999:33144" ph="[...]" />
-            <marker date="1576964531444" expanded="true" signature="33236:33322" ph="{...}" />
-            <marker date="1576964531444" expanded="false" signature="33352:51342" ph="Internal Stuff" />
-            <marker date="1576964531444" expanded="false" signature="33384:40902" ph="Auto-Load ads" />
-            <marker date="1576964531444" expanded="true" signature="33415:33768" ph="/* This coroutine regularly checks if intersititial and rewarded ads are loaded, if they aren't ... */" />
-            <marker date="1576964531444" expanded="true" signature="33841:35532" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="33960:35522" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="34061:35414" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="34113:35387" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="34261:34700" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="34440:34670" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="34835:35262" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="35010:35232" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="35542:35755" ph="/// This coroutine load all available ads (default and custom) of all imported networks. ... " />
-            <marker date="1576964531444" expanded="true" signature="35824:36415" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="36150:36405" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="36425:36530" ph="/// Load all available interstitial ads of specific clients. ... " />
-            <marker date="1576964531444" expanded="true" signature="36606:38168" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="36716:38158" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="36940:37040" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="37273:38144" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="38178:38280" ph="/// Load all available rewarded ads of specific clients.  ... " />
-            <marker date="1576964531444" expanded="true" signature="38352:40147" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="38406:40137" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="38611:38711" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="38729:39081" ph="/* Add the Default placement to the loading list. Some networks (e.g. AdMob) ... */" />
-            <marker date="1576964531444" expanded="true" signature="39280:40123" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="40157:40240" ph="/// Returns all imported ads networks. ... " />
-            <marker date="1576964531444" expanded="true" signature="40305:40882" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="40447:40834" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="40607:40820" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41031:41327" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41072:41198" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41410:41535" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41621:41749" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41800:42256" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41899:42208" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="41977:42194" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="42345:42471" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="42563:42705" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="42794:43060" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="42835:42983" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="43070:43225" ph="/* Note that rewarded ads should still be available after ads removal. ... */" />
-            <marker date="1576964531444" expanded="true" signature="43310:43376" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="43464:43540" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="43625:43691" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="43701:43990" ph="/// Adds the given network and placement to the dict of currently shown banner ads, ... " />
-            <marker date="1576964531444" expanded="true" signature="44078:44724" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="44226:44333" ph="/* This network already has some active placements ... */" />
-            <marker date="1576964531444" expanded="true" signature="44377:44521" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="44604:44714" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="44734:45013" ph="/// Removes the given network and placement from the dict of currently shown banner ads, ... " />
-            <marker date="1576964531444" expanded="true" signature="45104:45375" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="45283:45365" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="45385:45507" ph="/// Grants the data privacy consent to all supported networks. Use with care. ... " />
-            <marker date="1576964531444" expanded="true" signature="45572:45798" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="45659:45788" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="45808:45931" ph="/// Revokes the data privacy consent of all supported networks. Use with care. ... " />
-            <marker date="1576964531444" expanded="true" signature="45997:46224" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="46084:46214" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="46234:46482" ph="/// Gets the singleton ad client of the specified network. ... " />
-            <marker date="1576964531444" expanded="true" signature="46549:47897" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="46588:47886" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="47907:48214" ph="/// Grabs the singleton ad client for the specified network and performs ... " />
-            <marker date="1576964531444" expanded="true" signature="48283:48699" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="48418:48661" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="48709:48971" ph="/// Grabs the ready to work (done initialization, setup, etc.) ... " />
-            <marker date="1576964531444" expanded="true" signature="49046:50197" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="49085:50187" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="50268:50568" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="50672:50832" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="50930:51074" ph="{...}" />
-            <marker date="1576964531444" expanded="true" signature="51174:51322" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <marker date="1576972893243" expanded="true" signature="64:831" ph="{...}" />
-            <marker date="1576972893243" expanded="true" signature="175:358" ph="{...}" />
-            <marker date="1576972893243" expanded="true" signature="395:465" ph="{...}" />
-            <marker date="1576972893243" expanded="true" signature="517:631" ph="{...}" />
-            <marker date="1576972893243" expanded="true" signature="664:714" ph="{...}" />
-            <marker date="1576972893243" expanded="true" signature="758:828" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding>
-            <marker date="1576973185956" expanded="false" signature="6:166" ph="..." />
-            <marker date="1576973185956" expanded="true" signature="206:3981" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="579:1005" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1031:1158" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1208:1355" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1253:1349" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1396:1627" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1661:1741" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1776:1933" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="1963:2064" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="2138:2380" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="2432:2479" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="2509:2558" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="2606:2781" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="2823:2989" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3043:3119" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3188:3262" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3298:3361" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3401:3714" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3463:3621" ph="{...}" />
-            <marker date="1576973185956" expanded="true" signature="3788:3979" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdClientImpl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="546" selection-start-line="546" selection-end-line="546" />
-          <folding>
-            <marker date="1576964531445" expanded="false" signature="6:119" ph="..." />
-            <marker date="1576964531445" expanded="true" signature="141:24606" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="214:24604" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="229:20557" ph="IAdClient Implementation" />
-            <marker date="1576964531445" expanded="true" signature="319:480" ph="/// Whether the required SDK is available. ... " />
-            <marker date="1576964531445" expanded="true" signature="539:766" ph="/// Checks if the placement is valid, i.e. it has non-empty ... " />
-            <marker date="1576964531445" expanded="true" signature="859:1013" ph="/// The message to print if the required SDK is not available. ... " />
-            <marker date="1576964531445" expanded="true" signature="1079:1212" ph="/// Does the SDK-specific initialization. Only invoked if the client is not initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="1270:1565" ph="/// Instructs the underlaying SDK to show a banner ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="1698:1895" ph="/// Instructs the underlaying SDK to hide a banner ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="1982:2182" ph="/// Instructs the underlaying SDK to destroy a banner ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="2272:2476" ph="/// Instructs the underlaying SDK to load an interstitial ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="2569:2899" ph="/// Checks with the underlaying SDK to see if an interstitial ad is loaded. Only invoked if the client is initial ... " />
-            <marker date="1576964531445" expanded="true" signature="2995:3199" ph="/// Instructs the underlaying SDK to show an interstitial ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="3292:3491" ph="/// Instructs the underlaying SDK to load a rewarded ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="3580:3901" ph="/// Checks with the underlaying SDK to see if a rewarded ad is loaded. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="3993:4192" ph="/// Instructs the underlaying SDK to show a rewarded ad. Only invoked if the client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="4281:4371" ph="/// Occurs when an interstitial ad completed. ... " />
-            <marker date="1576964531445" expanded="true" signature="4458:4544" ph="/// Occurs when a rewarded ad is skipped. ... " />
-            <marker date="1576964531445" expanded="true" signature="4625:4710" ph="/// Occurs when a rewarded ad completed. ... " />
-            <marker date="1576964531445" expanded="true" signature="4793:4928" ph="/// Gets the associated ad network of this client. ... " />
-            <marker date="1576964531445" expanded="true" signature="4989:5164" ph="/// Whether banner ads are supported. ... " />
-            <marker date="1576964531445" expanded="true" signature="5232:5419" ph="/// Whether interstitial ads are supported. ... " />
-            <marker date="1576964531445" expanded="true" signature="5493:5672" ph="/// Whether rewarded ads are supported. ... " />
-            <marker date="1576964531445" expanded="true" signature="5742:5972" ph="/// All the custom interstitial &lt;see cref=&quot;AdPlacement&quot;/&gt;(s) defined in &lt;see cref=&quot;EM_Settings&quot;/&gt;. ... " />
-            <marker date="1576964531445" expanded="true" signature="6043:6193" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="6069:6183" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="6203:6429" ph="/// All the custom rewarded &lt;see cref=&quot;AdPlacement&quot;/&gt;(s) defined in &lt;see cref=&quot;EM_Settings&quot;/&gt;. ... " />
-            <marker date="1576964531445" expanded="true" signature="6496:6642" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="6522:6632" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="6652:6780" ph="/// Defined interstitial &lt;see cref=&quot;AdPlacement&quot;/&gt;(s) in &lt;see cref=&quot;EM_Settings&quot;/&gt;. ... " />
-            <marker date="1576964531445" expanded="true" signature="6882:7006" ph="/// Defined rewarded &lt;see cref=&quot;AdPlacement&quot;/&gt;(s) in &lt;see cref=&quot;EM_Settings&quot;/&gt;. ... " />
-            <marker date="1576964531445" expanded="true" signature="7104:7269" ph="/// Gets a value indicating whether this client is initialized. ... " />
-            <marker date="1576964531445" expanded="true" signature="7311:7374" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="7384:7456" ph="/// Initializes the client. ... " />
-            <marker date="1576964531445" expanded="true" signature="7491:7853" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="7529:7757" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="7774:7843" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="7863:8055" ph="/// Shows the banner ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="8142:8225" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="8235:8503" ph="/// Shows the banner ad at the specified placement, position and size. ... " />
-            <marker date="1576964531445" expanded="true" signature="8613:9296" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="8651:9200" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="8704:8873" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="8908:9077" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="9217:9286" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="9306:9400" ph="/// Hides the banner ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="9443:9510" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="9520:9671" ph="/// Hides the banner ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="9735:9860" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="9870:9967" ph="/// Destroys the banner ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="10013:10083" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="10093:10247" ph="/// Destroys the banner ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="10314:10442" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="10452:10552" ph="/// Loads the interstitial ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="10601:10674" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="10684:10841" ph="/// Loads the interstitial ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="10911:11517" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="10949:11421" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="11002:11177" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="11438:11507" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="11527:11739" ph="/// Determines whether the interstitial ad at the default placement is loaded. ... " />
-            <marker date="1576964531445" expanded="true" signature="11791:11874" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="11884:12153" ph="/// Determines whether the interstitial ad at the specified placement is loaded. ... " />
-            <marker date="1576964531445" expanded="true" signature="12226:12419" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="12429:12531" ph="/// Shows the interstitial ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="12580:12653" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="12663:12820" ph="/// Shows the interstitial ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="12890:13728" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="12928:13632" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="12981:13156" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="13281:13562" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="13649:13718" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="13738:13834" ph="/// Loads the rewarded ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="13879:13948" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="13958:14111" ph="/// Loads the rewarded ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="14177:14771" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="14215:14675" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="14268:14439" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="14692:14761" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="14781:14995" ph="/// Determines whether the rewarded ad ready at the default placement is loaded. ... " />
-            <marker date="1576964531445" expanded="true" signature="15043:15122" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="15132:15397" ph="/// Determines whether the rewarded ad at the specified placement is loaded. ... " />
-            <marker date="1576964531445" expanded="true" signature="15466:15655" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="15665:15761" ph="/// Shows the rewarded ad at the default placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="15806:15875" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="15885:16038" ph="/// Shows the rewarded ad at the specified placement. ... " />
-            <marker date="1576964531445" expanded="true" signature="16104:16926" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="16142:16830" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="16195:16366" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="16487:16764" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="16847:16916" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="16936:17110" ph="/// Raises the &lt;see cref=&quot;InterstitialAdCompleted&quot;/&gt; event on main thread. ... " />
-            <marker date="1576964531445" expanded="true" signature="17190:17403" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="17261:17391" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="17413:17581" ph="/// Raises the &lt;see cref=&quot;RewardedAdSkipped&quot;/&gt; event on main thread. ... " />
-            <marker date="1576964531445" expanded="true" signature="17655:17856" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="17726:17844" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="17866:18036" ph="/// Raises the &lt;see cref=&quot;RewardedAdCompleted&quot;/&gt; event on main thread. ... " />
-            <marker date="1576964531445" expanded="true" signature="18112:18317" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="18183:18305" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="18327:18678" ph="/// Returns the cross-platform ID associated with placement in the given dictionary. ... " />
-            <marker date="1576964531445" expanded="true" signature="18789:19185" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="18881:18965" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="19032:19093" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="19110:19175" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="19195:19410" ph="/// Checks if the client is initialized and print a warning message if not. ... " />
-            <marker date="1576964531445" expanded="true" signature="19481:19777" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="19787:19939" ph="/// Return a list of &lt;see cref=&quot;AdPlacement&quot;/&gt;(s) from the dictionary defined in &lt;see cref=&quot;EM_Settings&quot;/&gt;. ... " />
-            <marker date="1576964531445" expanded="true" signature="20046:20537" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="20248:20489" ph="{...}" />
-            <marker date="1576964531445" expanded="false" signature="20567:24597" ph="IConsentRequirable Implementation" />
-            <marker date="1576964531445" expanded="true" signature="20618:20744" ph="/// Raised when the data privacy consent of the associated ad network is changed. ... " />
-            <marker date="1576964531445" expanded="true" signature="20824:20982" ph="/// The data privacy consent status of the associated ad network,  ... " />
-            <marker date="1576964531445" expanded="true" signature="21038:21866" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="21064:21141" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="21165:21856" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="21228:21842" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="21387:21618" ph="/* Configure the client with new consent. ... */" />
-            <marker date="1576964531445" expanded="true" signature="21876:22053" ph="/// Grants provider-level data privacy consent for the associated ad network. ... " />
-            <marker date="1576964531445" expanded="true" signature="22107:22183" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="22193:22374" ph="/// Revokes the provider-level data privacy consent of the associated ad network. ... " />
-            <marker date="1576964531445" expanded="true" signature="22429:22505" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="22585:22746" ph="/// Reads the data privacy consent from persistent storage. ... " />
-            <marker date="1576964531445" expanded="true" signature="22811:22905" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="22915:23068" ph="/// Saves the data privacy consent to persistent storage. ... " />
-            <marker date="1576964531445" expanded="true" signature="23145:23241" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="23251:23542" ph="/// Finds the applicable data privacy consent for this client by searching ... " />
-            <marker date="1576964531445" expanded="true" signature="23616:24122" ph="{...}" />
-            <marker date="1576964531445" expanded="true" signature="24132:24497" ph="/// Implement this method and perform whatever actions needed ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <marker date="1577047898261" expanded="true" signature="6:36" ph="..." />
-            <marker date="1577047898261" expanded="true" signature="88:532" ph="{...}" />
-            <marker date="1577047898261" expanded="true" signature="107:266" ph="{...}" />
-            <marker date="1577047898261" expanded="true" signature="370:530" ph="{...}" />
-            <marker date="1577047898261" expanded="true" signature="469:524" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AdManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1577042643888" expanded="true" signature="6:50" ph="..." />
-            <marker date="1577042643888" expanded="true" signature="90:849" ph="{...}" />
-            <marker date="1577042643888" expanded="true" signature="216:367" ph="{...}" />
-            <marker date="1577042643888" expanded="true" signature="421:720" ph="{...}" />
-            <marker date="1577042643888" expanded="true" signature="815:847" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <marker date="1569011355090" expanded="false" signature="6:92" ph="..." />
-            <marker date="1569011355090" expanded="true" signature="127:1708" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="326:473" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="531:595" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="628:656" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="716:1059" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="792:851" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="907:1053" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="1116:1312" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="1227:1306" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="1372:1568" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="1411:1562" ph="{...}" />
-            <marker date="1569011355090" expanded="true" signature="1605:1704" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
