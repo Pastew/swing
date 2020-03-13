@@ -1607,7 +1607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55bc747ca41d7bb4e98eb4e4d5b4a600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingLevel: 5
 --- !u!4 &875740362
 Transform:
   m_ObjectHideFlags: 0
@@ -2461,13 +2460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e24cfbb5d9abc924eba33d4a60c7606f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateColorsInUpdate: 0
-  cameraColor: {r: 0.22745098, g: 0.22745098, b: 0.22745098, a: 1}
-  goalColor: {r: 1, g: 1, b: 1, a: 1}
-  heroColor: {r: 0.8352941, g: 0.87058824, b: 0.8509804, a: 1}
-  starColor: {r: 1, g: 1, b: 1, a: 1}
-  swingEdgeMaterialColor: {r: 1, g: 1, b: 1, a: 1}
-  swingFillMaterialColor: {r: 0.22745098, g: 0.22745098, b: 0.22745098, a: 1}
+  cameraColor: {r: 0.8301887, g: 0.39551443, b: 0.39551443, a: 0}
+  goalColor: {r: 0.42137337, g: 1, b: 0, a: 0}
+  heroColor: {r: 1, g: 1, b: 1, a: 1}
+  starColor: {r: 1, g: 0.8724341, b: 0, a: 0}
 --- !u!1 &1613947146
 GameObject:
   m_ObjectHideFlags: 0

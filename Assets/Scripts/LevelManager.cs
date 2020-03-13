@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
@@ -16,7 +14,7 @@ public class LevelManager : MonoBehaviour
         instance = this;
     }
 
-    public void Loadlevel(int levelIndex)
+    private void Loadlevel(int levelIndex)
     {
         Destroy(currentLevel);
 
@@ -51,12 +49,12 @@ public class LevelManager : MonoBehaviour
         Loadlevel(currentLevelIndex);
     }
 
-    internal void ReLoadCurrentlevel()
+    public void ReloadCurrentlevel()
     {
         Loadlevel(currentLevelIndex);
     }
 
-    internal Vector3 GetStartPosition()
+    private Vector3 GetStartPosition()
     {
         return currentLevel.GetComponentInChildren<StartPosition>().transform.position;
     }

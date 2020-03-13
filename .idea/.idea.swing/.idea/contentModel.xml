@@ -793,7 +793,6 @@
             <e p="Hero.cs" t="Include" />
             <e p="Hook.cs" t="Include" />
             <e p="ICollectable.cs" t="Include" />
-            <e p="IDeadly.cs" t="Include" />
             <e p="ScoreManager.cs" t="Include" />
             <e p="Star.cs" t="Include" />
             <e p="StartPosition.cs" t="Include" />

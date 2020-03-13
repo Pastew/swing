@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour
         GameManager.instance.SubscribeToLevelLoadedEvent(OnLevelLoaded);
     }
 
-    public void HideRemoveAdsButtonIfPurchased()
+    private void HideRemoveAdsButtonIfPurchased()
     {
         if (Advertising.IsAdRemoved())
         {
@@ -51,11 +51,7 @@ public class UIManager : MonoBehaviour
         menuUI.transform.Find("Repeat").GetComponent<Button>().onClick.AddListener(OnRepeatButtonPressed);
     }
 
-    internal void ShowTutorial()
-    {
-    }
-
-    internal void OnLevelLoaded()
+    private void OnLevelLoaded()
     {
         StartCountdown();
     }
@@ -109,7 +105,7 @@ public class UIManager : MonoBehaviour
         counterUI.GetComponentInChildren<Text>().text = text;
     }
 
-    internal void StartCountdown()
+    private void StartCountdown()
     {
         StartCoroutine(Countdown(countdownTicks));
     }

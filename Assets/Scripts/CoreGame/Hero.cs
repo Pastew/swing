@@ -2,15 +2,10 @@
 
 public class Hero : MonoBehaviour
 {
-    // External dependencies
     private GameManager gameManager;
 
-    // Parameters
-    public float jumpForce = 1.5f;
-
-    // Components
     private Rigidbody2D rigid;
-
+    public float jumpForce = 1.5f;
 
     private void Awake()
     {
@@ -71,6 +66,4 @@ public class Hero : MonoBehaviour
         // TODO: Return true if user clicks fast to gain height.
         return false;
     }
-
-
 }

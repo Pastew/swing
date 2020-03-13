@@ -1,32 +1,32 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable]
+[Serializable]
 public class UserClickedEvent : UnityEvent<Vector2> { }
 
 public class InputManager : MonoBehaviour
 {
-    public static InputManager instance;
+    public static InputManager Instance;
 
-    private GameObject hookGO;
-    private bool canInteractWithGame = false;
+    private GameObject _hookGO;
+    private bool _canInteractWithGame = false;
 
-    private UserClickedEvent userClickedEvent;
+    private UserClickedEvent _userClickedEvent;
+    private Camera _camera;
 
     private void Awake()
     {
-        instance = this;
-        userClickedEvent = new UserClickedEvent();
-        hookGO = transform.GetChild(0).gameObject;
-        hookGO.SetActive(false);
+        Instance = this;
+        _userClickedEvent = new UserClickedEvent();
+        _hookGO = transform.GetChild(0).gameObject;
+        _hookGO.SetActive(false);
+        _camera = Camera.main;
     }
 
     void Update()
     {
-        if (!canInteractWithGame)
+        if (!_canInteractWithGame)
             return;
 
         if (Input.GetMouseButtonDown(0))
@@ -41,43 +41,43 @@ public class InputManager : MonoBehaviour
 
     internal void SubscribeToUserClicked(UnityAction<Vector2> subscriber)
     {
-        userClickedEvent.AddListener(subscriber);
+        _userClickedEvent.AddListener(subscriber);
     }
 
     private void OnUserReleased()
     {
-        hookGO.SetActive(false);
+        _hookGO.SetActive(false);
     }
 
     private void OnUserClicked()
     {
-        hookGO.transform.position = GetNewHookPosition();
-        hookGO.SetActive(true);
+        _hookGO.transform.position = GetNewHookPosition();
+        _hookGO.SetActive(true);
 
-        userClickedEvent.Invoke(hookGO.transform.position);
+        _userClickedEvent.Invoke(_hookGO.transform.position);
     }
 
     private Vector3 GetNewHookPosition()
     {
-        Vector3 newHookPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 newHookPos = _camera.ScreenToWorldPoint(Input.mousePosition);
         return new Vector3(newHookPos.x, newHookPos.y, 0);
     }
 
     public void OnHeroDeath()
     {
-        if(hookGO)
-            hookGO.gameObject.SetActive(false);
+        if(_hookGO)
+            _hookGO.gameObject.SetActive(false);
     }
 
     internal void SetCanUseHook(bool newValue)
     {
-        canInteractWithGame = newValue;
+        _canInteractWithGame = newValue;
     }
 
     internal void OnReachedGoal()
     {
-        if (hookGO)
-            hookGO.gameObject.SetActive(false);
+        if (_hookGO)
+            _hookGO.gameObject.SetActive(false);
 
         SetCanUseHook(false);
     }

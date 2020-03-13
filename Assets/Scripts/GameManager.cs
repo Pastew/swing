@@ -37,8 +37,8 @@ public class GameManager : MonoBehaviour
     // ============ Game Events ============
     internal void OnHeroDeath()
     {
-        LevelManager.instance.ReLoadCurrentlevel();
-        InputManager.instance.OnHeroDeath();
+        LevelManager.instance.ReloadCurrentlevel();
+        InputManager.Instance.OnHeroDeath();
     }
 
     public void OnHeroReachedGoal()
@@ -49,15 +49,12 @@ public class GameManager : MonoBehaviour
     private void ShowLevelResult()
     {
         UIManager.instance.ShowLevelResultsScreen(ScoreManager.instance.LevelScore);
-        InputManager.instance.OnReachedGoal();
+        InputManager.Instance.OnReachedGoal();
     }
 
     internal void OnLevelLoaded()
     {
-        if (LevelManager.instance.GetCurrentLevelIndex() <= 2)
-            UIManager.instance.ShowTutorial();
-
-        InputManager.instance.SetCanUseHook(false);
+        InputManager.Instance.SetCanUseHook(false);
         ScoreManager.instance.ResetScore();
         levelLoadedEvent.Invoke();
     }
@@ -81,12 +78,12 @@ public class GameManager : MonoBehaviour
     public void OnCountdownFinished()
     {
         FindObjectOfType<Hero>().OnCountdownFinished();
-        InputManager.instance.SetCanUseHook(true);
+        InputManager.Instance.SetCanUseHook(true);
     }
 
     internal void OnRepeatButtonClick()
     {
-        LevelManager.instance.ReLoadCurrentlevel();
+        LevelManager.instance.ReloadCurrentlevel();
     }
 
     // ============ UI ============

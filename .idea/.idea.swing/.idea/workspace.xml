@@ -2,52 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Packages/PlayMakerActions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/BonusPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/BonusPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/SwingEdgeMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/SwingEdgeMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/ClosedShape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/ClosedShape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/SwingFillMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/SwingFillMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/BonusPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/BonusPoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gradients.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/Clock.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimatorController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockAnimatorController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockBase.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockHand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/ClockHand.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Clock/clock.svg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +70,9 @@
     <expand />
     <select />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>in</find>
-      <find>BonusPointCollectedEvent</find>
-      <find>Counter</find>
-      <find>goal</find>
-      <find>Advertising.GrantDataPrivacyConsent();</find>
-      <find>OnDisableAdsPurchased</find>
-      <find>disableads</find>
-      <find>disable</find>
-      <find>playb</find>
-      <find>noads</find>
-      <find>NoAds</find>
-      <find>Advertisements</find>
-      <find>.ShowInterstitialAd</find>
-      <find>tryshow</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,25 +85,34 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/SharingDemo/SharingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/NotificationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_GUIStyleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/DigitalClock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/AppStoreSettingsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -130,7 +124,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" />
@@ -139,16 +132,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
       </list>
     </option>
   </component>
@@ -221,7 +221,11 @@
       <workItem from="1577042319587" duration="1260000" />
       <workItem from="1583402439996" duration="1048000" />
       <workItem from="1583406190370" duration="2965000" />
-      <workItem from="1583418216561" duration="673000" />
+      <workItem from="1583418216561" duration="1460000" />
+      <workItem from="1583938688365" duration="138000" />
+      <workItem from="1583938835459" duration="65000" />
+      <workItem from="1584090344171" duration="75000" />
+      <workItem from="1584090426159" duration="4181000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -272,10 +276,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="New EasyMobile. Advertising works ok" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup" timestamp="1583418290233">
+    <state x="-1455" y="59" key="RollbackChangesDialog" timestamp="1584107768430">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
-    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1583418290233" />
+    <state x="-1455" y="59" key="RollbackChangesDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584107768430" />
+    <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584090451062">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-4480.-367.1920.1057/-2560.-367.2560.1417/0.23.1680.1027@-2560.-367.2560.1417" timestamp="1584090451062" />
+    <state x="-1654" y="98" width="747" height="486" key="find.popup" timestamp="1584105994926">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-1654" y="98" width="747" height="486" key="find.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584105994926" />
+    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup" timestamp="1583938695272">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-1617" y="-44" width="672" height="678" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1583938695272" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

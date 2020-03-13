@@ -2,7 +2,7 @@
 
 public class GameSaveManager : MonoBehaviour
 {
-    public static GameSaveManager instance = null;
+    public static GameSaveManager instance;
 
     private GameSave gameSave;
 
@@ -13,14 +13,12 @@ public class GameSaveManager : MonoBehaviour
 
         gameSave = LoadGameSave();
         if (gameSave == null)
-            gameSave = FirstCreateGameSave();
+            gameSave = CreateEmptyGameSave();
     }
 
     private GameSave LoadGameSave()
     {
-        GameSave gs = new GameSave();
-
-        return gs;
+        return null;
     }
 
     internal int AddCoins(int purchasedCoinsValue)
@@ -35,7 +33,7 @@ public class GameSaveManager : MonoBehaviour
         print("Save game save stub");
     }
 
-    private GameSave FirstCreateGameSave()
+    private GameSave CreateEmptyGameSave()
     {
         GameSave gs = new GameSave();
 

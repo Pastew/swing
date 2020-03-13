@@ -14,7 +14,7 @@ public class ScoreManager : MonoBehaviour
     private void Start()
     {
         GameManager.instance.SubscribeToBonusPointCollected(OnStarCollected);
-        InputManager.instance.SubscribeToUserClicked(OnUserClicked);
+        InputManager.Instance.SubscribeToUserClicked(OnUserClicked);
     }
 
     public void ResetScore()

@@ -2,31 +2,32 @@
 
 public class ColorManager : MonoBehaviour
 {
-    public bool updateColorsInUpdate = false;
+    [SerializeField] private Color cameraColor;
 
-    public Color cameraColor;
+    private GameObject goalPrefab;
+    [SerializeField] private Color goalColor;
 
-    GameObject goalPrefab;
-    public Color goalColor;
+    private GameObject heroPrefab;
+    [SerializeField] private Color heroColor;
 
-    GameObject heroPrefab;
-    public Color heroColor;
+    private GameObject starPrefab;
+    [SerializeField] private Color starColor;
 
-    GameObject starPrefab;
-    public Color starColor;
+    // private Material edgeMaterial;
+    // private Material fillMaterial;
+    // [SerializeField] private Color edgeMaterialColor;
+    // [SerializeField] private Color fillMaterialColor;
 
-    Material edgeMaterial;
-    Material fillMaterial;
-    public Color edgeMaterialColor;
-    public Color fillMaterialColor;
+    private Camera camera;
 
     private void Awake()
     {
-        edgeMaterial = Resources.Load("TerrainMaterials/SwingEdgeMaterial") as Material;
-        fillMaterial = Resources.Load("TerrainMaterials/SwingFillMaterial") as Material;
+        camera = Camera.main;
+        // edgeMaterial = Resources.Load("TerrainMaterials/SwingEdgeMaterial") as Material;
+        // fillMaterial = Resources.Load("TerrainMaterials/SwingFillMaterial") as Material;
         heroPrefab = Resources.Load("Prefabs/Hero") as GameObject;
         goalPrefab = Resources.Load("Prefabs/Goal") as GameObject;
-        starPrefab = Resources.Load("Prefabs/BonusPoint") as GameObject;
+        starPrefab = Resources.Load("Prefabs/Star") as GameObject;
     }
 
     private void Start()
@@ -34,46 +35,27 @@ public class ColorManager : MonoBehaviour
         UpdateColors();
     }
 
-    private void Update()
-    {
-        if (Debug.isDebugBuild && updateColorsInUpdate)
-        {
-            UpdateColors();
-        }
-    }
 
     private void UpdateColors()
     {
-        Camera.main.backgroundColor = cameraColor;
+        camera.backgroundColor = cameraColor;
 
-        edgeMaterial.color = edgeMaterialColor;
-        fillMaterial.color = fillMaterialColor;
+        // edgeMaterial.color = edgeMaterialColor;
+        // fillMaterial.color = fillMaterialColor;
 
-        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Hero>())
-        {
+        if (FindObjectOfType<Hero>())
             FindObjectOfType<Hero>().GetComponent<SpriteRenderer>().color = heroColor;
-        }
         else
-        {
             heroPrefab.GetComponent<SpriteRenderer>().color = heroColor;
-        }
-
-        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Goal>())
-        {
+        
+        if (FindObjectOfType<Goal>())
             FindObjectOfType<Goal>().GetComponent<SpriteRenderer>().color = goalColor;
-        }
         else
-        {
             goalPrefab.GetComponent<SpriteRenderer>().color = goalColor;
-        }
-
-        if (Debug.isDebugBuild && updateColorsInUpdate && FindObjectOfType<Star>())
-        {
+        
+        if (FindObjectOfType<Star>())
             FindObjectOfType<Star>().GetComponent<SpriteRenderer>().color = starColor;
-        }
         else
-        {
             starPrefab.GetComponent<SpriteRenderer>().color = starColor;
-        }
     }
 }
