@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/SwingEdgeMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/SwingEdgeMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/ClosedShape.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/ClosedShape.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/SwingFillMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Wall/SwingFillMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/BonusPoint.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/BonusPoint.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gradient4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/shakeStarOnSlider3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-    </list>
+    <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +176,7 @@
       <workItem from="1583938688365" duration="138000" />
       <workItem from="1583938835459" duration="65000" />
       <workItem from="1584090344171" duration="75000" />
-      <workItem from="1584090426159" duration="4181000" />
+      <workItem from="1584090426159" duration="4574000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -248,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577048047041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some refactor">
+      <created>1584108860644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584108860644</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some refactor">
+      <created>1584109065155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584109065155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,13 +238,22 @@
     <MESSAGE value="some refactor. imported unity monetization" />
     <MESSAGE value="ads, consest" />
     <MESSAGE value="New EasyMobile. Advertising works ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="New EasyMobile. Advertising works ok" />
+    <MESSAGE value="some refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactor" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog" timestamp="1584109194776">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584109194776" />
     <state x="-1455" y="59" key="RollbackChangesDialog" timestamp="1584107768430">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1455" y="59" key="RollbackChangesDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584107768430" />
+    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2" timestamp="1584109066538">
+      <screen x="-2560" y="-367" width="2560" height="1417" />
+    </state>
+    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584109066538" />
     <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584090451062">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
