@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         HideRemoveAdsButtonIfPurchased();
-        GameManager.instance.SubscribeToLevelLoadedEvent(OnLevelLoaded);
+        MetaGameManager.instance.SubscribeToLevelLoadedEvent(OnLevelLoaded);
     }
 
     private void HideRemoveAdsButtonIfPurchased()
@@ -82,14 +82,14 @@ public class UIManager : MonoBehaviour
 
     public void OnPlayNextLevelButtonPressed()
     {
-        GameManager.instance.OnPlayNextLevelButtonPressed();
+        MetaGameManager.instance.OnPlayNextLevelButtonPressed();
         HideAllUI();
     }
 
 
     public void OnRepeatButtonPressed()
     {
-        GameManager.instance.OnRepeatButtonClick();
+        MetaGameManager.instance.OnRepeatButtonClick();
         HideAllUI();
     }
 
@@ -122,6 +122,6 @@ public class UIManager : MonoBehaviour
         }
 
         SetCounterCanvasText("");
-        GameManager.instance.OnCountdownFinished();
+        MetaGameManager.instance.OnCountdownFinished();
     }
 }

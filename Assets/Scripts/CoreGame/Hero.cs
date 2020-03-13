@@ -2,7 +2,7 @@
 
 public class Hero : MonoBehaviour
 {
-    private GameManager gameManager;
+    private MetaGameManager _metaGameManager;
 
     private Rigidbody2D rigid;
     public float jumpForce = 1.5f;
@@ -10,7 +10,7 @@ public class Hero : MonoBehaviour
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
-        gameManager = FindObjectOfType<GameManager>();
+        _metaGameManager = FindObjectOfType<MetaGameManager>();
 
         rigid.isKinematic = true;
     }
@@ -31,12 +31,12 @@ public class Hero : MonoBehaviour
     {
         if (collision.gameObject.GetComponent <Deadly>())
         {
-            gameManager.OnHeroDeath();
+            _metaGameManager.OnHeroDeath();
         }
 
         if (collision.gameObject.GetComponent<Goal>())
         {
-            gameManager.OnHeroReachedGoal();
+            _metaGameManager.OnHeroReachedGoal();
             rigid.isKinematic = true;
             rigid.velocity = Vector3.zero;
         }
@@ -47,7 +47,7 @@ public class Hero : MonoBehaviour
         Star star = collision.gameObject.GetComponent<Star>();
         if (star)
         {
-            gameManager.OnBonusPointCollected(star);
+            _metaGameManager.OnBonusPointCollected(star);
         }
     }
 

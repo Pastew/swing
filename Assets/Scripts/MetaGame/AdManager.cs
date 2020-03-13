@@ -6,9 +6,7 @@ public class AdManager : MonoBehaviour
 {
     public static AdManager instance;
 
-    private float timer = 0;
-
-    private Action callback;
+    private Action AdCompletedCallback;
 
     private void Awake()
     {
@@ -18,13 +16,13 @@ public class AdManager : MonoBehaviour
         Advertising.InterstitialAdCompleted += InterstitialAdCompletedHandler;
     }
 
-    public void TryShowInterstitial(Action callback)
+    public void TryShowInterstitial(Action adCompletedCallback)
     {
-        this.callback = callback;
+        AdCompletedCallback = adCompletedCallback;
 
 #if UNITY_EDITOR
         Debug.Log("!!!!!!!!!!!!Showing Advertisment!!!!!!!!!!!!!!");
-        callback();
+        adCompletedCallback();
 #else
         if (Advertising.IsInterstitialAdReady())
             Advertising.ShowInterstitialAd();
@@ -36,6 +34,6 @@ public class AdManager : MonoBehaviour
 
     private void InterstitialAdCompletedHandler(InterstitialAdNetwork arg1, AdPlacement arg2)
     {
-        callback();
+        AdCompletedCallback();
     }
 }

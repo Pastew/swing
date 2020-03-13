@@ -3,30 +3,32 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [Serializable]
-public class UserClickedEvent : UnityEvent<Vector2> { }
-
-public class InputManager : MonoBehaviour
+public class UserClickedEvent : UnityEvent<Vector2>
 {
-    public static InputManager Instance;
+}
 
-    private GameObject _hookGO;
-    private bool _canInteractWithGame = false;
+public class HookController : MonoBehaviour
+{
+    public static HookController Instance;
 
-    private UserClickedEvent _userClickedEvent;
+    private GameObject hookGO;
+    private bool canInteractWithGame = false;
+
+    private UserClickedEvent userClickedEvent;
     private Camera _camera;
 
     private void Awake()
     {
         Instance = this;
-        _userClickedEvent = new UserClickedEvent();
-        _hookGO = transform.GetChild(0).gameObject;
-        _hookGO.SetActive(false);
+        userClickedEvent = new UserClickedEvent();
+        hookGO = transform.GetChild(0).gameObject;
+        hookGO.SetActive(false);
         _camera = Camera.main;
     }
 
     void Update()
     {
-        if (!_canInteractWithGame)
+        if (!canInteractWithGame)
             return;
 
         if (Input.GetMouseButtonDown(0))
@@ -41,20 +43,20 @@ public class InputManager : MonoBehaviour
 
     internal void SubscribeToUserClicked(UnityAction<Vector2> subscriber)
     {
-        _userClickedEvent.AddListener(subscriber);
+        userClickedEvent.AddListener(subscriber);
     }
 
     private void OnUserReleased()
     {
-        _hookGO.SetActive(false);
+        hookGO.SetActive(false);
     }
 
     private void OnUserClicked()
     {
-        _hookGO.transform.position = GetNewHookPosition();
-        _hookGO.SetActive(true);
+        hookGO.transform.position = GetNewHookPosition();
+        hookGO.SetActive(true);
 
-        _userClickedEvent.Invoke(_hookGO.transform.position);
+        userClickedEvent.Invoke(hookGO.transform.position);
     }
 
     private Vector3 GetNewHookPosition()
@@ -65,19 +67,19 @@ public class InputManager : MonoBehaviour
 
     public void OnHeroDeath()
     {
-        if(_hookGO)
-            _hookGO.gameObject.SetActive(false);
+        if (hookGO)
+            hookGO.gameObject.SetActive(false);
     }
 
     internal void SetCanUseHook(bool newValue)
     {
-        _canInteractWithGame = newValue;
+        canInteractWithGame = newValue;
     }
 
     internal void OnReachedGoal()
     {
-        if (_hookGO)
-            _hookGO.gameObject.SetActive(false);
+        if (hookGO)
+            hookGO.gameObject.SetActive(false);
 
         SetCanUseHook(false);
     }
