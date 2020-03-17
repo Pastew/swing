@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/SharingDemo/SharingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
@@ -63,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,9 +88,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,9 +135,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/MetaGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" />
       </list>
     </option>
   </component>
@@ -201,6 +215,9 @@
       <workItem from="1583938835459" duration="65000" />
       <workItem from="1584090344171" duration="75000" />
       <workItem from="1584090426159" duration="8181000" />
+      <workItem from="1584115738647" duration="28000" />
+      <workItem from="1584361217125" duration="1400000" />
+      <workItem from="1584449269954" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -251,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584115715826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some refactor">
+      <created>1584115759561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584115759561</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +304,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="some refactor" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog" timestamp="1584109194776">
+    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog" timestamp="1584115766181">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
-    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584109194776" />
+    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115766181" />
     <state width="2518" height="159" key="GridCell.Tab.0.bottom" timestamp="1584115725485">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
@@ -352,10 +376,10 @@
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1455" y="59" key="RollbackChangesDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584107768430" />
-    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2" timestamp="1584115716962">
+    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2" timestamp="1584115761348">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
-    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115716962" />
+    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115761348" />
     <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584090451062">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
@@ -364,10 +388,11 @@
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1654" y="98" width="747" height="486" key="find.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584112901656" />
-    <state x="-1617" y="-44" width="672" height="160" key="search.everywhere.popup" timestamp="1584111138872">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state x="619" y="257" width="672" height="160" key="search.everywhere.popup" timestamp="1584449732208">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1617" y="-44" width="672" height="160" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584111138872" />
+    <state x="619" y="257" width="672" height="160" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584449732208" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

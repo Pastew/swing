@@ -29,7 +29,6 @@ public class LevelLoader : MonoBehaviour
         {
             int lvlToLoad = 1;
             Debug.LogError($"Level you're trying to load doesn't exist: {path}.  will load level {lvlToLoad}");
-            Loadlevel(lvlToLoad);
             return;
         }
 
