@@ -1,17 +1,19 @@
-﻿using CoreGame;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Star : MonoBehaviour, ICollectable 
+namespace CoreGame
 {
-    private float rotateSpeed = 50f;
-
-    private void Start()
+    public class Star : MonoBehaviour 
     {
-        transform.Rotate(Vector3.forward, Random.Range(0, 360));
-    }
+        private float rotateSpeed = 50f;
 
-    private void Update()
-    {
-        transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
+        private void Start()
+        {
+            transform.Rotate(Vector3.forward, Random.Range(0, 360));
+        }
+
+        private void Update()
+        {
+            transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
+        }
     }
 }

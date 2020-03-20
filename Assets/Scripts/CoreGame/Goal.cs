@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
-public class Goal : MonoBehaviour
+namespace CoreGame
 {
+    public class Goal : MonoBehaviour
+    {
+    }
 }

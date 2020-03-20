@@ -1,29 +1,31 @@
 ﻿using Shared;
 using UnityEngine;
 
-public class LevelManager : MonoBehaviour
+namespace MetaGame
 {
-    private int currentLevelIndex;
-    public static LevelManager instance;
-
-    private void Awake()
+    public class LevelManager : MonoBehaviour
     {
-        instance = this;
-    }
+        private int _currentLevelIndex;
+        private SharedFlow _sharedFlow;
 
-    public void LoadNextLevel()
-    {
-        currentLevelIndex++;
-        SharedEvents.LoadLevelAction(currentLevelIndex);
-    }
+        private void Awake()
+        {
+            _sharedFlow = FindObjectOfType<SharedFlow>();
+        }
 
-    public void ReloadCurrentlevel()
-    {
-        SharedEvents.LoadLevelAction(currentLevelIndex);
-    }
+        internal int GetCurrentLevelIndex()
+        {
+            return _currentLevelIndex;
+        }
+        
+        public void LoadNextLevel()
+        {
+            _sharedFlow.LoadLevel(++_currentLevelIndex);
+        }
 
-    internal int GetCurrentLevelIndex()
-    {
-        return currentLevelIndex;
+        public void LoadCurrentLevel()
+        {
+            _sharedFlow.LoadLevel(_currentLevelIndex);
+        }
     }
 }

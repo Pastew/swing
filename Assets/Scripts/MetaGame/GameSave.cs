@@ -1,4 +1,7 @@
-﻿public class GameSave
+﻿namespace MetaGame
 {
-    internal int coins;
+    public class GameSave
+    {
+        internal int coins;
+    }
 }

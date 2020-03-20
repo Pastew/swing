@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 
-public class FPSForcer : MonoBehaviour
+namespace CoreGame
 {
-    void Start()
+    public class FPSForcer : MonoBehaviour
     {
-        Application.targetFrameRate = 60;
+        void Start()
+        {
+            Application.targetFrameRate = 60;
+        }
     }
 }

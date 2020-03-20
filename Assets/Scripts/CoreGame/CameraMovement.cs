@@ -1,45 +1,43 @@
 ﻿using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
+namespace CoreGame
 {
-    public float speed = 2f;
-
-    float minX = -7, maxX = 7;
-    float minY = -6, maxY = 6;
-
-    public float maxCamX = 1, maxCamY = 1;
-
-    private Vector3 startingPos;
-
-    private void Awake()
+    public class CameraMovement : MonoBehaviour
     {
-        startingPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-    }
+        [SerializeField] private float _speed = 2f;
 
-    private void Update()
-    {
-        Hero target = FindObjectOfType<Hero>();
+        private float _minX = -7, _maxX = 7;
+        private float _minY = -6, _maxY = 6;
 
-        if (target == null)
-            return;
+        [SerializeField] private float _maxCamX = 1, _maxCamY = 1;
 
+        private Vector3 _startingPos;
 
-        Vector3 newPosition = new Vector3();
-        newPosition.z = -10;
+        private void Awake()
+        {
+            _startingPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        }
 
-        newPosition.x = remap(minX, maxX, -maxCamX, maxCamX, target.transform.position.x);
-        newPosition.y = remap(minY, maxY, -maxCamX, maxCamY, target.transform.position.y);
+        private void Update()
+        {
+            Hero target = FindObjectOfType<Hero>(); // TODO: Optimize
 
-        transform.position = Vector3.Slerp(transform.position, newPosition, speed * Time.deltaTime);
-    }
+            if (target == null)
+                return;
 
-    public float remap(float a0, float a1, float b0, float b1, float a)
-    {
-        return b0 + (b1 - b0) * ((a - a0) / (a1 - a0));
-    }
+            Vector3 newPosition = new Vector3();
+            newPosition.z = -10;
 
-    public void Reset()
-    {
-        transform.position = startingPos;
+            var pos = target.transform.position;
+            newPosition.x = Utils.MathUtils.Remap(_minX, _maxX, -_maxCamX, _maxCamX, pos.x);
+            newPosition.y = Utils.MathUtils.Remap(_minY, _maxY, -_maxCamX, _maxCamY, pos.y);
+
+            transform.position = Vector3.Slerp(transform.position, newPosition, _speed * Time.deltaTime);
+        }
+
+        public void Reset()
+        {
+            transform.position = _startingPos;
+        }
     }
 }

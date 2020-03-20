@@ -1,35 +1,38 @@
 ﻿using UnityEngine;
 
-public class Hook : MonoBehaviour
+namespace CoreGame
 {
-    private Hero hero;
-    private LineRenderer lineRenderer;
-
-    private void Awake()
+    public class Hook : MonoBehaviour
     {
-        lineRenderer = GetComponent<LineRenderer>();
-    }
+        private Hero hero;
+        private LineRenderer lineRenderer;
 
-    void OnEnable()
-    {
-        hero = FindObjectOfType<Hero>();
-        GetComponent<DistanceJoint2D>().connectedBody = hero.GetComponent<Rigidbody2D>();
-        UpdateLine();
-    }
+        private void Awake()
+        {
+            lineRenderer = GetComponent<LineRenderer>();
+        }
 
-    private void OnDisable()
-    {
-        hero.OnHookRelease();
-    }
+        void OnEnable()
+        {
+            hero = FindObjectOfType<Hero>();
+            GetComponent<DistanceJoint2D>().connectedBody = hero.GetComponent<Rigidbody2D>();
+            UpdateLine();
+        }
 
-    private void Update()
-    {
-        UpdateLine();
-    }
+        private void OnDisable()
+        {
+            hero.OnHookRelease();
+        }
 
-    private void UpdateLine()
-    {
-        lineRenderer.SetPosition(0, transform.position);
-        lineRenderer.SetPosition(1, hero.transform.position);
+        private void Update()
+        {
+            UpdateLine();
+        }
+
+        private void UpdateLine()
+        {
+            lineRenderer.SetPosition(0, transform.position);
+            lineRenderer.SetPosition(1, hero.transform.position);
+        }
     }
 }

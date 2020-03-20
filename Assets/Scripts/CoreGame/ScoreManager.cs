@@ -1,35 +1,38 @@
-﻿using UnityEngine;
+﻿using Shared;
+using UnityEngine;
 
-public class ScoreManager : MonoBehaviour
+namespace CoreGame
 {
-    public LevelScore LevelScore { get; private set; }
-
-    internal static ScoreManager instance;
-
-    private void Awake()
+    public class ScoreManager : MonoBehaviour
     {
-        instance = this;
-    }
+        public LevelScore LevelScore { get; set; }
 
-    private void Start()
-    {
-        MetaGameManager.instance.SubscribeToBonusPointCollected(OnStarCollected);
-        HookController.Instance.SubscribeToUserClicked(OnUserClicked);
-    }
+        private float _startTime;
+        private float _levelTime;
 
-    public void ResetScore()
-    {
-        LevelScore = new LevelScore();
-    }
+        public void ResetScore()
+        {
+            LevelScore = new LevelScore();
+        }
 
-    // Game events
-    public void OnStarCollected(Star star)
-    {
-        LevelScore.stars++;
-    }
+        public void OnStarCollected()
+        {
+            LevelScore._stars++;
+        }
 
-    public void OnUserClicked(Vector2 pos)
-    {
-        LevelScore.clicks++;
+        public void OnUserClicked()
+        {
+            LevelScore._clicks++;
+        }
+
+        public void StopTimer()
+        {
+            _levelTime = Time.time - _startTime;
+        }
+
+        public void StartTimer()
+        {
+            _startTime = Time.time;
+        }
     }
 }

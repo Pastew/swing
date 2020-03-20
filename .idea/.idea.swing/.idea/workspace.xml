@@ -2,16 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/IButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/IButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,46 +78,53 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/AdvertisingDemo/AdvertisingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/AddedStringStringView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/UnsupportedNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSMutableArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/iOSNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/AndroidNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Native/iOSNotificationNative.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/EditorNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Media/Internal/Android/AndroidDeviceGallery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/SharingDemo/SharingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSURL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Notification.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6516040B-F7A5-4EE2-A24D-6AE4930EC525/3a/d3065c3c/Score.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/ContactsUI/CNContactPickerViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/LoadingPanelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/NotificationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_GUIStyleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/OneSignalNotificationPayload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/DigitalClock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_Ads.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/AppStoreSettingsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Contacts/CNContactFetchRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/StoreReview.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/RatingDialogContent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,58 +132,107 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/GameKit/GKInvite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/GameKit/GKMatchmakerViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/Invitation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/EditorSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/AndroidConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/Listener/NativeConsentDialogListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/iOSConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Common/iOSMulticastDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/GlobalConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Privacy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/AndroidNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/IButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/NoOpClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AudienceNetworkClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Giphy/Giphy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Gif.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/NativeUI_AlertPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/Racing3D/Racing3DGameView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/InAppPurchasing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Contacts/Internal/UnsupportedContactProvider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Assets/AdManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AdManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreSlider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ICollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/IDeadly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FPSForcer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IAPMoneyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameFlowManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/GameFlowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/MetaGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/MathUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/SharedEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/ILevelScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreGameFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/EventSender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/IButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton - Copy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" />
       </list>
     </option>
   </component>
@@ -172,10 +267,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15345">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15345" />
       <method v="2" />
     </configuration>
   </component>
@@ -190,6 +285,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -217,7 +313,11 @@
       <workItem from="1584090426159" duration="8181000" />
       <workItem from="1584115738647" duration="28000" />
       <workItem from="1584361217125" duration="1400000" />
-      <workItem from="1584449269954" duration="1973000" />
+      <workItem from="1584449269954" duration="3915000" />
+      <workItem from="1584526590942" duration="11462000" />
+      <workItem from="1584617150249" duration="925000" />
+      <workItem from="1584622585923" duration="2500000" />
+      <workItem from="1584703650653" duration="10759000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -275,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584115759561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor">
+      <created>1584454601730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454601730</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gitignore update">
+      <created>1584454738308</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454738308</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +397,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -301,98 +425,120 @@
     <MESSAGE value="ads, consest" />
     <MESSAGE value="New EasyMobile. Advertising works ok" />
     <MESSAGE value="some refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactor" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog" timestamp="1584115766181">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state x="1755" y="98" width="1770" height="908" key="DiffContextDialog" timestamp="1584531954221">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="-2460" y="-267" width="2360" height="1217" key="DiffContextDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115766181" />
-    <state width="2518" height="159" key="GridCell.Tab.0.bottom" timestamp="1584115725485">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state x="1755" y="98" width="1770" height="908" key="DiffContextDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584531954221" />
+    <state width="1878" height="172" key="GridCell.Tab.0.bottom" timestamp="1584717538859">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.0.bottom/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725485" />
-    <state width="2518" height="159" key="GridCell.Tab.0.center" timestamp="1584115725484">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538859" />
+    <state width="1878" height="172" key="GridCell.Tab.0.center" timestamp="1584717538858">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.0.center/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725484" />
-    <state width="2518" height="159" key="GridCell.Tab.0.left" timestamp="1584115725483">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538858" />
+    <state width="1878" height="172" key="GridCell.Tab.0.left" timestamp="1584717538858">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.0.left/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725483" />
-    <state width="2518" height="159" key="GridCell.Tab.0.right" timestamp="1584115725485">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538858" />
+    <state width="1878" height="172" key="GridCell.Tab.0.right" timestamp="1584717538859">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.0.right/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725485" />
-    <state width="2518" height="159" key="GridCell.Tab.1.bottom" timestamp="1584115725487">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538859" />
+    <state width="1878" height="172" key="GridCell.Tab.1.bottom" timestamp="1584717538860">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.1.bottom/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725487" />
-    <state width="2518" height="159" key="GridCell.Tab.1.center" timestamp="1584115725486">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538860" />
+    <state width="1878" height="172" key="GridCell.Tab.1.center" timestamp="1584717538860">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.1.center/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725486" />
-    <state width="2518" height="159" key="GridCell.Tab.1.left" timestamp="1584115725486">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538860" />
+    <state width="1878" height="172" key="GridCell.Tab.1.left" timestamp="1584717538859">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.1.left/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725486" />
-    <state width="2518" height="159" key="GridCell.Tab.1.right" timestamp="1584115725487">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538859" />
+    <state width="1878" height="172" key="GridCell.Tab.1.right" timestamp="1584717538860">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.1.right/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725487" />
-    <state width="2518" height="159" key="GridCell.Tab.2.bottom" timestamp="1584115725488">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538860" />
+    <state width="1878" height="172" key="GridCell.Tab.2.bottom" timestamp="1584717538861">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.2.bottom/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725488" />
-    <state width="2518" height="159" key="GridCell.Tab.2.center" timestamp="1584115725488">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.2.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538861" />
+    <state width="1878" height="172" key="GridCell.Tab.2.center" timestamp="1584717538861">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.2.center/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725488" />
-    <state width="2518" height="159" key="GridCell.Tab.2.left" timestamp="1584115725487">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.2.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538861" />
+    <state width="1878" height="172" key="GridCell.Tab.2.left" timestamp="1584717538861">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.2.left/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725487" />
-    <state width="2518" height="159" key="GridCell.Tab.2.right" timestamp="1584115725488">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.2.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538861" />
+    <state width="1878" height="172" key="GridCell.Tab.2.right" timestamp="1584717538861">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.2.right/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725488" />
-    <state width="2518" height="159" key="GridCell.Tab.3.bottom" timestamp="1584115725489">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.2.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538861" />
+    <state width="1878" height="172" key="GridCell.Tab.3.bottom" timestamp="1584717538862">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.3.bottom/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725489" />
-    <state width="2518" height="159" key="GridCell.Tab.3.center" timestamp="1584115725489">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.3.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538862" />
+    <state width="1878" height="172" key="GridCell.Tab.3.center" timestamp="1584717538862">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.3.center/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725489" />
-    <state width="2518" height="159" key="GridCell.Tab.3.left" timestamp="1584115725488">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.3.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538862" />
+    <state width="1878" height="172" key="GridCell.Tab.3.left" timestamp="1584717538861">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.3.left/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725488" />
-    <state width="2518" height="159" key="GridCell.Tab.3.right" timestamp="1584115725489">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state width="1878" height="172" key="GridCell.Tab.3.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538861" />
+    <state width="1878" height="172" key="GridCell.Tab.3.right" timestamp="1584717538862">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="2518" height="159" key="GridCell.Tab.3.right/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115725489" />
+    <state width="1878" height="172" key="GridCell.Tab.3.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584717538862" />
     <state x="-1455" y="59" key="RollbackChangesDialog" timestamp="1584107768430">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1455" y="59" key="RollbackChangesDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584107768430" />
-    <state x="-1680" y="81" key="Vcs.Push.Dialog.v2" timestamp="1584115761348">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state x="2340" y="357" key="Vcs.Push.Dialog.v2" timestamp="1584454741362">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="-1680" y="81" key="Vcs.Push.Dialog.v2/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115761348" />
+    <state x="2340" y="357" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584454741362" />
     <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584090451062">
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-4480.-367.1920.1057/-2560.-367.2560.1417/0.23.1680.1027@-2560.-367.2560.1417" timestamp="1584090451062" />
-    <state x="-1654" y="98" width="747" height="486" key="find.popup" timestamp="1584112901656">
-      <screen x="-2560" y="-367" width="2560" height="1417" />
+    <state x="2360" y="370" width="747" height="486" key="find.popup" timestamp="1584721503806">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="-1654" y="98" width="747" height="486" key="find.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584112901656" />
-    <state x="619" y="257" width="672" height="160" key="search.everywhere.popup" timestamp="1584449732208">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="2360" y="370" width="747" height="486" key="find.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584721503805" />
+    <state x="2387" y="264" width="768" height="165" key="search.everywhere.popup" timestamp="1584721887361">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="-1617" y="-44" width="672" height="160" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584111138872" />
     <state x="619" y="257" width="672" height="160" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584449732208" />
+    <state x="2387" y="264" width="768" height="165" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584721887361" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

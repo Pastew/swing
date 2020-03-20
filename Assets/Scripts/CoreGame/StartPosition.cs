@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
-public class StartPosition : MonoBehaviour
+namespace CoreGame
 {
+    public class StartPosition : MonoBehaviour
+    {
+    }
 }

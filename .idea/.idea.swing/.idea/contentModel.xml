@@ -786,16 +786,15 @@
         <e p="Scripts" t="Include">
           <e p="CoreGame" t="Include">
             <e p="CameraMovement.cs" t="Include" />
-            <e p="ColorManager.cs" t="Include" />
             <e p="CoreEvents.cs" t="Include" />
-            <e p="CoreGameManager.cs" t="Include" />
+            <e p="CoreFlow.cs" t="Include" />
+            <e p="Countdown.cs" t="Include" />
             <e p="Deadly.cs" t="Include" />
             <e p="FPSForcer.cs" t="Include" />
             <e p="Goal.cs" t="Include" />
             <e p="Hero.cs" t="Include" />
             <e p="Hook.cs" t="Include" />
             <e p="HookController.cs" t="Include" />
-            <e p="ICollectable.cs" t="Include" />
             <e p="LevelLoader.cs" t="Include" />
             <e p="ScoreManager.cs" t="Include" />
             <e p="Star.cs" t="Include" />
@@ -806,17 +805,25 @@
           </e>
           <e p="MetaGame" t="Include">
             <e p="AdManager.cs" t="Include" />
+            <e p="Buttons" t="Include">
+              <e p="IButton.cs" t="Include" />
+              <e p="PlayButton.cs" t="Include" />
+              <e p="ReplayButton.cs" t="Include" />
+            </e>
             <e p="GameSave.cs" t="Include" />
             <e p="GameSaveManager.cs" t="Include" />
             <e p="IAPMoneyManager.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
-            <e p="MetaGameManager.cs" t="Include" />
+            <e p="MetaEvents.cs" t="Include" />
+            <e p="MetaFlow.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
           <e p="Shared" t="Include">
-            <e p="ILevelScore.cs" t="Include" />
             <e p="LevelScore.cs" t="Include" />
-            <e p="SharedEvents.cs" t="Include" />
+            <e p="SharedFlow.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="MyMathUtils.cs" t="Include" />
           </e>
         </e>
         <e p="UI" t="Include">

@@ -1,49 +1,49 @@
 ﻿using System;
-using Shared;
 using UnityEngine;
 
-public class LevelLoader : MonoBehaviour
+namespace CoreGame
 {
-    public GameObject heroPrefab;
-    private GameObject hero;
-    private GameObject currentLevel;
-
-    public static LevelLoader instance;
-
-    private void Awake()
+    public class LevelLoader : MonoBehaviour
     {
-        instance = this;
-        SharedEvents.LoadLevelAction += Loadlevel;
-    }
-    
-    private void Loadlevel(int levelIndex)
-    {
-        Destroy(currentLevel);
+        [SerializeField] private  GameObject _heroPrefab;
+        
+        private GameObject _currentLevel;
+        private int _currentLevelIndex;
 
-        string path = "Levels/Level_" + levelIndex;
-        try
+        public void LoadLevel(int levelIndex)
         {
-            currentLevel = Instantiate(Resources.Load(path, typeof(GameObject))) as GameObject;
+            Destroy(_currentLevel);
+            
+            _currentLevelIndex = levelIndex;
+            string path = "Levels/Level_" + levelIndex;
+            try
+            {
+                _currentLevel = Instantiate(Resources.Load(path, typeof(GameObject))) as GameObject;
+            }
+            catch (ArgumentException argEx)
+            {
+                int lvlToLoad = 1;
+                Debug.LogError($"Level you're trying to load doesn't exist: {path}.  will load level {lvlToLoad}");
+                return;
+            }
+
+            CreateHero();
+            CoreEvents.LevelLoadedEvent();
         }
-        catch (ArgumentException argEx)
+    
+        private void CreateHero()
         {
-            int lvlToLoad = 1;
-            Debug.LogError($"Level you're trying to load doesn't exist: {path}.  will load level {lvlToLoad}");
-            return;
+            Instantiate(_heroPrefab, GetStartPosition(), Quaternion.identity);
+        }
+    
+        private Vector3 GetStartPosition()
+        {
+            return _currentLevel.GetComponentInChildren<StartPosition>().transform.position;
         }
 
-        ReloadHero();
-        MetaGameManager.instance.OnLevelLoaded();
-    }
-    
-    private void ReloadHero()
-    {
-        Destroy(hero);
-        hero = Instantiate(heroPrefab, GetStartPosition(), Quaternion.identity);
-    }
-    
-    private Vector3 GetStartPosition()
-    {
-        return currentLevel.GetComponentInChildren<StartPosition>().transform.position;
+        public void ReloadCurrentLevel()
+        {
+            LoadLevel(_currentLevelIndex);
+        }
     }
 }

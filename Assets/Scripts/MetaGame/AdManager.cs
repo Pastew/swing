@@ -2,27 +2,29 @@
 using EasyMobile;
 using UnityEngine;
 
-public class AdManager : MonoBehaviour
+namespace MetaGame
 {
-    public static AdManager instance;
-
-    private Action AdCompletedCallback;
-
-    private void Awake()
+    public class AdManager : MonoBehaviour
     {
-        if (instance == null)
-            instance = this;
+        public static AdManager instance;
 
-        Advertising.InterstitialAdCompleted += InterstitialAdCompletedHandler;
-    }
+        private Action AdCompletedCallback;
 
-    public void TryShowInterstitial(Action adCompletedCallback)
-    {
-        AdCompletedCallback = adCompletedCallback;
+        private void Awake()
+        {
+            if (instance == null)
+                instance = this;
+
+            Advertising.InterstitialAdCompleted += InterstitialAdCompletedHandler;
+        }
+
+        public void TryShowInterstitial(Action adCompletedCallback)
+        {
+            AdCompletedCallback = adCompletedCallback;
 
 #if UNITY_EDITOR
-        Debug.Log("!!!!!!!!!!!!Showing Advertisment!!!!!!!!!!!!!!");
-        adCompletedCallback();
+            Debug.Log("!!!!!!!!!!!! Showing Interstitial Ad !!!!!!!!!!!!!!");
+            adCompletedCallback();
 #else
         if (Advertising.IsInterstitialAdReady())
             Advertising.ShowInterstitialAd();
@@ -30,10 +32,11 @@ public class AdManager : MonoBehaviour
             callback();
 
 #endif
-    }
+        }
 
-    private void InterstitialAdCompletedHandler(InterstitialAdNetwork arg1, AdPlacement arg2)
-    {
-        AdCompletedCallback();
+        private void InterstitialAdCompletedHandler(InterstitialAdNetwork arg1, AdPlacement arg2)
+        {
+            AdCompletedCallback();
+        }
     }
 }

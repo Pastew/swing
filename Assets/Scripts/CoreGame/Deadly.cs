@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
-public class Deadly : MonoBehaviour
+namespace CoreGame
 {
+    [RequireComponent(typeof(Collider2D))]
+    public class Deadly : MonoBehaviour
+    {
+    }
 }

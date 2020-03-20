@@ -1,69 +1,71 @@
 ﻿using UnityEngine;
 
-public class Hero : MonoBehaviour
+namespace CoreGame
 {
-    private MetaGameManager _metaGameManager;
-
-    private Rigidbody2D rigid;
-    public float jumpForce = 1.5f;
-
-    private void Awake()
+    public class Hero : MonoBehaviour
     {
-        rigid = GetComponent<Rigidbody2D>();
-        _metaGameManager = FindObjectOfType<MetaGameManager>();
+        [SerializeField] private float _jumpForce = 1.5f;
+        
+        private Rigidbody2D _rigid;
 
-        rigid.isKinematic = true;
-    }
-
-    // Game Events
-    public void OnCountdownFinished()
-    {
-        rigid.isKinematic = false;
-        Jump(2);
-    }
-
-    public void OnHookRelease()
-    {
-        Jump();
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.GetComponent <Deadly>())
+        private void Awake()
         {
-            _metaGameManager.OnHeroDeath();
+            _rigid = GetComponent<Rigidbody2D>();
+
+            _rigid.isKinematic = true;
         }
 
-        if (collision.gameObject.GetComponent<Goal>())
+        // Game Events
+        public void Activate()
         {
-            _metaGameManager.OnHeroReachedGoal();
-            rigid.isKinematic = true;
-            rigid.velocity = Vector3.zero;
+            _rigid.isKinematic = false;
+            Jump(2);
         }
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Star star = collision.gameObject.GetComponent<Star>();
-        if (star)
+        public void OnHookRelease()
         {
-            _metaGameManager.OnBonusPointCollected(star);
+            Jump();
         }
-    }
 
-    // Others
-    private void Jump(float multiplier = 1f)
-    {
-        if (!PlayerIsCheating())
+        private void OnCollisionEnter2D(Collision2D collision)
         {
-            Vector2 jumpVector = Vector2.up * jumpForce * multiplier;
-            rigid.AddForce(jumpVector, ForceMode2D.Impulse);
-        }
-    }
+            if (collision.gameObject.GetComponent <Deadly>())
+            {
+                CoreEvents.HeroDiedAction(transform.position);
+                Destroy(gameObject);
+            }
 
-    private bool PlayerIsCheating()
-    {
-        // TODO: Return true if user clicks fast to gain height.
-        return false;
+            if (collision.gameObject.GetComponent<Goal>())
+            {
+                _rigid.isKinematic = true;
+                _rigid.velocity = Vector3.zero;
+                Destroy(gameObject);
+                CoreEvents.HeroReachedGoalEvent();
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            Star star = collision.gameObject.GetComponent<Star>();
+            if (star)
+            {
+                CoreEvents.StarCollectedEvent(star);
+            }
+        }
+
+        private void Jump(float multiplier = 1f)
+        {
+            if (!PlayerIsCheating())
+            {
+                Vector2 jumpVector = Vector2.up * _jumpForce * multiplier;
+                _rigid.AddForce(jumpVector, ForceMode2D.Impulse);
+            }
+        }
+
+        private bool PlayerIsCheating()
+        {
+            // TODO: Return true if user clicks fast to gain height.
+            return false;
+        }
     }
 }

@@ -1,6 +1,9 @@
-﻿public class LevelScore : ILevelScore
+﻿namespace Shared
 {
-    public int time; // miliseconds
-    public int clicks;
-    public int stars;
+    public class LevelScore
+    {
+        public int _time; // miliseconds
+        public int _clicks;
+        public int _stars;
+    }
 }
