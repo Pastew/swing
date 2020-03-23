@@ -1,8 +1,6 @@
-using UnityEngine;
-
 namespace MetaGame.Buttons
 {
-    public interface IButton
+    public class LevelsMenuButton : MenuButton
     {
         
     }

@@ -1,4 +1,7 @@
-﻿using EasyMobile;
+﻿using System.Collections.Generic;
+using System.Linq;
+using EasyMobile;
+using MetaGame.Buttons;
 using Shared;
 using UnityEngine;
 
@@ -6,15 +9,11 @@ namespace MetaGame
 {
     public class UIManager : MonoBehaviour
     {
-        private GameObject _menuUI;
-        private MetaFlow _metaFlow;
+        private List<MenuButton> _buttons;
 
         private void Awake()
         {
-            _metaFlow = FindObjectOfType<MetaFlow>();
-            _menuUI = transform.Find("Menu").gameObject;
-
-            HideMenu();
+            _buttons = FindObjectsOfType<MenuButton>().ToList();
         }
 
         private void Start()
@@ -26,32 +25,27 @@ namespace MetaGame
         {
             if (Advertising.IsAdRemoved())
             {
-                _menuUI.transform.Find("RemoveAds").gameObject.SetActive(false);
+                FindObjectOfType<RemoveAdsMenuButton>().gameObject.SetActive(false);
             }
         }
 
         internal void ShowMenu()
         {
-            SetMenuCanvasVisible(true);
+            _buttons.ForEach(b=> b.Show());
+        }
+
+        public void HideMenu()
+        {
+            _buttons.ForEach(b=> b.Hide());
         }
 
         // Menu canvas
         internal void ShowLevelResultsScreen(LevelScore levelScore)
         {
-            SetMenuCanvasVisible(true);
+            ShowMenu();
             print("Stars: " + levelScore._stars);
             print("Clicks: " + levelScore._clicks);
             print("Time elapsed: " + levelScore._time);
-        }
-
-        private void SetMenuCanvasVisible(bool visible)
-        {
-            _menuUI.SetActive(visible);
-        }
-
-        public void HideMenu()
-        {
-            SetMenuCanvasVisible(false);
         }
 
         public void SetCoinsText(int coins)

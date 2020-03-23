@@ -27,18 +27,13 @@ namespace MetaGame
 
         void Start()
         {
-            // MetaEvents.ShowMenuEvent();
-            _uiManager.ShowMenu();
+            // _uiManager.ShowMenu();
         }
 
         public void OnLevelFinished(LevelScore levelScore)
         {
-            ShowLevelResult(levelScore);
-        }
-
-        private void ShowLevelResult(LevelScore levelScore)
-        {
             _uiManager.ShowLevelResultsScreen(levelScore);
+
         }
     }
 }

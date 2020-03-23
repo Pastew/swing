@@ -821,9 +821,14 @@
           <e p="MetaGame" t="Include">
             <e p="AdManager.cs" t="Include" />
             <e p="Buttons" t="Include">
-              <e p="IButton.cs" t="Include" />
-              <e p="PlayButton.cs" t="Include" />
-              <e p="ReplayButton.cs" t="Include" />
+              <e p="LeaderboardMenuButton.cs" t="Include" />
+              <e p="LevelsMenuButton.cs" t="Include" />
+              <e p="MenuButton.cs" t="Include" />
+              <e p="PlayMenuButton.cs" t="Include" />
+              <e p="RemoveAdsMenuButton.cs" t="Include" />
+              <e p="ReplayMenuButton.cs" t="Include" />
+              <e p="SettingsMenuButton.cs" t="Include" />
+              <e p="ShareMenuButton.cs" t="Include" />
             </e>
             <e p="GameSave.cs" t="Include" />
             <e p="GameSaveManager.cs" t="Include" />
@@ -831,13 +836,16 @@
             <e p="LevelManager.cs" t="Include" />
             <e p="MetaEvents.cs" t="Include" />
             <e p="MetaFlow.cs" t="Include" />
-            <e p="UIManager.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="UIManager.cs" t="Include" />
+            </e>
           </e>
           <e p="Shared" t="Include">
             <e p="LevelScore.cs" t="Include" />
             <e p="SharedFlow.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
+            <e p="ABMover.cs" t="Include" />
             <e p="MyMathUtils.cs" t="Include" />
           </e>
         </e>

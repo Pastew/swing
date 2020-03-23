@@ -1,12 +1,12 @@
-using UnityEngine;
 using UnityEngine.UI;
 
 namespace MetaGame.Buttons
 {
-    public class PlayButton : MonoBehaviour, IButton
+    public class PlayMenuButton : MenuButton
     {
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             GetComponent<Button>().onClick.AddListener(() => MetaEvents.PlayButtonPressedEvent());
         }
     }
