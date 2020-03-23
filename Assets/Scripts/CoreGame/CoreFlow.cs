@@ -50,10 +50,9 @@ namespace CoreGame
             _scoreManager.StartTimer();
         }
 
-        private void OnStarCollected(Star star)
+        private void OnStarCollected(Vector2 pos)
         {
             _scoreManager.OnStarCollected();
-            Destroy(star.gameObject);
         }
 
         private void OnHeroReachedGoal()

@@ -15,5 +15,10 @@ namespace CoreGame
         {
             transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
         }
+
+        public void DestroyStar()
+        {
+            Destroy(gameObject);
+        }
     }
 }

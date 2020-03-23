@@ -25,8 +25,7 @@ namespace CoreGame
             if (target == null)
                 return;
 
-            Vector3 newPosition = new Vector3();
-            newPosition.z = -10;
+            Vector3 newPosition = new Vector3 {z = -10};
 
             var pos = target.transform.position;
             newPosition.x = Utils.MathUtils.Remap(_minX, _maxX, -_maxCamX, _maxCamX, pos.x);

@@ -826,11 +826,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 00f927f2705284aea8d4c9c5e4d5ab2d, type: 3}
-    m_FontSize: 222
+    m_Font: {fileID: 12800000, guid: 86e6a85077c6148b4aa7b77d0e86f615, type: 3}
+    m_FontSize: 180
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0

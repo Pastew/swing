@@ -49,7 +49,8 @@ namespace CoreGame
             Star star = collision.gameObject.GetComponent<Star>();
             if (star)
             {
-                CoreEvents.StarCollectedEvent(star);
+                CoreEvents.StarCollectedEvent(star.transform.position);
+                star.DestroyStar();
             }
         }
 
