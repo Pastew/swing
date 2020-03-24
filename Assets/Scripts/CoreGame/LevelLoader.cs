@@ -22,9 +22,8 @@ namespace CoreGame
             }
             catch (ArgumentException argEx)
             {
-                int lvlToLoad = 1;
-                Debug.LogError($"Level you're trying to load doesn't exist: {path}.  will load level {lvlToLoad}");
-                return;
+                Debug.LogError($"Level you're trying to load doesn't exist: {path}.");
+                throw;
             }
 
             CreateHero();
@@ -33,7 +32,8 @@ namespace CoreGame
     
         private void CreateHero()
         {
-            Instantiate(_heroPrefab, GetStartPosition(), Quaternion.identity);
+            GameObject hero = Instantiate(_heroPrefab, GetStartPosition(), Quaternion.identity);
+            hero.transform.parent = _currentLevel.transform;
         }
     
         private Vector3 GetStartPosition()

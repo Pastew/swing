@@ -25,11 +25,6 @@ namespace MetaGame
             };
         }
 
-        void Start()
-        {
-            // _uiManager.ShowMenu();
-        }
-
         public void OnLevelFinished(LevelScore levelScore)
         {
             _uiManager.ShowLevelResultsScreen(levelScore);

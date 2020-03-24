@@ -6,7 +6,7 @@ namespace CoreGame
 {
     public class Countdown : MonoBehaviour
     {
-        [Tooltip("In seconds")] private int _countdownTicks = 4;
+        private int _countdownStartValue = 3;
         private float _oneCountdownLength = 0.5f;
 
         private Text _text;
@@ -18,7 +18,7 @@ namespace CoreGame
 
         public void StartCountdown()
         {
-            StartCoroutine(CountdownEnumerator(_countdownTicks));
+            StartCoroutine(CountdownEnumerator(_countdownStartValue));
         }
 
         IEnumerator CountdownEnumerator(int seconds)

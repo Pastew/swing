@@ -5,6 +5,7 @@ namespace CoreGame
     public class Hero : MonoBehaviour
     {
         [SerializeField] private float _jumpForce = 1.5f;
+        [SerializeField] private GameObject _deathPrefab;
         
         private Rigidbody2D _rigid;
 
@@ -31,7 +32,9 @@ namespace CoreGame
         {
             if (collision.gameObject.GetComponent <Deadly>())
             {
-                CoreEvents.HeroDiedAction(transform.position);
+                var deathPosition = transform.position;
+                CoreEvents.HeroDiedAction(deathPosition);
+                Instantiate(_deathPrefab, deathPosition, Quaternion.identity);
                 Destroy(gameObject);
             }
 

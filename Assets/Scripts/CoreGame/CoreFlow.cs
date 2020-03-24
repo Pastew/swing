@@ -1,4 +1,5 @@
-﻿using Shared;
+﻿using DG.Tweening;
+using Shared;
 using UnityEngine;
 
 namespace CoreGame
@@ -10,6 +11,7 @@ namespace CoreGame
         private ScoreManager _scoreManager;
         private HookController _hookController;
         private SharedFlow _sharedFlow;
+        private CameraSlider _cameraSlider;
 
         private void Awake()
         {
@@ -18,6 +20,7 @@ namespace CoreGame
             _levelLoader = FindObjectOfType<LevelLoader>();
             _hookController = FindObjectOfType<HookController>();
             _scoreManager = FindObjectOfType<ScoreManager>();
+            _cameraSlider = FindObjectOfType<CameraSlider>();
         }
 
         private void Start()
@@ -36,11 +39,12 @@ namespace CoreGame
         {
             _levelLoader.LoadLevel(levelIndex);
             _scoreManager.ResetScore();
+            _cameraSlider.SlideOutInstant();;
         }
 
         private void OnLevelLoaded()
         {
-            _countdown.StartCountdown();
+            _cameraSlider.SlideIn().OnComplete(() => _countdown.StartCountdown());
         }
 
         private void OnCountdownFinished()
