@@ -11,11 +11,13 @@ namespace CoreGame
 
         private Camera _camera;
         private float _startingCameraSize;
+        private Vector3 _startingCameraPosition;
 
         private void Awake()
         {
             _camera = GetComponent<Camera>();
             _startingCameraSize = _camera.orthographicSize;
+            _startingCameraPosition = _camera.transform.position;
         }
 
         public Tweener SlideIn()
@@ -23,9 +25,12 @@ namespace CoreGame
             return Slide(_startingCameraSize);
         }
 
-        public Tweener SlideOut()
+        public Sequence SlideOut()
         {
-            return Slide(_slideOutSize);
+            Sequence s = DOTween.Sequence();
+            s.Append(Slide(_slideOutSize));
+            s.Join(transform.DOMove(_startingCameraPosition, _duration));
+            return s;
         }
 
         private Tweener Slide(float size)

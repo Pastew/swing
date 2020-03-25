@@ -68,7 +68,7 @@ namespace CoreGame
         {
             if (!PlayerIsCheating())
             {
-                Vector2 jumpVector = Vector2.up * _jumpForce * multiplier;
+                Vector2 jumpVector = _jumpForce * multiplier * Vector2.up;
                 _rigid.AddForce(jumpVector, ForceMode2D.Impulse);
             }
         }
