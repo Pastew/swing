@@ -7,7 +7,7 @@ namespace CoreGame
     public class ScreenDimmer : MonoBehaviour
     {
         private Graphic _image;
-        private float _duration = 0.5f;
+        [SerializeField] private float _duration = 0.5f;
 
         private void Awake()
         {

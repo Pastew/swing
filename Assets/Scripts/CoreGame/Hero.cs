@@ -1,13 +1,16 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 namespace CoreGame
 {
     public class Hero : MonoBehaviour
     {
         [SerializeField] private float _jumpForce = 1.5f;
+        [SerializeField] private float _disappearingDuration = 1;
+        [SerializeField] private GameObject _deathPrefab;
         
         private Rigidbody2D _rigid;
-        [SerializeField] private GameObject _deathPrefab;
+        private ParticleSystem _trail;
 
         private void Awake()
         {
@@ -37,23 +40,27 @@ namespace CoreGame
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
-
-            if (collision.gameObject.GetComponent<Goal>())
-            {
-                _rigid.isKinematic = true;
-                _rigid.velocity = Vector3.zero;
-                Destroy(gameObject);
-                CoreEvents.HeroReachedGoalEvent();
-            }
         }
 
-        private void OnTriggerEnter2D(Collider2D collision)
+        private void OnTriggerEnter2D(Collider2D collider)
         {
-            Star star = collision.gameObject.GetComponent<Star>();
+            Star star = collider.gameObject.GetComponent<Star>();
             if (star)
             {
                 CoreEvents.StarCollectedEvent(star.transform.position);
                 star.DestroyStar();
+            }
+            
+            if (collider.gameObject.GetComponentInParent<Goal>())
+            {
+                _rigid.isKinematic = true;
+                _rigid.velocity = Vector3.zero;
+                transform.DOMove(collider.gameObject.transform.parent.position, _disappearingDuration).SetEase(Ease.OutExpo);
+                transform.DOScale(Vector3.zero, _disappearingDuration).SetEase(Ease.OutExpo).OnComplete(() =>
+                {
+                    Destroy(gameObject);
+                    CoreEvents.HeroReachedGoalEvent();
+                });
             }
         }
 

@@ -7,7 +7,7 @@ namespace CoreGame
     public class CoreFlow : MonoBehaviour
     {
         private Countdown _countdown;
-        private LevelLoader _levelLoader;
+        private LevelManager _levelManager;
         private ScoreManager _scoreManager;
         private HookController _hookController;
         private SharedFlow _sharedFlow;
@@ -18,7 +18,7 @@ namespace CoreGame
         {
             _sharedFlow = FindObjectOfType<SharedFlow>();
             _countdown = FindObjectOfType<Countdown>();
-            _levelLoader = FindObjectOfType<LevelLoader>();
+            _levelManager = FindObjectOfType<LevelManager>();
             _hookController = FindObjectOfType<HookController>();
             _scoreManager = FindObjectOfType<ScoreManager>();
             _cameraSlider = FindObjectOfType<CameraSlider>();
@@ -39,9 +39,10 @@ namespace CoreGame
 
         public void LoadLevel(int levelIndex)
         {
-            _levelLoader.LoadLevel(levelIndex);
+            _levelManager.DestroyCurrentLevel();//TODO: Remove
+            _levelManager.LoadLevel(levelIndex);
             _scoreManager.ResetScore();
-            _cameraSlider.SlideOutInstant();;
+            _cameraSlider.SlideOutInstant();
         }
 
         private void OnLevelLoaded()
@@ -67,14 +68,18 @@ namespace CoreGame
             _sharedFlow.LevelFinished(_scoreManager.LevelScore);
             _hookController.SetActiveHook(false);
             _hookController.SetCanUseHook(false);
+            // _cameraSlider.SlideOut().OnComplete(() => _levelManager.DestroyCurrentLevel());
         }
 
         private void OnHeroDeath(Vector2 vector2)
         {
             _hookController.SetActiveHook(false);
-            _screenDimmer.Dim(true, 0.5f).OnComplete(()=>
+            _hookController.SetCanUseHook(false);
+            
+            _screenDimmer.Dim(true, 0.7f).OnComplete(()=>
             {
-                _levelLoader.ReloadCurrentLevel();
+                _levelManager.DestroyCurrentLevel();
+                _levelManager.ReloadCurrentLevel();
                 _screenDimmer.Dim(false);
             });
         }

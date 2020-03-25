@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace CoreGame
 {
-    public class LevelLoader : MonoBehaviour
+    public class LevelManager : MonoBehaviour
     {
         [SerializeField] private  GameObject _heroPrefab;
         
@@ -12,8 +12,6 @@ namespace CoreGame
 
         public void LoadLevel(int levelIndex)
         {
-            Destroy(_currentLevel);
-            
             _currentLevelIndex = levelIndex;
             string path = "Levels/Level_" + levelIndex;
             try
@@ -44,6 +42,11 @@ namespace CoreGame
         public void ReloadCurrentLevel()
         {
             LoadLevel(_currentLevelIndex);
+        }
+
+        public void DestroyCurrentLevel()
+        {
+            Destroy(_currentLevel);
         }
     }
 }
