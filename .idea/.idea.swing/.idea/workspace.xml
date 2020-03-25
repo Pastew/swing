@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Particles/StarExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Particles/StarExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Particles/WhiteStarExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Particles/WhiteStarExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/SpawnOnDestroy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodExplosion2D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodExplosion2D.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionBlue.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Hero.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +108,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LeaderboardMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SpawnOnDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs" root0="FORCE_HIGHLIGHTING" />
@@ -122,6 +130,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/GlobalConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Privacy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
@@ -160,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ColorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" />
@@ -210,7 +217,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/SpawnOnDestroy.cs" />
       </list>
     </option>
   </component>
@@ -223,6 +232,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YhkuopG7zMhW8EengCAX59pO15" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -230,6 +242,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -300,7 +313,8 @@
       <workItem from="1584966086761" duration="1170000" />
       <workItem from="1584967492929" duration="303000" />
       <workItem from="1584970103196" duration="6293000" />
-      <workItem from="1585054787243" duration="4988000" />
+      <workItem from="1585054787243" duration="5157000" />
+      <workItem from="1585120319547" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -386,7 +400,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584980863805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added epic toon fx. Added death effect">
+      <created>1585072300428</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585072300428</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added epic toon fx. Added death effect">
+      <created>1585072347746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585072347746</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added epic toon fx. Added death effect">
+      <created>1585072377623</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585072377623</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +453,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="some refactor. imported unity monetization" />
     <MESSAGE value="ads, consest" />
     <MESSAGE value="New EasyMobile. Advertising works ok" />
@@ -425,7 +461,8 @@
     <MESSAGE value="gitignore update" />
     <MESSAGE value="refactor" />
     <MESSAGE value="refactored menu from unity aim to dotweeen anim" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored menu from unity aim to dotweeen anim" />
+    <MESSAGE value="added epic toon fx. Added death effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="added epic toon fx. Added death effect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1755" y="98" width="1770" height="908" key="DiffContextDialog" timestamp="1585057629318">
@@ -533,10 +570,11 @@
       <screen x="-2560" y="-367" width="2560" height="1417" />
     </state>
     <state x="-1455" y="59" key="RollbackChangesDialog/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584107768430" />
-    <state x="2340" y="357" key="Vcs.Push.Dialog.v2" timestamp="1584980865632">
-      <screen x="1680" y="23" width="1920" height="1057" />
+    <state x="578" y="348" key="Vcs.Push.Dialog.v2" timestamp="1585072352146">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1680" y="81" key="Vcs.Push.Dialog.v2/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584115761348" />
+    <state x="578" y="348" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1585072352146" />
     <state x="2340" y="357" key="Vcs.Push.Dialog.v2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584980865632" />
     <state x="-1475" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584090451062">
       <screen x="-2560" y="-367" width="2560" height="1417" />
@@ -547,10 +585,11 @@
     </state>
     <state x="-1654" y="98" width="747" height="486" key="find.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584112901656" />
     <state x="2360" y="370" width="798" height="486" key="find.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1584966711258" />
-    <state x="619" y="257" width="672" height="160" key="search.everywhere.popup" timestamp="1585065975583">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="2387" y="246" width="768" height="169" key="search.everywhere.popup" timestamp="1585129825872">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="-1617" y="-44" width="672" height="160" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.1027/-4480.-367.1920.1057@-2560.-367.2560.1417" timestamp="1584111138872" />
+    <state x="2387" y="246" width="768" height="169" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1585129825872" />
     <state x="619" y="257" width="672" height="160" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1585065975583" />
     <state x="2387" y="264" width="768" height="165" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1585059535808" />
   </component>
