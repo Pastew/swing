@@ -7,6 +7,7 @@ namespace CoreGame
         [SerializeField] private float _jumpForce = 1.5f;
         
         private Rigidbody2D _rigid;
+        [SerializeField] private GameObject _deathPrefab;
 
         private void Awake()
         {
@@ -33,6 +34,7 @@ namespace CoreGame
             {
                 var deathPosition = transform.position;
                 CoreEvents.HeroDiedAction(deathPosition);
+                Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
 

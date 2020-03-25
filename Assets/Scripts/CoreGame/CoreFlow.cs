@@ -12,6 +12,7 @@ namespace CoreGame
         private HookController _hookController;
         private SharedFlow _sharedFlow;
         private CameraSlider _cameraSlider;
+        private ScreenDimmer _screenDimmer;
 
         private void Awake()
         {
@@ -21,6 +22,7 @@ namespace CoreGame
             _hookController = FindObjectOfType<HookController>();
             _scoreManager = FindObjectOfType<ScoreManager>();
             _cameraSlider = FindObjectOfType<CameraSlider>();
+            _screenDimmer = FindObjectOfType<ScreenDimmer>();
         }
 
         private void Start()
@@ -69,11 +71,15 @@ namespace CoreGame
 
         private void OnHeroDeath(Vector2 vector2)
         {
-            _levelLoader.ReloadCurrentLevel();
             _hookController.SetActiveHook(false);
+            _screenDimmer.Dim(true, 0.5f).OnComplete(()=>
+            {
+                _levelLoader.ReloadCurrentLevel();
+                _screenDimmer.Dim(false);
+            });
         }
 
-        private void OnUserUsedHookEvent(Vector2 cliclPos)
+        private void OnUserUsedHookEvent(Vector2 clickPos)
         {
             _scoreManager.OnUserClicked();
         }

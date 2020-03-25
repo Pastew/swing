@@ -851,6 +851,7 @@
             <e p="HookController.cs" t="Include" />
             <e p="LevelLoader.cs" t="Include" />
             <e p="ScoreManager.cs" t="Include" />
+            <e p="ScreenDimmer.cs" t="Include" />
             <e p="SpawnOnDestroy.cs" t="Include" />
             <e p="Star.cs" t="Include" />
             <e p="StartPosition.cs" t="Include" />

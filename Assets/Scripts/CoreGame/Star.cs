@@ -5,6 +5,7 @@ namespace CoreGame
     public class Star : MonoBehaviour 
     {
         private float rotateSpeed = 50f;
+        [SerializeField] private GameObject _deathPrefab;
 
         private void Start()
         {
@@ -18,6 +19,7 @@ namespace CoreGame
 
         public void DestroyStar()
         {
+            Instantiate(_deathPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
