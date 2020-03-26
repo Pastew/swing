@@ -67,9 +67,10 @@ namespace CoreGame
         private void OnHeroReachedGoal()
         {
             _scoreManager.StopTimer();
-            _hookController.SetActiveHook(false);
             _hookController.SetCanUseHook(false);
+            _hookController.SetActiveHook(false);
 
+            //Destroy(FindObjectOfType<Hero>().gameObject, 0.3f);
             Sequence seq = DOTween.Sequence();
             seq.Append(_cameraGoalMoveEffect.MoveToGoal());
             seq.Append(_screenDimmer.Dim(true, 0f, 0f));

@@ -47,3 +47,6 @@ TagManager:
   - name: Hero
     uniqueID: 526757969
     locked: 0
+  - name: MetaUI
+    uniqueID: 1398059525
+    locked: 0

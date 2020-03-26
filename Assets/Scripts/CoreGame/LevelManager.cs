@@ -30,8 +30,7 @@ namespace CoreGame
     
         private void CreateHero()
         {
-            GameObject hero = Instantiate(_heroPrefab, GetStartPosition(), Quaternion.identity);
-            hero.transform.parent = _currentLevel.transform;
+            Instantiate(_heroPrefab, GetStartPosition(), Quaternion.identity);
         }
     
         private Vector3 GetStartPosition()

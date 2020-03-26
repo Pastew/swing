@@ -8,13 +8,15 @@ namespace CoreGame
         [SerializeField] private float _jumpForce = 1.5f;
         [SerializeField] private float _disappearingDuration = 1;
         [SerializeField] private GameObject _deathPrefab;
-        
+
         private Rigidbody2D _rigid;
+        private CircleCollider2D _collider;
         private ParticleSystem _trail;
 
         private void Awake()
         {
             _rigid = GetComponent<Rigidbody2D>();
+            _collider = GetComponent<CircleCollider2D>();
 
             _rigid.isKinematic = true;
         }
@@ -33,7 +35,7 @@ namespace CoreGame
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.GetComponent <Deadly>())
+            if (collision.gameObject.GetComponent<Deadly>())
             {
                 var deathPosition = transform.position;
                 CoreEvents.HeroDiedAction(deathPosition);
@@ -42,25 +44,37 @@ namespace CoreGame
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D collider)
+        private void OnTriggerEnter2D(Collider2D col)
         {
-            Star star = collider.gameObject.GetComponent<Star>();
+            print("OnTriggerEnter2D");
+            Star star = col.gameObject.GetComponent<Star>();
             if (star)
             {
                 CoreEvents.StarCollectedEvent(star.transform.position);
                 star.DestroyStar();
             }
-            
-            if (collider.gameObject.GetComponentInParent<Goal>())
+
+            if (col.gameObject.GetComponentInParent<Goal>())
             {
                 _rigid.isKinematic = true;
                 _rigid.velocity = Vector3.zero;
-                transform.DOMove(collider.gameObject.transform.parent.position, _disappearingDuration).SetEase(Ease.OutExpo);
-                transform.DOScale(Vector3.zero, _disappearingDuration).SetEase(Ease.OutExpo).OnComplete(() =>
+                Destroy(_collider);
+                Sequence seq = DOTween.Sequence();
+                seq.Append(
+                    transform.DOMove(col.gameObject.transform.parent.position, _disappearingDuration)
+                    .SetEase(Ease.OutExpo));
+                
+                seq.Join(
+                    transform.DOScale(Vector3.zero, _disappearingDuration)
+                    .SetEase(Ease.OutExpo));
+
+                seq.OnComplete(() =>
                 {
-                    Destroy(gameObject);
                     CoreEvents.HeroReachedGoalEvent();
+                    Destroy(gameObject);
                 });
+                
+                seq.Play();
             }
         }
 

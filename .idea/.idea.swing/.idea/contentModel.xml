@@ -7,6 +7,13 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Components" t="Include">
+          <e p="UIStars" t="Include">
+            <e p="CollectedStarUI.cs" t="Include" />
+            <e p="EmptyStarUI.cs" t="Include" />
+            <e p="StarsResult.cs" t="Include" />
+          </e>
+        </e>
         <e p="Credits.txt" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
@@ -880,7 +887,9 @@
             <e p="MetaEvents.cs" t="Include" />
             <e p="MetaFlow.cs" t="Include" />
             <e p="UI" t="Include">
+              <e p="LevelScorePanel.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
+              <e p="UIPanel.cs" t="Include" />
             </e>
           </e>
           <e p="Shared" t="Include">
