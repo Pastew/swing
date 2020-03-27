@@ -1,4 +1,5 @@
 using UnityEngine.UI;
+using Utils;
 
 namespace MetaGame.Buttons
 {
@@ -7,7 +8,11 @@ namespace MetaGame.Buttons
         protected override void Awake()
         {
             base.Awake();
-            GetComponent<Button>().onClick.AddListener(() => MetaEvents.PlayButtonPressedEvent());
+            GetComponent<Button>().onClick.AddListener(() =>
+            {
+                GetComponent<HearthBeatAnimation>().KillAnimation();
+                MetaEvents.PlayButtonPressedEvent();
+            });
         }
     }
 }

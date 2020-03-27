@@ -8,10 +8,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Components" t="Include">
-          <e p="UIStars" t="Include">
+          <e p="LevelScorePanel" t="Include">
             <e p="CollectedStarUI.cs" t="Include" />
             <e p="EmptyStarUI.cs" t="Include" />
-            <e p="StarsResult.cs" t="Include" />
           </e>
         </e>
         <e p="Credits.txt" t="Include" />
@@ -871,6 +870,7 @@
           <e p="MetaGame" t="Include">
             <e p="AdManager.cs" t="Include" />
             <e p="Buttons" t="Include">
+              <e p="BuyCoinsButton.cs" t="Include" />
               <e p="LeaderboardMenuButton.cs" t="Include" />
               <e p="LevelsMenuButton.cs" t="Include" />
               <e p="MenuButton.cs" t="Include" />
@@ -898,12 +898,9 @@
           </e>
           <e p="Utils" t="Include">
             <e p="ABMover.cs" t="Include" />
+            <e p="DestroyOnAwake.cs" t="Include" />
+            <e p="HearthbeatAnimation.cs" t="Include" />
             <e p="MyMathUtils.cs" t="Include" />
-          </e>
-        </e>
-        <e p="UI" t="Include">
-          <e p="Buttons" t="Include">
-            <e p="Credits.txt" t="Include" />
           </e>
         </e>
         <e p="UnityAds" t="Include">

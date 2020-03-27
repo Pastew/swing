@@ -9,5 +9,6 @@ namespace MetaGame
         public static Action<int> UpdateCoinsEvent;
         public static Action PlayButtonPressedEvent;
         public static Action ReplayButtonPressedEvent;
+        public static Action LevelResultShown;
     }
 }

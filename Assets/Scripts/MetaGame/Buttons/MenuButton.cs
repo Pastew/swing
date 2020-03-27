@@ -6,7 +6,7 @@ namespace MetaGame.Buttons
 {
     public abstract class MenuButton : MonoBehaviour
     {
-        [SerializeField] protected ScreenSide _screenSide;
+        [SerializeField] protected MoveFromScreenSide moveFromScreenSide;
         [SerializeField] private int _showOrder = 1;
 
         private float _showSpeed = 0.2f;
@@ -33,16 +33,19 @@ namespace MetaGame.Buttons
         {
             Vector3 moveVector;
             _button.interactable = false;
-            switch (_screenSide)
+            switch (moveFromScreenSide)
             {
-                case ScreenSide.Left:
+                case MoveFromScreenSide.Left:
                     moveVector = Vector3.left;
                     break;
-                case ScreenSide.Right:
+                case MoveFromScreenSide.Right:
                     moveVector = Vector3.right;
                     break;
-                case ScreenSide.Bottom:
+                case MoveFromScreenSide.Bottom:
                     moveVector = Vector3.down;
+                    break;
+                case MoveFromScreenSide.DontMove:
+                    moveVector = Vector3.zero;
                     break;
                 default:
                     moveVector = Vector3.zero;
@@ -52,10 +55,11 @@ namespace MetaGame.Buttons
         }
     }
 
-    public enum ScreenSide
+    public enum MoveFromScreenSide
     {
         Left,
         Bottom,
-        Right
+        Right,
+        DontMove
     }
 }
