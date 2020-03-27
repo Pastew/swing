@@ -95,7 +95,7 @@ namespace CoreGame
             });
         }
 
-        private void OnUserUsedHookEvent(Vector2 clickPos)
+        private void OnUserUsedHookEvent()
         {
             _scoreManager.OnUserClicked();
         }

@@ -143,8 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17728c8192fa4628b2bad759302a7e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveFromScreenSide: 1
-  _showOrder: 2
 --- !u!1 &2017984813222609344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,8 +1297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc176ed6fdc43bb9d9d3fc7a54cb548, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveFromScreenSide: 1
-  _showOrder: 1
 --- !u!114 &7375077969668866583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,8 +1383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf2a8426f9f54919819b3aa32ff4bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveFromScreenSide: 1
-  _showOrder: 3
 --- !u!1 &8791970707460700477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,11 +1463,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4299500327537391991}
     m_Modifications:
-    - target: {fileID: 9009762907058853401, guid: 6edd30154dd083c44a5de07598112235,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9009762907058853406, guid: 6edd30154dd083c44a5de07598112235,
         type: 3}
       propertyPath: m_Name

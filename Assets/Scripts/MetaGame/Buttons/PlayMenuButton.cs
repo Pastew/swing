@@ -1,13 +1,13 @@
+using UnityEngine;
 using UnityEngine.UI;
 using Utils;
 
 namespace MetaGame.Buttons
 {
-    public class PlayMenuButton : MenuButton
+    public class PlayMenuButton : MonoBehaviour
     {
-        protected override void Awake()
+        protected void Awake()
         {
-            base.Awake();
             GetComponent<Button>().onClick.AddListener(() =>
             {
                 GetComponent<HearthBeatAnimation>().KillAnimation();

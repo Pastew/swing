@@ -8,7 +8,6 @@ namespace CoreGame
         public LevelScore LevelScore { get; set; }
 
         private float _startTime;
-        private float _levelTime;
 
         public void ResetScore()
         {
@@ -27,11 +26,14 @@ namespace CoreGame
 
         public void StopTimer()
         {
-            _levelTime = Time.time - _startTime;
+            print("StopTimer");
+
+            LevelScore._seconds = Time.time - _startTime;
         }
 
         public void StartTimer()
         {
+            print("StartTimer");
             _startTime = Time.time;
         }
     }

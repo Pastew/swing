@@ -1,6 +1,8 @@
+using UnityEngine;
+
 namespace MetaGame.Buttons
 {
-    public class LevelsMenuButton : MenuButton
+    public class LevelsMenuButton : MonoBehaviour
     {
         
     }

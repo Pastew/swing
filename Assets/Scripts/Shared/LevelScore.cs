@@ -2,7 +2,7 @@
 {
     public class LevelScore
     {
-        public int _time; // miliseconds
+        public float _seconds;
         public int _clicks;
         public int _stars;
     }

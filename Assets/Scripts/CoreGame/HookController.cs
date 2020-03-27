@@ -27,6 +27,7 @@ namespace CoreGame
             {
                 _hookGO.transform.position = GetNewHookPosition();
                 SetActiveHook(true);
+                CoreEvents.UserUsedHookEvent();
             }
             else if (Input.GetMouseButtonUp(0))
             {

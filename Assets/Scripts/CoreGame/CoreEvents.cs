@@ -5,7 +5,7 @@ namespace CoreGame
 {
     public class CoreEvents : MonoBehaviour
     {
-        public static Action<Vector2> UserUsedHookEvent;
+        public static Action UserUsedHookEvent;
         public static Action LevelLoadedEvent;
         public static Action CountdownFinishedEvent;
         public static Action<Vector2> StarCollectedEvent;

@@ -1,12 +1,12 @@
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace MetaGame.Buttons
 {
-    public class ReplayMenuButton : MenuButton
+    public class ReplayMenuButton : MonoBehaviour
     {
-        protected override void Awake()
+        protected void Awake()
         {
-            base.Awake();
             GetComponent<Button>().onClick.AddListener(() => MetaEvents.ReplayButtonPressedEvent());
         }
     }
