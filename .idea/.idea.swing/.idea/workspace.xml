@@ -2,20 +2,362 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/ExternalDependencyManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/ExternalDependencyManager/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/ExternalDependencyManager/LICENSE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/ExternalDependencyManager/external-dependency-manager-latest.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/PlayMakerActions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Packages/PlayMakerActions/PlayMakerActions.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/FairBidClientImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdNetworkSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdNetworkSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/FairBidSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/FairBidSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/LevelScorePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/LevelScorePanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/UIStars/StarsResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/BuyCoinsButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LevelsMenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LevelsMenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Buttons/TemplateButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Buttons/TemplateButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/AdvertisingDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/AdvertisingDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeUIDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scenes/Modules/NativeUIDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaDemo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaResultView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaResultView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/NativeUIDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/NativeUIDemo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/NativeApisIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/NativeApisIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/PlaymakerLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/PlaymakerLogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-Black_HorizLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-Black_HorizLogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-White_HorizLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/Poweredby_640px-White_HorizLogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ads-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ads-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/checked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/checked.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/easymobile-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/easymobile-icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/em-title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/em-title.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/game-service-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/game-service-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/gif-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/gif-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/iap-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/iap-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/media-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/media-icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/notifications-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/notifications-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/privacy-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/privacy-icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/racing3d-use-nitro-icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/racing3d-use-nitro-icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/restart.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/restart.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/share-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/share-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-osprite.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-osprite.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-xsprite.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/tictactoe-xsprite.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-emptycircle.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-emptycircle.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/ui-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/unchecked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/unchecked.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/utility-icon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Demo/Sprites/utility-icon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants_Version.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants_Version.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_ExternalPluginManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_ExternalPluginManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_ScriptingSymbols.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_ScriptingSymbols.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditorHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditorHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_Ads.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_Ads.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_GameServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_GameServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EasyMobileSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/EasyMobileSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Editor/ModuleManagers/ModuleManager_Advertising.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Editor/ModuleManagers/ModuleManager_Advertising.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/GUISkins/Textures/toggle-switch-background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/GUISkins/Textures/toggle-switch-background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/arm64-v8a/libeasymobile.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/arm64-v8a/libeasymobile.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/armeabi-v7a/libeasymobile.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/armeabi-v7a/libeasymobile.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/x86/libeasymobile.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/x86/libeasymobile.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/x86_64/libeasymobile.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/Android/libs/x86_64/libeasymobile.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_CameraGallery.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_CameraGallery.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_CameraGallery.a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_CameraGallery.a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_Contacts.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Plugins/iOS/libEasyMobile_Contacts.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-back.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-back.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-down.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-down.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-up.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Prefabs/EditorConsentDialog/icon-chevron-up.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/HeyzapClientImpl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/HeyzapClientImpl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/FairBidClientImpl.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdColonySettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdColonySettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdMobSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AdMobSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AppLovinSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AppLovinSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AudienceNetworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/AudienceNetworkSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/ChartboostSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/ChartboostSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/IronSourceSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/IronSourceSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/MoPubSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/MoPubSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/TapjoySettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/TapjoySettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/UnityAdsSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkSettings/UnityAdsSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Native/iOSSavedGameNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Native/iOSSavedGameNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/iOSSavedGameClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/iOSSavedGameClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/IAPProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/IAPProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/InAppPurchasing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/InAppPurchasing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/NativeUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/NativeUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/Platforms/iOSNativeAlert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/Platforms/iOSNativeAlert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/iOSNotificationListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/iOSNotificationListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/LocalNotification/iOSLocalNotificationClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/LocalNotification/iOSLocalNotificationClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Native/iOSNotificationNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Native/iOSNotificationNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/iOSConsentDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/iOSConsentDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Sharing/Platforms/iOSSharingClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Sharing/Platforms/iOSSharingClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/Platforms/iOSNativeUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/Platforms/iOSNativeUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Landscape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/LandscapeMon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/LandscapeMon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Portrait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Portrait.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/PortraitMon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/PortraitMon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Purchase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Resources/Purchase.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.131.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.131.0.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.131.0.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.131.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.131.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.131.0.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.131.0.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.131.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.131.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.131.0.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.131.0.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.131.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.131.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.131.0.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/UnityAds.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/UnityAds.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/UnityAdsAndroidPlugin.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/UnityAdsAndroidPlugin.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.core.common-1.0.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.core.common-1.0.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.lifecycle.common-1.0.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.lifecycle.common-1.0.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.animated-vector-drawable-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.animated-vector-drawable-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.appcompat-v7-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.appcompat-v7-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-annotations-26.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-annotations-26.1.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-vector-drawable-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.support.support-vector-drawable-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.sglib.easymobile.easy-mobile-1.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.sglib.easymobile.easy-mobile-1.3.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.sglib.easymobile.easy-mobile-1.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.sglib.easymobile.easy-mobile-1.3.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UDP/UDP.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UDP/UDP.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityChannel/XiaomiSupport.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/CloudMoolah.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/CloudMoolah.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GoogleAIDL.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GoogleAIDL.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GooglePlay.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GooglePlay.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live/FacebookStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live/FacebookStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/libTizenStore.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/libTizenStore.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/libTizenStore.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/libTizenStore.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/live/Tizen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/live/Tizen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/live/Tizen.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Tizen/live/Tizen.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS/unitypurchasing" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS/unitypurchasing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Resources/en.lproj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/Resources/en.lproj.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/ETag" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/ETag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/ETag.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/ETag.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Editor/IAPUpdaterPreferences.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Editor/IAPUpdaterPreferences.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Resources/BillingMode.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Resources/BillingMode.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityEarlyTransactionObserver.mm.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.m.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/iOS/UnityPurchasing.m.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/live/winrt.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/live/winrt.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/winrt/winrt.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/NSString+UnityAdsError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/NSString+UnityAdsError.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtended.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtended.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/Modules/module.modulemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/UnityAds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAds.framework/UnityAds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsPurchasingWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsPurchasingWrapper.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsPurchasingWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsPurchasingWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsUnityWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsUnityWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAdsUtilities.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAnalyticsWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityAnalyticsWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityBannerUnityWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityBannerUnityWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityJsonAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityJsonAdditions.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityJsonAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityJsonAdditions.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationDecisionWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationDecisionWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationNativePromoAdapterWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationNativePromoAdapterWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationPurchasingAdapter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationPurchasingAdapter.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationUnityWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/UnityMonetizationUnityWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game_Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityAdsApiReference.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityAdsApiReference.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Android.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Android.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.Unsupported.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.iOS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Advertisements.iOS.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Android.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Android.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.Unsupported.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.iOS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/UnityEngine.Monetization.iOS.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityAds/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +425,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/ContactsUI/CNContactPickerViewController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/Analytics/WebRequestQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/RemoveAdsMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/LoadingPanelController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,7 +439,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/DigitalClock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/AppLifecycleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_Ads.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UDP/Editor/AppStoreSettingsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
@@ -141,13 +481,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/Invitation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/EditorSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/ITurnBasedMultiplayerClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/CodelessIAPStoreListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/AndroidConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/1d/3fb9efdb/DOVirtual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/Listener/NativeConsentDialogListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/EditorConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
@@ -179,7 +515,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IAdClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/HeyzapClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Giphy/Giphy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -190,6 +525,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangePurple.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangeGreen.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdNetwork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/ClipPlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -223,7 +559,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/EventSender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton - Copy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayButton.cs" />
@@ -274,6 +609,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" />
       </list>
     </option>
   </component>
@@ -371,6 +707,7 @@
       <workItem from="1585120319547" duration="13605000" />
       <workItem from="1585226179155" duration="8859000" />
       <workItem from="1585297106567" duration="12664000" />
+      <workItem from="1597309490361" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>

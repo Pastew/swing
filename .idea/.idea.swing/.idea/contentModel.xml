@@ -4,7 +4,6 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Components" t="Include">
@@ -341,7 +340,7 @@
                   <e p="AppLovinClientImpl.cs" t="Include" />
                   <e p="AudienceNetworkClientImpl.cs" t="Include" />
                   <e p="ChartboostClientImpl.cs" t="Include" />
-                  <e p="HeyzapClientImpl.cs" t="Include" />
+                  <e p="FairBidClientImpl.cs" t="Include" />
                   <e p="IAdClient.cs" t="Include" />
                   <e p="IronSourceClientImpl.cs" t="Include" />
                   <e p="MoPubClientImpl.cs" t="Include" />
@@ -352,9 +351,11 @@
                 <e p="NetworkSettings" t="Include">
                   <e p="AdColonySettings.cs" t="Include" />
                   <e p="AdMobSettings.cs" t="Include" />
+                  <e p="AdNetworkSettings.cs" t="Include" />
                   <e p="AppLovinSettings.cs" t="Include" />
                   <e p="AudienceNetworkSettings.cs" t="Include" />
                   <e p="ChartboostSettings.cs" t="Include" />
+                  <e p="FairBidSettings.cs" t="Include" />
                   <e p="HeyzapSettings.cs" t="Include" />
                   <e p="IronSourceSettings.cs" t="Include" />
                   <e p="MoPubSettings.cs" t="Include" />
@@ -798,46 +799,9 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
-          <e p="Android" t="Include">
-            <e p="EasyMobile" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-            </e>
-          </e>
-          <e p="UDP" t="Include">
-            <e p="Editor" t="Include">
-              <e p="Analytics" t="Include">
-                <e p="Common.cs" t="Include" />
-                <e p="EditorAnalytcisApi.cs" t="Include" />
-                <e p="ProjectBuildEvent.cs" t="Include" />
-                <e p="ProjectOpenEvent.cs" t="Include" />
-                <e p="SdkImportEvent.cs" t="Include" />
-                <e p="WebRequestQueue.cs" t="Include" />
-              </e>
-              <e p="AppStoreModel.cs" t="Include" />
-              <e p="AppStoreOnboardApi.cs" t="Include" />
-              <e p="AppStoreSettingsEditor.cs" t="Include" />
-              <e p="AppStoreStyles.cs" t="Include" />
-              <e p="Utils.cs" t="Include" />
-            </e>
-          </e>
           <e p="UnityPurchasing" t="Include">
             <e p="Editor" t="Include">
-              <e p="IAPButtonEditor.cs" t="Include" />
-              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
-            </e>
-            <e p="script" t="Include">
-              <e p="CodelessIAPStoreListener.cs" t="Include" />
-              <e p="ComboBox.cs" t="Include" />
-              <e p="Demo" t="Include">
-                <e p="DemoInventory.cs" t="Include" />
-              </e>
-              <e p="IAPButton.cs" t="Include" />
-              <e p="IAPConfigurationHelper.cs" t="Include" />
-              <e p="IAPDemo.cs" t="Include" />
-              <e p="IAPDemoProductUI.cs" t="Include" />
-              <e p="IAPListener.cs" t="Include" />
-              <e p="link.xml" t="Include" />
-              <e p="PurchasingCheck.cs" t="Include" />
+              <e p="UnityIAPInstaller.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -902,9 +866,6 @@
             <e p="HearthbeatAnimation.cs" t="Include" />
             <e p="MyMathUtils.cs" t="Include" />
           </e>
-        </e>
-        <e p="UnityAds" t="Include">
-          <e p="link.xml" t="Include" />
         </e>
       </e>
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
