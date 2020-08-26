@@ -2,16 +2,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using Utils;
 
-namespace MetaGame.Buttons
+namespace MetaGame
 {
-    public class PlayMenuButton : MonoBehaviour
+    public class NextLevelMenuButton : MonoBehaviour
     {
         protected void Awake()
         {
             GetComponent<Button>().onClick.AddListener(() =>
             {
-                GetComponent<HearthBeatAnimation>().KillAnimation();
-                MetaEvents.PlayButtonPressedEvent();
+                MetaEvents.NextLevelButtonPressedEvent();
             });
         }
     }

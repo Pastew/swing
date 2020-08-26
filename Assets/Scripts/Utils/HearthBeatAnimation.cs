@@ -5,7 +5,7 @@ namespace Utils
 {
     public class HearthBeatAnimation : MonoBehaviour
     {
-        [SerializeField] private float _firstDelay = 2f;
+        [SerializeField] private float _firstDelay = 3f;
         [SerializeField] private float _duration = 2f;
         [SerializeField] private AnimationCurve _animCurve;
 
@@ -21,13 +21,12 @@ namespace Utils
             tween = transform.DOScale(transform.localScale * 2, _duration)
                 .SetEase(_animCurve)
                 .SetDelay(delay)
-                .OnComplete(() => Animate());
+                .SetLoops(-1);
         }
 
         public void KillAnimation()
         {
-            tween?.Kill();
-            Destroy(this);
+            tween?.Complete();
         }
     }
 }

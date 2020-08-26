@@ -1,5 +1,4 @@
-﻿using MetaGame.UI;
-using Shared;
+﻿using Shared;
 using UnityEngine;
 
 namespace MetaGame
@@ -13,18 +12,26 @@ namespace MetaGame
         {
             _uiManager = FindObjectOfType<UIManager>();
             _levelManager = FindObjectOfType<LevelManager>();
-            MetaEvents.PlayButtonPressedEvent += () =>
+            MetaEvents.NextLevelButtonPressedEvent += () =>
             {
-                _uiManager.HideButtons();
                 _uiManager.HideCurrentPanel();
                 _levelManager.LoadNextLevel();
             };
 
             MetaEvents.ReplayButtonPressedEvent += () =>
             {
-                _uiManager.HideButtons();
                 _uiManager.HideCurrentPanel();
                 _levelManager.LoadCurrentLevel();
+            };
+
+            MetaEvents.LevelsButtonPressedEvent += () =>
+            {
+                _uiManager.ShowLevelsPanel();
+            };
+
+            MetaEvents.MainMenuButtonPressedEvent += () =>
+            {
+                _uiManager.ShowMainMenuPanel();
             };
         }
 

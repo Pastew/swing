@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Components" t="Include">
@@ -793,15 +794,42 @@
             <e p="ETFXRotation.cs" t="Include" />
           </e>
         </e>
-        <e p="PlayServicesResolver" t="Include">
-          <e p="Editor" t="Include">
-            <e p="play-services-resolver_v1.2.131.0.txt" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
+          <e p="UDP" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Analytics" t="Include">
+                <e p="Common.cs" t="Include" />
+                <e p="EditorAnalytcisApi.cs" t="Include" />
+                <e p="ProjectBuildEvent.cs" t="Include" />
+                <e p="ProjectOpenEvent.cs" t="Include" />
+                <e p="SdkImportEvent.cs" t="Include" />
+                <e p="WebRequestQueue.cs" t="Include" />
+              </e>
+              <e p="AppStoreModel.cs" t="Include" />
+              <e p="AppStoreOnboardApi.cs" t="Include" />
+              <e p="AppStoreSettingsEditor.cs" t="Include" />
+              <e p="AppStoreStyles.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+            </e>
+          </e>
           <e p="UnityPurchasing" t="Include">
             <e p="Editor" t="Include">
-              <e p="UnityIAPInstaller.cs" t="Include" />
+              <e p="IAPButtonEditor.cs" t="Include" />
+              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
+            </e>
+            <e p="script" t="Include">
+              <e p="CodelessIAPStoreListener.cs" t="Include" />
+              <e p="ComboBox.cs" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="DemoInventory.cs" t="Include" />
+              </e>
+              <e p="IAPButton.cs" t="Include" />
+              <e p="IAPConfigurationHelper.cs" t="Include" />
+              <e p="IAPDemo.cs" t="Include" />
+              <e p="IAPDemoProductUI.cs" t="Include" />
+              <e p="IAPListener.cs" t="Include" />
+              <e p="link.xml" t="Include" />
+              <e p="PurchasingCheck.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -833,17 +861,6 @@
           </e>
           <e p="MetaGame" t="Include">
             <e p="AdManager.cs" t="Include" />
-            <e p="Buttons" t="Include">
-              <e p="BuyCoinsButton.cs" t="Include" />
-              <e p="LeaderboardMenuButton.cs" t="Include" />
-              <e p="LevelsMenuButton.cs" t="Include" />
-              <e p="MenuButton.cs" t="Include" />
-              <e p="PlayMenuButton.cs" t="Include" />
-              <e p="RemoveAdsMenuButton.cs" t="Include" />
-              <e p="ReplayMenuButton.cs" t="Include" />
-              <e p="SettingsMenuButton.cs" t="Include" />
-              <e p="ShareMenuButton.cs" t="Include" />
-            </e>
             <e p="GameSave.cs" t="Include" />
             <e p="GameSaveManager.cs" t="Include" />
             <e p="IAPMoneyManager.cs" t="Include" />
@@ -851,7 +868,20 @@
             <e p="MetaEvents.cs" t="Include" />
             <e p="MetaFlow.cs" t="Include" />
             <e p="UI" t="Include">
-              <e p="LevelScorePanel.cs" t="Include" />
+              <e p="Buttons" t="Include">
+                <e p="BuyCoinsButton.cs" t="Include" />
+                <e p="LeaderboardMovingMenuButton.cs" t="Include" />
+                <e p="LevelsMenuButton.cs" t="Include" />
+                <e p="MainMenuButton.cs" t="Include" />
+                <e p="NextLevelMenuButton.cs" t="Include" />
+                <e p="RemoveAdsMovingMenuButton.cs" t="Include" />
+                <e p="ReplayMenuButton.cs" t="Include" />
+                <e p="SettingsMovingMenuButton.cs" t="Include" />
+                <e p="ShareMovingMenuButton.cs" t="Include" />
+              </e>
+              <e p="LevelResultPanel.cs" t="Include" />
+              <e p="LevelsPanel.cs" t="Include" />
+              <e p="MainMenuPanel.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
               <e p="UIPanel.cs" t="Include" />
             </e>

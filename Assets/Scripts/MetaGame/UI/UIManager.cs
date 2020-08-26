@@ -1,61 +1,70 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using EasyMobile;
-using MetaGame.Buttons;
+﻿using EasyMobile;
 using Shared;
 using UnityEngine;
 
-namespace MetaGame.UI
+namespace MetaGame
 {
     public class UIManager : MonoBehaviour
     {
-        [SerializeField] private GameObject _levelScorePanelPrefab;
-        
-        private List<MenuButton> _buttons;
         private UIPanel _currentPanel;
+        private MainMenuPanel _mainMenuPanel;
+        private LevelsPanel _levelsPanel;
+        private LevelResultPanel _levelResultPanel;
 
         private void Awake()
         {
-            _buttons = FindObjectsOfType<MenuButton>().ToList();
+            _mainMenuPanel = FindObjectOfType<MainMenuPanel>();
+            _levelsPanel = FindObjectOfType<LevelsPanel>();
+            _levelResultPanel = FindObjectOfType<LevelResultPanel>();
 
-            MetaEvents.LevelResultShown += OnLevelResultScreenShown;
+            _currentPanel = _mainMenuPanel;
+            MetaEvents.LevelResultShownEvent += OnLevelResultScreenShown;
         }
 
         private void Start()
         {
             HideRemoveAdsButtonIfPurchased();
+            _levelsPanel.Hide(true);
+            _levelResultPanel.Hide(true);
         }
 
         private void HideRemoveAdsButtonIfPurchased()
         {
             if (Advertising.IsAdRemoved())
             {
-                FindObjectOfType<RemoveAdsMenuButton>().gameObject.SetActive(false);
+                FindObjectOfType<RemoveAdsMovingMenuButton>().gameObject.SetActive(false);
             }
-        }
-
-        private void ShowButtons()
-        {
-            _buttons.ForEach(b => b.Show());
-        }
-
-        public void HideButtons()
-        {
-            _buttons.ForEach(b => b.Hide());
         }
 
         // Menu canvas
         internal void ShowLevelResultsScreen(LevelScore levelScore)
         {
-            LevelScorePanel levelScorePanel = Instantiate(_levelScorePanelPrefab, transform).GetComponent<LevelScorePanel>();
-            _currentPanel = levelScorePanel.GetComponent<UIPanel>();
-            levelScorePanel.Show(levelScore);
+            _levelResultPanel.Setup(levelScore);
+            _currentPanel = _levelResultPanel;
+            _levelResultPanel.Show();
         }
-
+        
         private void OnLevelResultScreenShown()
         {
-            ShowButtons();
         }
+        
+        public void ShowLevelsPanel()
+        {
+            ShowPanel(_levelsPanel);
+        }
+        
+        public void ShowMainMenuPanel()
+        {
+            ShowPanel(_mainMenuPanel);
+        }
+
+        private void ShowPanel(UIPanel panel)
+        {
+            HideCurrentPanel();
+            panel.Show();
+            _currentPanel = panel;
+        }
+
 
         public void SetCoinsText(int coins)
         {
@@ -64,11 +73,8 @@ namespace MetaGame.UI
 
         public void HideCurrentPanel()
         {
-            if (_currentPanel != null)
-            {
-                _currentPanel.Hide();
-                _currentPanel = null;
-            }
+            _currentPanel.Hide();
+            _currentPanel = null;
         }
     }
 }

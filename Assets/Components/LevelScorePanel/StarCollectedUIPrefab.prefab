@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -149,16 +150,16 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.63
       value: 1
-      inSlope: 2
-      outSlope: 2
+      inSlope: 3.3047128
+      outSlope: 3.3047128
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.019489205
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _imageFadeInDuration: 2
+  _imageFadeInDuration: 0.8
 --- !u!1 &6654452466940250336
 GameObject:
   m_ObjectHideFlags: 0

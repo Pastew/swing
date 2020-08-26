@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MetaGame.Buttons
+namespace MetaGame
 {
     public class ReplayMenuButton : MonoBehaviour
     {

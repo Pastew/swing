@@ -16,19 +16,19 @@ namespace CoreGame
 
         public void OnStarCollected()
         {
-            LevelScore._stars++;
+            LevelScore.Stars++;
         }
 
         public void OnUserClicked()
         {
-            LevelScore._clicks++;
+            LevelScore.Clicks++;
         }
 
         public void StopTimer()
         {
             print("StopTimer");
 
-            LevelScore._seconds = Time.time - _startTime;
+            LevelScore.Seconds = Time.time - _startTime;
         }
 
         public void StartTimer()
