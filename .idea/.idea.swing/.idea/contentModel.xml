@@ -870,20 +870,23 @@
             <e p="UI" t="Include">
               <e p="Buttons" t="Include">
                 <e p="BuyCoinsButton.cs" t="Include" />
+                <e p="LastWorldButton.cs" t="Include" />
                 <e p="LeaderboardMovingMenuButton.cs" t="Include" />
-                <e p="LevelsMenuButton.cs" t="Include" />
                 <e p="MainMenuButton.cs" t="Include" />
                 <e p="NextLevelMenuButton.cs" t="Include" />
                 <e p="RemoveAdsMovingMenuButton.cs" t="Include" />
                 <e p="ReplayMenuButton.cs" t="Include" />
                 <e p="SettingsMovingMenuButton.cs" t="Include" />
                 <e p="ShareMovingMenuButton.cs" t="Include" />
+                <e p="WorldsButton.cs" t="Include" />
               </e>
               <e p="LevelResultPanel.cs" t="Include" />
               <e p="LevelsPanel.cs" t="Include" />
               <e p="MainMenuPanel.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
               <e p="UIPanel.cs" t="Include" />
+              <e p="WorldButton.cs" t="Include" />
+              <e p="WorldsPanel.cs" t="Include" />
             </e>
           </e>
           <e p="Shared" t="Include">

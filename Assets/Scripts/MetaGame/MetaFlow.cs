@@ -1,4 +1,5 @@
-﻿using Shared;
+﻿using System;
+using Shared;
 using UnityEngine;
 
 namespace MetaGame
@@ -7,6 +8,8 @@ namespace MetaGame
     {
         private UIManager _uiManager;
         private LevelManager _levelManager;
+
+        private int _lastWorldId;
 
         private void Awake()
         {
@@ -24,15 +27,23 @@ namespace MetaGame
                 _levelManager.LoadCurrentLevel();
             };
 
-            MetaEvents.LevelsButtonPressedEvent += () =>
+            MetaEvents.MainMenuButtonPressedEvent += () => { _uiManager.ShowMainMenuPanel(); };
+
+            MetaEvents.WorldsSelectButtonPressedEvent += () => { _uiManager.ShowWorldsPanel(); };
+
+            MetaEvents.WorldButtonPressedEvent += worldId =>
             {
-                _uiManager.ShowLevelsPanel();
+                _uiManager.ShowWorldPanel(worldId);
+                _lastWorldId = worldId;
             };
 
-            MetaEvents.MainMenuButtonPressedEvent += () =>
-            {
-                _uiManager.ShowMainMenuPanel();
-            };
+            MetaEvents.LastWorldButtonPressedEvent += () => { _uiManager.ShowWorldPanel(_lastWorldId); };
+        }
+
+        private void Start()
+        {
+            _uiManager.HideRemoveAdsButtonIfAlreadyPurchased();
+            _uiManager.ShowMainMenuPanel();
         }
 
         public void OnLevelFinished(LevelScore levelScore)

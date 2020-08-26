@@ -10,25 +10,19 @@ namespace MetaGame
         private MainMenuPanel _mainMenuPanel;
         private LevelsPanel _levelsPanel;
         private LevelResultPanel _levelResultPanel;
+        private WorldsPanel _worldsPanel;
 
         private void Awake()
         {
             _mainMenuPanel = FindObjectOfType<MainMenuPanel>();
             _levelsPanel = FindObjectOfType<LevelsPanel>();
             _levelResultPanel = FindObjectOfType<LevelResultPanel>();
+            _worldsPanel = FindObjectOfType<WorldsPanel>();
 
-            _currentPanel = _mainMenuPanel;
             MetaEvents.LevelResultShownEvent += OnLevelResultScreenShown;
         }
 
-        private void Start()
-        {
-            HideRemoveAdsButtonIfPurchased();
-            _levelsPanel.Hide(true);
-            _levelResultPanel.Hide(true);
-        }
-
-        private void HideRemoveAdsButtonIfPurchased()
+        public void HideRemoveAdsButtonIfAlreadyPurchased()
         {
             if (Advertising.IsAdRemoved())
             {
@@ -43,19 +37,24 @@ namespace MetaGame
             _currentPanel = _levelResultPanel;
             _levelResultPanel.Show();
         }
-        
+
         private void OnLevelResultScreenShown()
         {
         }
-        
-        public void ShowLevelsPanel()
+
+        public void ShowWorldPanel(int worldId)
         {
             ShowPanel(_levelsPanel);
         }
-        
+
         public void ShowMainMenuPanel()
         {
             ShowPanel(_mainMenuPanel);
+        }
+
+        public void ShowWorldsPanel()
+        {
+            ShowPanel(_worldsPanel);
         }
 
         private void ShowPanel(UIPanel panel)
@@ -65,7 +64,6 @@ namespace MetaGame
             _currentPanel = panel;
         }
 
-
         public void SetCoinsText(int coins)
         {
             // _coinsText.GetComponent<Text>().text = coins.ToString();
@@ -73,8 +71,11 @@ namespace MetaGame
 
         public void HideCurrentPanel()
         {
-            _currentPanel.Hide();
-            _currentPanel = null;
+            if (_currentPanel != null)
+            {
+                _currentPanel.Hide();
+                _currentPanel = null;
+            }
         }
     }
 }

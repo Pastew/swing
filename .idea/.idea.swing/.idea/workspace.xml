@@ -2,109 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/BuyCoinsButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/BuyCoinsButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LeaderboardMovingMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LeaderboardMovingMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/RemoveAdsMovingMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/RemoveAdsMovingMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ReplayMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ReplayMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/SettingsMovingMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/SettingsMovingMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareMovingMenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareMovingMenuButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/MainMenuPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/MainMenuPanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/LevelResult/BonusPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/LevelResult/BonusPoint.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/MotionControl-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/MotionControl-Bold.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/MotionControl-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/MotionControl-BoldItalic.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/LevelScorePanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/LevelScorePanel.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Castamere regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Castamere regular.otf.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/BuyCoinsButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/BuyCoinsButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LeaderboardMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LeaderboardMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LevelsMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LevelsMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/MenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/MenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/RemoveAdsMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/RemoveAdsMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/SettingsMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/SettingsMenuButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ShareMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ShareMenuButton.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/HearthBeatAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/HearthBeatAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BonusPoint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BonusPoint.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BuyCoinsPanel.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BuyCoinsPanel.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BuyCoinsPanelOpenAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/BuyCoinsPanelOpenAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/CoinsPanel.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/CoinsPanel.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/CoinsPurchasedAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/CoinsPurchasedAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/PointsPresenter.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/bonusPointCollectedAnimatio.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/bonusPointCollectedAnimatio.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/clickPointAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/clickPointAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/minus5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/plus15.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/points.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PointsPresenter/points.svg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Tutorial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Tutorial/TutorialAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Tutorial/TutorialAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Tutorial/TutorialPanel.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Tutorial/TutorialPanel.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hero with eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hero with eye.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hero.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/StarImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/StarImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/clock black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/clock black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/clock white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/clock white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/credits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/credits.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +83,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/EditorNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Media/Internal/Android/AndroidDeviceGallery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSDictionary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/UtilitiesDemo/UtilitiesDemo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -197,7 +125,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraSlider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_AndroidManifestBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/BuyCoinsButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -235,10 +163,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/EditorSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/ITurnBasedMultiplayerClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/AndroidConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/1d/3fb9efdb/DOVirtual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/Listener/NativeConsentDialogListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/EditorConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/iOSConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Common/iOSMulticastDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScreenDimmer.cs.meta" root0="FORCE_HIGHLIGHTING" />
@@ -312,10 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraGoalMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraGoalMoveEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScreenDimmer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelManager.cs" />
@@ -323,7 +249,6 @@
         <option value="$PROJECT_DIR$/Assets/Components/UIStars/EmptyStarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/Components/UIStars/StarsResult.cs" />
-        <option value="$PROJECT_DIR$/Assets/credits.txt" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/HearthbeatAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DestroyOnAwake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" />
@@ -357,12 +282,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/credits.txt" />
       </list>
     </option>
   </component>
@@ -467,7 +397,7 @@
       <workItem from="1597917012732" duration="497000" />
       <workItem from="1598264351670" duration="1931000" />
       <workItem from="1598350855703" duration="3037000" />
-      <workItem from="1598431439536" duration="3759000" />
+      <workItem from="1598431439536" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -630,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598445043852</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="small fix">
+      <created>1598445277058</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598445277058</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,7 +615,8 @@
     <MESSAGE value="more work on ui" />
     <MESSAGE value="stats on level result screen" />
     <MESSAGE value="Basic menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic menu" />
+    <MESSAGE value="small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix" />
   </component>
   <component name="WindowStateProjectService">
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1598436021988">
@@ -769,14 +707,18 @@
       <screen x="1680" y="-70" width="1920" height="1080" />
     </state>
     <state x="2468" y="177" key="RiderGenerateDialog/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597846001654" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598445045578">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598445278134">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598445045578" />
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598445143299">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598445278134" />
+    <state x="504" y="247" key="run.anything.popup" timestamp="1598450480683">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="504" y="247" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598450480683" />
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598451371902">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598445143299" />
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598451371902" />
     <state x="2303" y="169" width="672" height="678" key="search.everywhere.popup/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597845353192" />
   </component>
   <component name="XDebuggerManager">

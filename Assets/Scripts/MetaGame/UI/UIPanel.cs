@@ -5,7 +5,7 @@ namespace MetaGame
 {
     public abstract class UIPanel : MonoBehaviour
     {
-        [SerializeField] private GameObject _anchor;
+        private GameObject _anchor;
 
         private CanvasGroup _canvasGroup;
 
@@ -14,6 +14,9 @@ namespace MetaGame
         public virtual void Awake()
         {
             _canvasGroup = GetComponent<CanvasGroup>();
+            _anchor = transform.GetChild(0).gameObject;
+            GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+            Hide(true);
         }
 
         public virtual void Show()
