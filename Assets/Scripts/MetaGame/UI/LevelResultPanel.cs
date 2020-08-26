@@ -12,7 +12,7 @@ namespace MetaGame
         [Header("Text")] [SerializeField] private List<String> _textPerStar;
         [SerializeField] private Text _resultText;
         [SerializeField] private AnimationCurve _textScaleInAnimCurve;
-        [SerializeField] private float _duration = 2.1f;
+        [SerializeField] private float _duration = 1;
 
         [Header("Stars")] [SerializeField] private GameObject _starCollectedUIPrefab;
         [SerializeField] private GameObject _starEmptyUIPrefab;
@@ -48,8 +48,7 @@ namespace MetaGame
             _time.alpha = 0;
             _touches.alpha = 0;
             _resultText.transform.localScale = Vector3.zero;
-            _buttons.transform.Translate(Vector3.right * 800);
-            SetButtonsInteractable(false);
+            _buttons.transform.Translate(Vector3.down * 400);
         }
         
         public override void Show()
@@ -69,7 +68,6 @@ namespace MetaGame
             s.Join(_touches.transform.DOScale(2, _duration).SetEase(_textShowupScaleAnimCurve));
             
             s.Append(_buttons.GetComponent<RectTransform>().DOAnchorPos(Vector3.zero, _duration).SetEase(Ease.OutExpo));
-            s.AppendCallback(() => SetButtonsInteractable(true));
             s.AppendCallback(() => { MetaEvents.LevelResultShownEvent(); });
             s.Play();
         }
