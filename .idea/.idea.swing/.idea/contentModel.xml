@@ -878,6 +878,7 @@
                 <e p="BuyCoinsButton.cs" t="Include" />
                 <e p="LastWorldButton.cs" t="Include" />
                 <e p="LeaderboardMovingMenuButton.cs" t="Include" />
+                <e p="LevelButton.cs" t="Include" />
                 <e p="MainMenuButton.cs" t="Include" />
                 <e p="NextLevelMenuButton.cs" t="Include" />
                 <e p="RemoveAdsMovingMenuButton.cs" t="Include" />

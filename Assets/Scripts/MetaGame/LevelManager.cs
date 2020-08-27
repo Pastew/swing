@@ -20,11 +20,18 @@ namespace MetaGame
         
         public void LoadNextLevel()
         {
-            _sharedFlow.LoadLevel(++_currentLevelIndex);
+            _currentLevelIndex++;
+            _sharedFlow.LoadLevel(_currentLevelIndex);
         }
 
         public void LoadCurrentLevel()
         {
+            _sharedFlow.LoadLevel(_currentLevelIndex);
+        }
+
+        public void LoadLevel(int levelIndex)
+        {
+            _currentLevelIndex = levelIndex;
             _sharedFlow.LoadLevel(_currentLevelIndex);
         }
     }

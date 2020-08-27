@@ -50,7 +50,7 @@ public class WorldButton : MonoBehaviour
         return MetaGameValues.MaxPossibleStarsPerLevel * MetaGameValues.LevelsPerWorld;
     }
 
-    private int GetCollectedStars(int worldId)
+    private int GetCollectedStars(int worldIndex)
     {
         return Random.Range(0, 31);
     }

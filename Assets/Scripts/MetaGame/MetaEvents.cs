@@ -11,8 +11,9 @@ namespace MetaGame
         public static Action MainMenuButtonPressedEvent;
         public static Action ReplayButtonPressedEvent;
         public static Action NextLevelButtonPressedEvent;
-        
-        public static Action WorldsSelectButtonPressedEvent;
+        public static Action<int> LoadLevelEvent;
+
+        public static Action WorldsPanelButtonPressedEvent;
         public static Action<int> WorldButtonPressedEvent;
         public static Action LastWorldButtonPressedEvent;
     }

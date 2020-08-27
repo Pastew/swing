@@ -42,8 +42,9 @@ namespace MetaGame
         {
         }
 
-        public void ShowWorldPanel(int worldId)
+        public void ShowLevelsPanel(int worldIndex)
         {
+            _levelsPanel.Setup(worldIndex);
             ShowPanel(_levelsPanel);
         }
 

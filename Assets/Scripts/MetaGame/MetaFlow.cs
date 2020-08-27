@@ -9,12 +9,18 @@ namespace MetaGame
         private UIManager _uiManager;
         private LevelManager _levelManager;
 
-        private int _lastWorldId;
+        private int _lastWorldIndex;
 
         private void Awake()
         {
             _uiManager = FindObjectOfType<UIManager>();
             _levelManager = FindObjectOfType<LevelManager>();
+            MetaEvents.LoadLevelEvent += (levelIndex) =>
+            {
+                _uiManager.HideCurrentPanel();
+                _levelManager.LoadLevel(levelIndex);
+            };
+            
             MetaEvents.NextLevelButtonPressedEvent += () =>
             {
                 _uiManager.HideCurrentPanel();
@@ -29,15 +35,15 @@ namespace MetaGame
 
             MetaEvents.MainMenuButtonPressedEvent += () => { _uiManager.ShowMainMenuPanel(); };
 
-            MetaEvents.WorldsSelectButtonPressedEvent += () => { _uiManager.ShowWorldsPanel(); };
+            MetaEvents.WorldsPanelButtonPressedEvent += () => { _uiManager.ShowWorldsPanel(); };
 
-            MetaEvents.WorldButtonPressedEvent += worldId =>
+            MetaEvents.WorldButtonPressedEvent += worldIndex =>
             {
-                _uiManager.ShowWorldPanel(worldId);
-                _lastWorldId = worldId;
+                _uiManager.ShowLevelsPanel(worldIndex);
+                _lastWorldIndex = worldIndex;
             };
 
-            MetaEvents.LastWorldButtonPressedEvent += () => { _uiManager.ShowWorldPanel(_lastWorldId); };
+            MetaEvents.LastWorldButtonPressedEvent += () => { _uiManager.ShowLevelsPanel(_lastWorldIndex); };
         }
 
         private void Start()

@@ -6,6 +6,6 @@ public class WorldsButton : MonoBehaviour
 {
     private void Awake()
     {
-        GetComponent<Button>().onClick.AddListener(() => MetaEvents.WorldsSelectButtonPressedEvent());
+        GetComponent<Button>().onClick.AddListener(() => MetaEvents.WorldsPanelButtonPressedEvent());
     }
 }
