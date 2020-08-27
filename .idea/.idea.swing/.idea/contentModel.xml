@@ -872,6 +872,7 @@
             <e p="LevelManager.cs" t="Include" />
             <e p="MetaEvents.cs" t="Include" />
             <e p="MetaFlow.cs" t="Include" />
+            <e p="MetaGameValues.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="Buttons" t="Include">
                 <e p="BuyCoinsButton.cs" t="Include" />
