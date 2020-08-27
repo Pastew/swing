@@ -795,6 +795,11 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="EasyMobile" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+            </e>
+          </e>
           <e p="UDP" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics" t="Include">

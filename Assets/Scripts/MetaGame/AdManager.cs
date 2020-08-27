@@ -29,8 +29,7 @@ namespace MetaGame
         if (Advertising.IsInterstitialAdReady())
             Advertising.ShowInterstitialAd();
         else
-            callback();
-
+            AdCompletedCallback();
 #endif
         }
 
