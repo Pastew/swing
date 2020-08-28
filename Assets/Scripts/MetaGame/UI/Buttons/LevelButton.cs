@@ -27,7 +27,7 @@ public class LevelButton : MonoBehaviour
     public void Setup(int levelIndex, int starsCollectedCount)
     {
         _levelIndex = levelIndex;
-        _levelText.text = $"{levelIndex}";
+        _levelText.text = $"{levelIndex+1}";
 
         for (int i = 0; i < 3; i++)
         {

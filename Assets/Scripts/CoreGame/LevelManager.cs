@@ -13,7 +13,8 @@ namespace CoreGame
         public void LoadLevel(int levelIndex)
         {
             _currentLevelIndex = levelIndex;
-            string path = "Levels/Level_" + levelIndex;
+            int levelPrefabSuffix = levelIndex + 1;
+            string path = "Levels/Level_" + levelPrefabSuffix;
             try
             {
                 _currentLevel = Instantiate(Resources.Load(path, typeof(GameObject))) as GameObject;

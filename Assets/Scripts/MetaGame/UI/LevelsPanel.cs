@@ -16,10 +16,10 @@ namespace MetaGame
 
         public void Setup(int worldIndex)
         {
-            int firstWorldLevelNumber = worldIndex * 10 + 1;
+            int firstWorldLevelIndex = worldIndex * 10;
             for (int i = 0; i < _levelButtons.Count; i++)
             {
-                int levelIndex = firstWorldLevelNumber + i;
+                int levelIndex = firstWorldLevelIndex + i;
                 int starsCollectedCount = GetStarsForLevel(levelIndex);
                 _levelButtons[i].Setup(levelIndex, starsCollectedCount);
             }
@@ -29,7 +29,7 @@ namespace MetaGame
         {
             try
             {
-                return _gameSaveManager.GameData.LevelsStars[levelIndex];
+                return _gameSaveManager.GameSave.LevelsStars[levelIndex];
             }
             catch (KeyNotFoundException)
             {

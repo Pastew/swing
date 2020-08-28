@@ -6275,6 +6275,10 @@ MonoBehaviour:
   WorldThumbnails:
   - {fileID: 21300000, guid: 1a3c5d2c4f4287244b916f641f87ed13, type: 3}
   WorldNames: []
+  MaxPossibleStarsPerLevel: 3
+  WorldsCount: 10
+  LevelsPerWorld: 10
+  StarsRequiredFactor: 0.6
 --- !u!1 &1777622854
 GameObject:
   m_ObjectHideFlags: 0

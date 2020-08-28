@@ -6,22 +6,22 @@ namespace MetaGame
     {
         private const string GameSaveKey = "gameSave";
 
-        public static void Save(GameData data)
+        public static void Save(GameSave save)
         {
-            string json = JsonUtility.ToJson(data);
+            string json = JsonUtility.ToJson(save);
             PlayerPrefs.SetString(GameSaveKey, json);
             PlayerPrefs.Save();
             Debug.Log($"Saved game: {json}");
         }
         
-        public static GameData Load()
+        public static GameSave Load()
         {
             if (!SaveExists())
                 return null;
             
             string json = PlayerPrefs.GetString(GameSaveKey);
             Debug.Log($"Loaded GameSave: {json}");
-            return JsonUtility.FromJson<GameData>(json);
+            return JsonUtility.FromJson<GameSave>(json);
         }
         
         public static bool SaveExists()

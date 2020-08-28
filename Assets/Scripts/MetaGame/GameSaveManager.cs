@@ -4,16 +4,19 @@ namespace MetaGame
 {
     public class GameSaveManager : MonoBehaviour
     {
-        private GameData _gameData;
+        private GameSave _gameSave;
+        private MetaGameValues _metaGameValues;
 
-        public GameData GameData => _gameData;
+        public GameSave GameSave => _gameSave;
 
         private void Awake()
         {
-            _gameData = GameSaver.Load();
-            if (_gameData == null)
+            _metaGameValues = FindObjectOfType<MetaGameValues>();
+            
+            _gameSave = GameSaver.Load();
+            if (_gameSave == null)
             {
-                _gameData = CreateEmptyGameSave();
+                _gameSave = CreateEmptyGameSave();
                 Save();
             }
         }
@@ -26,19 +29,20 @@ namespace MetaGame
 
         public void Save()
         {
-            GameSaver.Save(_gameData);
+            GameSaver.Save(_gameSave);
         }
 
         public int AddCoins(int purchasedCoinsValue)
         {
-            _gameData.Coins += purchasedCoinsValue;
+            _gameSave.Coins += purchasedCoinsValue;
             Save();
-            return _gameData.Coins;
+            return _gameSave.Coins;
         }
 
-        private GameData CreateEmptyGameSave()
+        private GameSave CreateEmptyGameSave()
         {
-            return new GameData();
+            int levelsCount = _metaGameValues.TotalLevelCount;
+            return new GameSave(levelsCount);
         }
     }
 }

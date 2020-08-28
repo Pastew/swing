@@ -58,11 +58,9 @@ namespace MetaGame
         public void OnLevelFinished(LevelScore levelScore)
         {
             int lvlIndex = _levelManager.GetCurrentLevelIndex();
-            bool containsKey = _gameSaveManager.GameData.LevelsStars.ContainsKey(lvlIndex);
-            if (containsKey && _gameSaveManager.GameData.LevelsStars[lvlIndex] < levelScore.Stars
-                || !containsKey)
+            if (_gameSaveManager.GameSave.LevelsStars[lvlIndex] < levelScore.Stars)
             {
-                _gameSaveManager.GameData.LevelsStars[lvlIndex] = levelScore.Stars;
+                _gameSaveManager.GameSave.LevelsStars[lvlIndex] = levelScore.Stars;
                 _gameSaveManager.Save();
             }
 

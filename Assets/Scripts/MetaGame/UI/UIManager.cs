@@ -58,7 +58,7 @@ namespace MetaGame
 
         public void ShowWorldsPanel()
         {
-            _worldsPanel.Setup(_gameSaveManager.GameData.UnlockedWorlds);
+            _worldsPanel.Setup(_gameSaveManager.GameSave.UnlockedWorlds);
             ShowPanel(_worldsPanel);
         }
 
