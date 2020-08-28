@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e44d562fefff54b65896a8c0738ed3ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eafe713d3566b465bbc016d26eca2338, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174891fcba077499f92d3ad0f06f1432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _particleSystem: {fileID: 6654452466955817028}
   _image: {fileID: 3747472945614176472}
+  _imageFadeInDuration: 0.8
   _imageFadeInAnimCurve:
     serializedVersion: 2
     m_Curve:
@@ -159,7 +159,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _imageFadeInDuration: 0.8
 --- !u!1 &6654452466940250336
 GameObject:
   m_ObjectHideFlags: 0

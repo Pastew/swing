@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Components.UIStars;
 using DG.Tweening;
 using Shared;
 using UnityEngine;
@@ -25,12 +26,12 @@ namespace MetaGame
         [Header("Buttons")] [SerializeField] private GameObject _buttons;
         
         private LevelScore _levelScore;
-        private List<GameObject> _intantiatedStars;
+        private List<StarUI> _intantiatedStars;
 
         public override void Awake()
         {
             base.Awake();
-            _intantiatedStars = new List<GameObject>();
+            _intantiatedStars = new List<StarUI>();
             
             if (_starsAnchors.Count != 3)
                 throw new ArgumentException("There should be 3 star anchors provided in editor!");
@@ -42,8 +43,8 @@ namespace MetaGame
             _time.GetComponentInChildren<Text>().text = String.Format("{0:0.00}s", levelScore.Seconds);
             _touches.GetComponentInChildren<Text>().text = $"x{levelScore.Clicks}";
             _resultText.text = _textPerStar[levelScore.Stars];
-            
-            _intantiatedStars.ForEach(Destroy);
+
+            _intantiatedStars.ForEach(star => star.KillAndDestroy());
             _intantiatedStars.Clear();
             _time.alpha = 0;
             _touches.alpha = 0;
@@ -80,14 +81,8 @@ namespace MetaGame
                     ? _starCollectedUIPrefab
                     : _starEmptyUIPrefab;
 
-                _intantiatedStars.Add(Instantiate(prefabToInstantiate, _starsAnchors[i].transform));
+                _intantiatedStars.Add(Instantiate(prefabToInstantiate, _starsAnchors[i].transform).GetComponent<StarUI>());
             }
-        }
-
-        private void SetButtonsInteractable(bool interactable)
-        {
-            foreach (Transform buttonTransform in _buttons.transform)
-                buttonTransform.GetComponent<Button>().interactable = interactable;
         }
     }
 }

@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/LevelButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/LevelButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarEmptyUIPrefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarCollectedUIPrefab.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/EmptyStarImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarImage.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/EmptyStarImage.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarCollectedUIPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarEmptyUIPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,12 +174,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/GlobalConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Privacy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Components.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/AndroidNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -181,12 +188,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AudienceNetworkClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/ChartboostClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IAdClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -232,9 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Components/UIStars/EmptyStarUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" />
-        <option value="$PROJECT_DIR$/Assets/Components/UIStars/StarsResult.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/HearthbeatAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DestroyOnAwake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" />
@@ -267,7 +270,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" />
@@ -283,6 +285,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" />
       </list>
     </option>
   </component>
@@ -388,7 +394,8 @@
       <workItem from="1598264351670" duration="1931000" />
       <workItem from="1598350855703" duration="3037000" />
       <workItem from="1598431439536" duration="7164000" />
-      <workItem from="1598525898569" duration="5798000" />
+      <workItem from="1598525898569" duration="5866000" />
+      <workItem from="1598607986188" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -586,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598540871818</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Levels Menu">
+      <created>1598541008964</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1598541008964</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,10 +744,10 @@
       <screen x="1680" y="-70" width="1920" height="1080" />
     </state>
     <state x="2468" y="177" key="RiderGenerateDialog/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597846001654" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598540873486">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598541010384">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598540873486" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598541010384" />
     <state x="439" y="282" width="801" height="486" key="find.popup" timestamp="1598540137666">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -742,10 +756,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="504" y="247" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598450480683" />
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598540353243">
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598611533008">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598540353243" />
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598611533008" />
     <state x="2303" y="169" width="672" height="678" key="search.everywhere.popup/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597845353192" />
   </component>
   <component name="XDebuggerManager">

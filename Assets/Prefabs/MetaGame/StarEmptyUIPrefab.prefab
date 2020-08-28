@@ -55,7 +55,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5264283422168224780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb2adf1e12f642378464ff1455c2f84, type: 3}
+  m_Script: {fileID: 11500000, guid: 174891fcba077499f92d3ad0f06f1432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _image: {fileID: 5264283423284371796}
@@ -73,13 +73,22 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 3.0860906
-      outSlope: 3.0860906
+      time: 0.64431614
+      value: 0.0026745312
+      inSlope: 0.026711497
+      outSlope: 0.026711497
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.2056452
+      inWeight: 0.049796987
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 3.199685
+      outSlope: 3.199685
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.018817306
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
