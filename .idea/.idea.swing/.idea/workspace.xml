@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarEmptyUIPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaver.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarCollectedUIPrefab.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/EmptyStarImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarImage.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/EmptyStarImage.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/EmptyStarUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarCollectedUIPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarCollectedUIPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/StarEmptyUIPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarEmptyUIPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarImage.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,77 +43,47 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/AdvertisingDemo/AdvertisingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/ContactDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/AddedStringStringView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/UnsupportedNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/StringStringCollectionView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/Advertising.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSMutableArray.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/iOSNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Common/Helpers/RuntimeHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/AndroidNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Native/iOSNotificationNative.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/EditorNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Media/Internal/Android/AndroidDeviceGallery.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSDictionary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/UtilitiesDemo/UtilitiesDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/SharingDemo/SharingDemo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Foundation/NSURL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Notification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GifDemo/GifDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/DemoAppConsent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6516040B-F7A5-4EE2-A24D-6AE4930EC525/3a/d3065c3c/Score.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/PrivacyDemo/PrivacyDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/ContactsUI/CNContactPickerViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Android/EasyMobile.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_Editor_Tab_Tools.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/LoadingPanelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/NotificationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Notifications.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_GUIStyleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/OneSignalNotificationPayload.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/NotificationsConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/DigitalClock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/AppLifecycleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_SettingsEditor_Ads.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/SettingsMovingMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Deadly.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareMovingMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/Platforms/GCSupport/GKMatchDelegateImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/HearthBeatAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Star.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraSlider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_AndroidManifestBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/StartPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/BuyCoinsButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Goal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,29 +98,99 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/Platforms/GCRealTimeMultiplayerClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/MainMenuPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Contacts/CNContactFetchRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/StoreReview.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/RatingDialogContent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/GameKit/Internal/GKMatchDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/FPSForcer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SpawnOnDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Sharing/Sharing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/GameKit/GKInvite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/GameKit/GKMatchmakerViewController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/EM_ProjectSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/TurnBasedMatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/ScrollableList/ScrollableList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/EEARegion/EEACountries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/Invitation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/EditorSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Multiplayer/ITurnBasedMultiplayerClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/iOSSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/AndroidSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/SavedGameInfoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Common/iOSMulticastDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/11/756bc85f/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/NoOpClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AudienceNetworkClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/ChartboostClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IAdClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/ParticleEffectsLibrary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdNetwork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NotificationsDemo/NotificationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/NativeUI_AlertPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/Racing3D/Racing3DGameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_BaseControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/Racing3D/Racing3DGameView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_RealtimeKitchenSink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_TurnbasedKitchenSink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/73/f3860997/Tween.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Contacts/Internal/IOS/IOSContactsPickerCallback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Contacts/Internal/UnsupportedContactProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/AdvertisingDemo/AdvertisingDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/ContactDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/AddedStringStringView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/StringStringCollectionView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AppLovinClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IronSourceClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Common/Helpers/RuntimeHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/MoPubClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Media/Internal/Android/AndroidDeviceGallery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/UtilitiesDemo/UtilitiesDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdColonyClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/SharingDemo/SharingDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GifDemo/GifDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6516040B-F7A5-4EE2-A24D-6AE4930EC525/3a/d3065c3c/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/LoadingPanelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Hero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/Common/DigitalClock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/AppLifecycleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/iOSInfoPlistItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/EM_Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraSlider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/StoreReview.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/RatingDialogContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ABMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Sharing/Sharing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/EEARegion/EEACountries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/SetActiveOnAwake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/AndroidConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/1d/3fb9efdb/DOVirtual.cs" root0="SKIP_HIGHLIGHTING" />
@@ -164,88 +198,56 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/EditorConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/iOSConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Common/iOSMulticastDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScreenDimmer.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraGoalMoveEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/ScreenDimmer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CameraGoalMoveEffect.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Wall.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/GlobalConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/AutoDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B814B509-D4AD-406F-B40C-6C93E38929E7/72/ccd6930d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Privacy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Editor/ModuleManagers/ModuleManager_NativeAPIs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/iOSNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Platforms/AndroidNativeGif.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/NoOpClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MyMathUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AudienceNetworkClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/ChartboostClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/UnityAdsClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/IAdClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/NetworkClients/AdMobClientImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Giphy/Giphy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/ParticleEffectsLibrary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Recorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangePurple.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangeGreen.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Advertising/AdNetwork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/ClipPlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NotificationsDemo/NotificationHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/TicTacToe/TicTacToeGameView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/Gif.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GIF/AnimatedClip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Countdown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/NativeUI/NativeUI_AlertPopup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/Racing3D/Racing3DGameControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/DestroyOnAwake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_BaseControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/Racing3D/Racing3DGameView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Prefabs/Star.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_RealtimeKitchenSink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_4.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/GameServicesDemo/GameServicesDemo_Multiplayer_TurnbasedKitchenSink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_2.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/InAppPurchasing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_1.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/73/f3860997/Tween.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Contacts/Internal/IOS/IOSContactsPickerCallback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/NativeAPIs/Contacts/Internal/UnsupportedContactProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/IAPProduct.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/HearthbeatAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DestroyOnAwake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/HookController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/LevelsMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/ReplayMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/Buttons/PlayMenuButton.cs" />
@@ -270,25 +272,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelsMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LastWorldButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/AdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/credits.txt" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/MetaGameValues.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" />
       </list>
     </option>
   </component>
@@ -328,10 +334,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="807">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="807" />
       <method v="2" />
     </configuration>
   </component>
@@ -395,7 +401,7 @@
       <workItem from="1598350855703" duration="3037000" />
       <workItem from="1598431439536" duration="7164000" />
       <workItem from="1598525898569" duration="5866000" />
-      <workItem from="1598607986188" duration="2186000" />
+      <workItem from="1598607986188" duration="9397000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -600,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598541008964</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed a bug">
+      <created>1598613205989</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598613205989</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,53 +666,54 @@
     <MESSAGE value="android build" />
     <MESSAGE value="World button basic" />
     <MESSAGE value="Levels Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Levels Menu" />
+    <MESSAGE value="fixed a bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a bug" />
   </component>
   <component name="WindowStateProjectService">
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1598436021988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="403" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1598436021988" />
-    <state width="1638" height="209" key="GridCell.Tab.0.bottom" timestamp="1598518678505">
+    <state width="1638" height="209" key="GridCell.Tab.0.bottom" timestamp="1598624450572">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028417" />
-    <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678505" />
-    <state width="1638" height="209" key="GridCell.Tab.0.center" timestamp="1598518678503">
+    <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598624450572" />
+    <state width="1638" height="209" key="GridCell.Tab.0.center" timestamp="1598624450571">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028416" />
-    <state width="1638" height="209" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678503" />
-    <state width="1638" height="209" key="GridCell.Tab.0.left" timestamp="1598518678502">
+    <state width="1638" height="209" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598624450571" />
+    <state width="1638" height="209" key="GridCell.Tab.0.left" timestamp="1598624450570">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028415" />
-    <state width="1638" height="209" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678502" />
-    <state width="1638" height="209" key="GridCell.Tab.0.right" timestamp="1598518678503">
+    <state width="1638" height="209" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598624450570" />
+    <state width="1638" height="209" key="GridCell.Tab.0.right" timestamp="1598624450571">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028417" />
-    <state width="1638" height="209" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678503" />
-    <state width="1638" height="209" key="GridCell.Tab.1.bottom" timestamp="1598518678508">
+    <state width="1638" height="209" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598624450571" />
+    <state width="1638" height="209" key="GridCell.Tab.1.bottom" timestamp="1598624470311">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028419" />
-    <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678508" />
-    <state width="1638" height="209" key="GridCell.Tab.1.center" timestamp="1598518678507">
+    <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598624470311" />
+    <state width="1638" height="209" key="GridCell.Tab.1.center" timestamp="1598624470310">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028418" />
-    <state width="1638" height="209" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678507" />
-    <state width="1638" height="209" key="GridCell.Tab.1.left" timestamp="1598518678506">
+    <state width="1638" height="209" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598624470310" />
+    <state width="1638" height="209" key="GridCell.Tab.1.left" timestamp="1598624470309">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028418" />
-    <state width="1638" height="209" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678506" />
-    <state width="1638" height="209" key="GridCell.Tab.1.right" timestamp="1598518678507">
+    <state width="1638" height="209" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598624470309" />
+    <state width="1638" height="209" key="GridCell.Tab.1.right" timestamp="1598624470311">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028419" />
-    <state width="1638" height="209" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678507" />
+    <state width="1638" height="209" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598624470311" />
     <state width="1638" height="209" key="GridCell.Tab.2.bottom" timestamp="1598518678512">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -740,26 +754,31 @@
     </state>
     <state width="1638" height="209" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598445028423" />
     <state width="1638" height="209" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598518678514" />
-    <state x="2468" y="177" key="RiderGenerateDialog" timestamp="1597846001654">
-      <screen x="1680" y="-70" width="1920" height="1080" />
+    <state x="690" y="240" key="RiderGenerateDialog" timestamp="1598616153005">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="690" y="240" key="RiderGenerateDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598616153005" />
     <state x="2468" y="177" key="RiderGenerateDialog/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597846001654" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598541010384">
+    <state x="690" y="450" key="VCS.ChangelistChooser" timestamp="1598616140919">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598541010384" />
-    <state x="439" y="282" width="801" height="486" key="find.popup" timestamp="1598540137666">
+    <state x="690" y="450" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1598616140919" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598613207701">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="439" y="282" width="801" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598540137666" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598613207701" />
+    <state x="439" y="282" width="801" height="486" key="find.popup" timestamp="1598615348277">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="439" y="282" width="801" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598615348277" />
     <state x="504" y="247" key="run.anything.popup" timestamp="1598450480683">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="504" y="247" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598450480683" />
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598611533008">
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup" timestamp="1598619692764">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598611533008" />
+    <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598619692764" />
     <state x="2303" y="169" width="672" height="678" key="search.everywhere.popup/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597845353192" />
   </component>
   <component name="XDebuggerManager">

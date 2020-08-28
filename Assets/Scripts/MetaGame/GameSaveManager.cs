@@ -4,43 +4,36 @@ namespace MetaGame
 {
     public class GameSaveManager : MonoBehaviour
     {
-        public static GameSaveManager instance;
+        private GameData _gameData;
 
-        private GameSave gameSave;
+        public GameData GameData => _gameData;
 
         private void Awake()
         {
-            if (instance == null)
-                instance = this;
-
-            gameSave = LoadGameSave();
-            if (gameSave == null)
-                gameSave = CreateEmptyGameSave();
+            _gameData = GameSaver.Load();
+            if (_gameData == null)
+            {
+                _gameData = CreateEmptyGameSave();
+                GameSaver.Save(_gameData);
+            }
         }
 
-        private GameSave LoadGameSave()
+        private void Update()
         {
-            return null;
+            if(Input.GetKeyUp(KeyCode.X))
+                PlayerPrefs.DeleteAll();
         }
 
-        internal int AddCoins(int purchasedCoinsValue)
+        private GameData CreateEmptyGameSave()
         {
-            gameSave.coins += purchasedCoinsValue;
-            SaveGameSave();
-            return gameSave.coins;
+            return  new GameData();
         }
 
-        private void SaveGameSave()
+        public int AddCoins(int purchasedCoinsValue)
         {
-            print("Save game save stub");
+            _gameData.Coins += purchasedCoinsValue;
+            GameSaver.Save(_gameData);
+            return _gameData.Coins;
         }
-
-        private GameSave CreateEmptyGameSave()
-        {
-            GameSave gs = new GameSave();
-
-            return gs;
-        }
-
     }
 }

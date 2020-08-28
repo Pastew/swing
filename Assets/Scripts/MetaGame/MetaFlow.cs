@@ -6,6 +6,7 @@ namespace MetaGame
 {
     public class MetaFlow : MonoBehaviour
     {
+        private GameSaveManager _gameSaveManager;
         private UIManager _uiManager;
         private LevelManager _levelManager;
 
@@ -13,8 +14,10 @@ namespace MetaGame
 
         private void Awake()
         {
+            _gameSaveManager = GetComponent<GameSaveManager>();
             _uiManager = FindObjectOfType<UIManager>();
             _levelManager = FindObjectOfType<LevelManager>();
+            
             MetaEvents.LoadLevelEvent += (levelIndex) =>
             {
                 _uiManager.HideCurrentPanel();

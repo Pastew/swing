@@ -8,7 +8,14 @@ namespace MetaGame
         public List<Sprite> WorldThumbnails;
         public List<string> WorldNames;
 
-        public const int MaxPossibleStarsPerLevel = 3;
-        public const int LevelsPerWorld = 10;
+        public int MaxPossibleStarsPerLevel = 3;
+        public int LevelsPerWorld = 10;
+
+        [Range(0, 1)] public float StarsRequiredFactor = 0.6f;
+
+        public int GetStarsRequiredForWorld(int worldIndex)
+        {
+            return (int) Mathf.Floor(StarsRequiredFactor * MaxPossibleStarsPerLevel * LevelsPerWorld * worldIndex);
+        }
     }
 }

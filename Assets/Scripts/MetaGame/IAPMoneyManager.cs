@@ -8,10 +8,10 @@ namespace MetaGame
         public void OnCoinsPurchased()
         {
             // int purchasedCoinsValue = int.Parse(b.descriptionText.text);
-            int purchasedCoinsValue = 100; //TODO: fix
-            Debug.Log("Player purchased coins: " + purchasedCoinsValue);
-            int newCoinsValue = GameSaveManager.instance.AddCoins(purchasedCoinsValue);
-            MetaEvents.UpdateCoinsEvent(newCoinsValue);
+            // int purchasedCoinsValue = 100; //TODO: fix
+            // Debug.Log("Player purchased coins: " + purchasedCoinsValue);
+            // int newCoinsValue = GameSaveManager.Instance.AddCoins(purchasedCoinsValue);
+            // MetaEvents.UpdateCoinsEvent(newCoinsValue);
         }
     }
 }

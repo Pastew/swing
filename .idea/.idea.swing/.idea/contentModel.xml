@@ -860,8 +860,9 @@
           </e>
           <e p="MetaGame" t="Include">
             <e p="AdManager.cs" t="Include" />
-            <e p="GameSave.cs" t="Include" />
+            <e p="GameData.cs" t="Include" />
             <e p="GameSaveManager.cs" t="Include" />
+            <e p="GameSaver.cs" t="Include" />
             <e p="IAPMoneyManager.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
             <e p="MetaEvents.cs" t="Include" />

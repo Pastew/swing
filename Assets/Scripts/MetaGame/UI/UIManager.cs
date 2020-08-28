@@ -6,11 +6,13 @@ namespace MetaGame
 {
     public class UIManager : MonoBehaviour
     {
-        private UIPanel _currentPanel;
         private MainMenuPanel _mainMenuPanel;
         private LevelsPanel _levelsPanel;
         private LevelResultPanel _levelResultPanel;
         private WorldsPanel _worldsPanel;
+        private GameSaveManager _gameSaveManager;
+        
+        private UIPanel _currentPanel;
 
         private void Awake()
         {
@@ -18,6 +20,7 @@ namespace MetaGame
             _levelsPanel = FindObjectOfType<LevelsPanel>();
             _levelResultPanel = FindObjectOfType<LevelResultPanel>();
             _worldsPanel = FindObjectOfType<WorldsPanel>();
+            _gameSaveManager = FindObjectOfType<GameSaveManager>();
 
             MetaEvents.LevelResultShownEvent += OnLevelResultScreenShown;
         }
@@ -33,8 +36,8 @@ namespace MetaGame
         // Menu canvas
         internal void ShowLevelResultsScreen(LevelScore levelScore)
         {
-            _levelResultPanel.Setup(levelScore);
             _currentPanel = _levelResultPanel;
+            _levelResultPanel.Setup(levelScore);
             _levelResultPanel.Show();
         }
 
@@ -55,6 +58,7 @@ namespace MetaGame
 
         public void ShowWorldsPanel()
         {
+            _worldsPanel.Setup(_gameSaveManager.GameData.UnlockedWorlds);
             ShowPanel(_worldsPanel);
         }
 
