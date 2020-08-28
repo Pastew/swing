@@ -14,16 +14,16 @@ namespace MetaGame
 
         private void Awake()
         {
-            _gameSaveManager = GetComponent<GameSaveManager>();
+            _gameSaveManager = FindObjectOfType<GameSaveManager>();
             _uiManager = FindObjectOfType<UIManager>();
             _levelManager = FindObjectOfType<LevelManager>();
-            
+
             MetaEvents.LoadLevelEvent += (levelIndex) =>
             {
                 _uiManager.HideCurrentPanel();
                 _levelManager.LoadLevel(levelIndex);
             };
-            
+
             MetaEvents.NextLevelButtonPressedEvent += () =>
             {
                 _uiManager.HideCurrentPanel();
@@ -57,6 +57,15 @@ namespace MetaGame
 
         public void OnLevelFinished(LevelScore levelScore)
         {
+            int lvlIndex = _levelManager.GetCurrentLevelIndex();
+            bool containsKey = _gameSaveManager.GameData.LevelsStars.ContainsKey(lvlIndex);
+            if (containsKey && _gameSaveManager.GameData.LevelsStars[lvlIndex] < levelScore.Stars
+                || !containsKey)
+            {
+                _gameSaveManager.GameData.LevelsStars[lvlIndex] = levelScore.Stars;
+                _gameSaveManager.Save();
+            }
+
             _uiManager.ShowLevelResultsScreen(levelScore);
         }
     }

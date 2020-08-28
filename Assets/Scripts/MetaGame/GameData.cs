@@ -11,13 +11,13 @@ namespace MetaGame
         
         // level not in dictionary = level locked
         // 0, 1, 2, 3 = level unlocked + stars collected
-        public Dictionary<int, int> LevelsProgress;
+        public Dictionary<int, int> LevelsStars;
 
         public GameData()
         {
             Coins = 0;
             UnlockedWorlds = new List<int> {0};
-            LevelsProgress =  new Dictionary<int, int>
+            LevelsStars =  new Dictionary<int, int>
             {
                 {0,0}
             };

@@ -14,26 +14,31 @@ namespace MetaGame
             if (_gameData == null)
             {
                 _gameData = CreateEmptyGameSave();
-                GameSaver.Save(_gameData);
+                Save();
             }
         }
 
         private void Update()
         {
-            if(Input.GetKeyUp(KeyCode.X))
+            if (Input.GetKeyUp(KeyCode.X))
                 PlayerPrefs.DeleteAll();
         }
 
-        private GameData CreateEmptyGameSave()
+        public void Save()
         {
-            return  new GameData();
+            GameSaver.Save(_gameData);
         }
 
         public int AddCoins(int purchasedCoinsValue)
         {
             _gameData.Coins += purchasedCoinsValue;
-            GameSaver.Save(_gameData);
+            Save();
             return _gameData.Coins;
+        }
+
+        private GameData CreateEmptyGameSave()
+        {
+            return new GameData();
         }
     }
 }
