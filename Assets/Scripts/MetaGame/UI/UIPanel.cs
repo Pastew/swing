@@ -16,9 +16,13 @@ namespace MetaGame
             _canvasGroup = GetComponent<CanvasGroup>();
             _anchor = transform.GetChild(0).gameObject;
             GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-            Hide(true);
         }
 
+        private void Start()
+        {
+            Hide(true);
+        }
+        
         public virtual void Show()
         {
             _anchor.SetActive(true);

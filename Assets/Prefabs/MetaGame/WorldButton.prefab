@@ -646,6 +646,7 @@ MonoBehaviour:
   _starsCollectedText: {fileID: 6670099838193359918}
   _worldNameText: {fileID: 5775765519729067527}
   _worldThumbnailImage: {fileID: 3054042217531884224}
+  _button: {fileID: 3632096733272603101}
   _locked: {fileID: 2509216347974136223}
   _requiredStarsText: {fileID: 3416918934512513457}
 --- !u!1 &4283985122168331737
