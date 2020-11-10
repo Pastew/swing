@@ -20,64 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/billing-3.0.1.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/billing-3.0.1.aar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleCore.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleMacos.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleMacos.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/AppleMacos.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/AppleMacos.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/license.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/third party notices.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/third party notices.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/CoinsPanel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/CoinsPanel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/MetaGame/StarUiIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/MetaGame/StarUiIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/MetaGame/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/MetaGame/coin.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/AmazonAppStore.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GoogleAIDL.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GoogleAIDL.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GooglePlay.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/GooglePlay.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/SamsungApps.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Android/common.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Apple/live/Apple.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live/FacebookStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Facebook/live/FacebookStore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/Security.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS/unitypurchasing" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/unitypurchasing.bundle/Contents/MacOS/unitypurchasing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/script/IAPDemo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MetaGame/WorldButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareMovingMenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareMovingMenuButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/WorldsButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Buttons/TemplateButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Buttons/TemplateButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/credits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/credits.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,7 +408,7 @@
       <workItem from="1598877829081" duration="2224000" />
       <workItem from="1598938798778" duration="1265000" />
       <workItem from="1604996340444" duration="1982000" />
-      <workItem from="1605001674898" duration="2375000" />
+      <workItem from="1605001674898" duration="2954000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -712,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598878414860</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="updated &amp; fix mobile bug">
+      <created>1605005213915</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1605005213915</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,7 +695,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="ads, consest" />
     <MESSAGE value="New EasyMobile. Advertising works ok" />
     <MESSAGE value="some refactor" />
     <MESSAGE value="gitignore update" />
@@ -770,7 +719,8 @@
     <MESSAGE value="Levels stars saving to gamesave works" />
     <MESSAGE value="added scene" />
     <MESSAGE value="updated iap" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated iap" />
+    <MESSAGE value="updated &amp; fix mobile bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated &amp; fix mobile bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="228" key="#Updates" timestamp="1605001097558">
@@ -915,10 +865,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="690" y="450" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1598616140919" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1598878416603">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="503" y="290" key="Vcs.Push.Dialog.v2" timestamp="1605005215937">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598878416603" />
+    <state x="503" y="290" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605005215937" />
     <state x="439" y="282" width="801" height="486" key="find.popup" timestamp="1598615348277">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
