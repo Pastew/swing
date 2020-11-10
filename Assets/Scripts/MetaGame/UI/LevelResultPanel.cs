@@ -52,7 +52,7 @@ namespace MetaGame
             _buttons.transform.Translate(Vector3.down * 400);
         }
         
-        public override void Show()
+        public override Tween Show()
         {
             base.Show();
             
@@ -71,6 +71,8 @@ namespace MetaGame
             s.Append(_buttons.GetComponent<RectTransform>().DOAnchorPos(Vector3.zero, _duration).SetEase(Ease.OutExpo));
             s.AppendCallback(() => { MetaEvents.LevelResultShownEvent(); });
             s.Play();
+
+            return s;
         }
 
         private void ShowStars(int stars)

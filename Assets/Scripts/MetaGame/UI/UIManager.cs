@@ -1,4 +1,5 @@
-﻿using EasyMobile;
+﻿using DG.Tweening;
+using EasyMobile;
 using Shared;
 using UnityEngine;
 
@@ -64,9 +65,14 @@ namespace MetaGame
 
         private void ShowPanel(UIPanel panel)
         {
-            HideCurrentPanel();
-            panel.Show();
-            _currentPanel = panel;
+            Sequence s = DOTween.Sequence();
+            Tween hidePanelTween = HideCurrentPanel();
+            if (hidePanelTween != null)
+                s.Append(hidePanelTween);
+            
+            s.Append(panel.Show());
+            s.AppendCallback(() => _currentPanel = panel);
+            s.Play();
         }
 
         public void SetCoinsText(int coins)
@@ -74,13 +80,16 @@ namespace MetaGame
             // _coinsText.GetComponent<Text>().text = coins.ToString();
         }
 
-        public void HideCurrentPanel()
+        public Tween HideCurrentPanel()
         {
             if (_currentPanel != null)
             {
-                _currentPanel.Hide();
+                Tween tweenToReturn = _currentPanel.Hide();
                 _currentPanel = null;
+                return tweenToReturn;
             }
+
+            return null;
         }
     }
 }

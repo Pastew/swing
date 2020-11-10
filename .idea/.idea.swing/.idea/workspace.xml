@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="226a870e-9a72-4f95-84e6-e3140e041108" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.swing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +77,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/EditorConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/Internal/PlatformConsentDialog/AndroidConsentDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Privacy/EEARegion/EEACountries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Sharing/Sharing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/RatingDialogContent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Utilities/StoreReview/StoreReview.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangePurple.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/kamil.p/dev/swing/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalOrangeGreen.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Resources/EM_Settings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Core/iOSInfoPlistItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +104,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/MediaDemo/MediaDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/StringStringCollectionView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/AddedStringStringView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/NativeAPIsDemo/ContactsDemo/ContactDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/Scripts/AdvertisingDemo/AdvertisingDemo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/HearthBeatAnimation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -167,14 +174,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/NextLevelMenuButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EasyMobile/EasyMobileInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Native/iOS/Common/iOSMulticastDelegateForwarder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/SavedGameInfoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/AndroidSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/kamil.p/dev/swing/Assets/Scripts/MetaGame/UI/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/NotificationsConsentManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/GameServices/SavedGames/Platforms/iOSSavedGameClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Demo/ScrollableList/ScrollableList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -233,6 +245,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/AndroidNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelsPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/kamil.p/dev/swing/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/Notifications/Internal/Listener/UnsupportedNotificationListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_3.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -243,8 +256,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/CoreFlow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_6.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Levels/Level_5.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shared/SharedFlow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EasyMobile/Scripts/Modules/InAppPurchasing/IAPProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -281,11 +296,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/CollectedStarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Components/LevelScorePanel/StarUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelScorePanel/StarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/IAPMoneyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSaver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shared/LevelScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/GameSave.cs" />
@@ -297,8 +310,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CoreGame/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/credits.txt" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/ShareButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/WorldButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/Buttons/MainMenuPlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/LevelResultPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIPanel.cs" />
       </list>
     </option>
@@ -345,10 +360,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25131">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="32563">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="25131" />
+      <option name="pid" value="32563" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -408,7 +423,7 @@
       <workItem from="1598877829081" duration="2224000" />
       <workItem from="1598938798778" duration="1265000" />
       <workItem from="1604996340444" duration="1982000" />
-      <workItem from="1605001674898" duration="2954000" />
+      <workItem from="1605001674898" duration="6591000" />
     </task>
     <task id="LOCAL-00001" summary="some refactor. imported unity monetization">
       <created>1576970616814</created>
@@ -662,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605005213915</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added hearthbeat to play button">
+      <created>1605006314611</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605006314611</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +717,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="New EasyMobile. Advertising works ok" />
     <MESSAGE value="some refactor" />
     <MESSAGE value="gitignore update" />
     <MESSAGE value="refactor" />
@@ -720,7 +741,8 @@
     <MESSAGE value="added scene" />
     <MESSAGE value="updated iap" />
     <MESSAGE value="updated &amp; fix mobile bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated &amp; fix mobile bug" />
+    <MESSAGE value="added hearthbeat to play button" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hearthbeat to play button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="228" key="#Updates" timestamp="1605001097558">
@@ -740,118 +762,118 @@
     </state>
     <state width="671" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1598627867023" />
     <state width="767" height="470" key="DebuggerActiveHint/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002597276" />
-    <state width="1878" height="203" key="GridCell.Tab.0.bottom" timestamp="1605003815952">
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1605008574726">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559649" />
     <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568708" />
     <state width="1878" height="203" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474388" />
-    <state width="1878" height="203" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815952" />
-    <state width="1878" height="203" key="GridCell.Tab.0.center" timestamp="1605003815951">
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574726" />
+    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1605008574725">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559648" />
     <state width="1638" height="209" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568707" />
     <state width="1878" height="203" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474385" />
-    <state width="1878" height="203" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815951" />
-    <state width="1878" height="203" key="GridCell.Tab.0.left" timestamp="1605003815950">
+    <state width="1878" height="232" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574725" />
+    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1605008574724">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559647" />
     <state width="1638" height="209" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568707" />
     <state width="1878" height="203" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474385" />
-    <state width="1878" height="203" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815950" />
-    <state width="1878" height="203" key="GridCell.Tab.0.right" timestamp="1605003815951">
+    <state width="1878" height="232" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574724" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1605008574725">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559648" />
     <state width="1638" height="209" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568708" />
     <state width="1878" height="203" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474386" />
-    <state width="1878" height="203" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815951" />
-    <state width="1878" height="203" key="GridCell.Tab.1.bottom" timestamp="1605003815953">
+    <state width="1878" height="232" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574725" />
+    <state width="1878" height="232" key="GridCell.Tab.1.bottom" timestamp="1605008574727">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559651" />
     <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598627857616" />
     <state width="1878" height="203" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002486354" />
-    <state width="1878" height="203" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815953" />
-    <state width="1878" height="203" key="GridCell.Tab.1.center" timestamp="1605003815952">
+    <state width="1878" height="232" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574727" />
+    <state width="1878" height="232" key="GridCell.Tab.1.center" timestamp="1605008574726">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559650" />
     <state width="1638" height="209" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598627857615" />
     <state width="1878" height="203" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002486353" />
-    <state width="1878" height="203" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815952" />
-    <state width="1878" height="203" key="GridCell.Tab.1.left" timestamp="1605003815952">
+    <state width="1878" height="232" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574726" />
+    <state width="1878" height="232" key="GridCell.Tab.1.left" timestamp="1605008574726">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559649" />
     <state width="1638" height="209" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598627857614" />
     <state width="1878" height="203" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002486353" />
-    <state width="1878" height="203" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815952" />
-    <state width="1878" height="203" key="GridCell.Tab.1.right" timestamp="1605003815953">
+    <state width="1878" height="232" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574726" />
+    <state width="1878" height="232" key="GridCell.Tab.1.right" timestamp="1605008574726">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559650" />
     <state width="1638" height="209" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598627857616" />
     <state width="1878" height="203" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002486354" />
-    <state width="1878" height="203" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815953" />
-    <state width="1878" height="203" key="GridCell.Tab.2.bottom" timestamp="1605003815954">
+    <state width="1878" height="232" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574726" />
+    <state width="1878" height="232" key="GridCell.Tab.2.bottom" timestamp="1605008574728">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559652" />
     <state width="1638" height="209" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568542" />
     <state width="1878" height="230" key="GridCell.Tab.2.bottom/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474080" />
-    <state width="1878" height="203" key="GridCell.Tab.2.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815954" />
-    <state width="1878" height="203" key="GridCell.Tab.2.center" timestamp="1605003815953">
+    <state width="1878" height="232" key="GridCell.Tab.2.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574728" />
+    <state width="1878" height="232" key="GridCell.Tab.2.center" timestamp="1605008574727">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559651" />
     <state width="1638" height="209" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568541" />
     <state width="1878" height="230" key="GridCell.Tab.2.center/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474079" />
-    <state width="1878" height="203" key="GridCell.Tab.2.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815953" />
-    <state width="1878" height="203" key="GridCell.Tab.2.left" timestamp="1605003815953">
+    <state width="1878" height="232" key="GridCell.Tab.2.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574727" />
+    <state width="1878" height="232" key="GridCell.Tab.2.left" timestamp="1605008574727">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559651" />
     <state width="1638" height="209" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568541" />
     <state width="1878" height="230" key="GridCell.Tab.2.left/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474078" />
-    <state width="1878" height="203" key="GridCell.Tab.2.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815953" />
-    <state width="1878" height="203" key="GridCell.Tab.2.right" timestamp="1605003815954">
+    <state width="1878" height="232" key="GridCell.Tab.2.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574727" />
+    <state width="1878" height="232" key="GridCell.Tab.2.right" timestamp="1605008574727">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559652" />
     <state width="1638" height="209" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568542" />
     <state width="1878" height="230" key="GridCell.Tab.2.right/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474080" />
-    <state width="1878" height="203" key="GridCell.Tab.2.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815954" />
-    <state width="1878" height="203" key="GridCell.Tab.3.bottom" timestamp="1605003815955">
+    <state width="1878" height="232" key="GridCell.Tab.2.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574727" />
+    <state width="1878" height="232" key="GridCell.Tab.3.bottom" timestamp="1605008574729">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559654" />
     <state width="1638" height="209" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568544" />
     <state width="1878" height="230" key="GridCell.Tab.3.bottom/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474081" />
-    <state width="1878" height="203" key="GridCell.Tab.3.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815955" />
-    <state width="1878" height="203" key="GridCell.Tab.3.center" timestamp="1605003815955">
+    <state width="1878" height="232" key="GridCell.Tab.3.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574729" />
+    <state width="1878" height="232" key="GridCell.Tab.3.center" timestamp="1605008574728">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559653" />
     <state width="1638" height="209" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568543" />
     <state width="1878" height="230" key="GridCell.Tab.3.center/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474081" />
-    <state width="1878" height="203" key="GridCell.Tab.3.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815955" />
-    <state width="1878" height="203" key="GridCell.Tab.3.left" timestamp="1605003815954">
+    <state width="1878" height="232" key="GridCell.Tab.3.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574728" />
+    <state width="1878" height="232" key="GridCell.Tab.3.left" timestamp="1605008574728">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559652" />
     <state width="1638" height="209" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568543" />
     <state width="1878" height="230" key="GridCell.Tab.3.left/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474080" />
-    <state width="1878" height="203" key="GridCell.Tab.3.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815954" />
-    <state width="1878" height="203" key="GridCell.Tab.3.right" timestamp="1605003815955">
+    <state width="1878" height="232" key="GridCell.Tab.3.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574728" />
+    <state width="1878" height="232" key="GridCell.Tab.3.right" timestamp="1605008574728">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="209" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598628559653" />
     <state width="1638" height="209" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598626568544" />
     <state width="1878" height="230" key="GridCell.Tab.3.right/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605002474081" />
-    <state width="1878" height="203" key="GridCell.Tab.3.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605003815955" />
+    <state width="1878" height="232" key="GridCell.Tab.3.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605008574728" />
     <state x="690" y="240" key="RiderGenerateDialog" timestamp="1598616153005">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -865,11 +887,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="690" y="450" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1598616140919" />
-    <state x="503" y="290" key="Vcs.Push.Dialog.v2" timestamp="1605005215937">
+    <state x="503" y="290" key="Vcs.Push.Dialog.v2" timestamp="1605006315677">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1598878416603" />
-    <state x="503" y="290" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605005215937" />
+    <state x="503" y="290" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605006315677" />
     <state x="439" y="282" width="801" height="486" key="find.popup" timestamp="1598615348277">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -878,11 +900,12 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="504" y="247" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598450480683" />
-    <state x="623" y="257" width="768" height="665" key="search.everywhere.popup" timestamp="1605000136386">
+    <state x="623" y="257" width="768" height="665" key="search.everywhere.popup" timestamp="1605007756780">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="545" y="232" width="672" height="660" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598884800984" />
     <state x="623" y="257" width="768" height="665" key="search.everywhere.popup/0.23.1920.1057/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.1057" timestamp="1605000136386" />
+    <state x="623" y="257" width="768" height="665" key="search.everywhere.popup/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1605007756780" />
     <state x="2303" y="169" width="672" height="678" key="search.everywhere.popup/1680.-70.1920.1080/0.0.1680.1050@1680.-70.1920.1080" timestamp="1597845353192" />
   </component>
   <component name="XDebuggerManager">
@@ -892,19 +915,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs</url>
-          <line>60</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MetaGame/UI/UIManager.cs" initialLine="60">
-            <startOffsets>
-              <option value="1722" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1783" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

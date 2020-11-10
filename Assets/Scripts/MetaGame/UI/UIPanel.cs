@@ -9,7 +9,7 @@ namespace MetaGame
 
         private CanvasGroup _canvasGroup;
 
-        private float _fadeDuration = 0.3f;
+        private float _fadeDuration = 0.15f;
 
         public virtual void Awake()
         {
@@ -22,18 +22,25 @@ namespace MetaGame
         {
             Hide(true);
         }
-        
-        public virtual void Show()
+
+        public virtual Tween Show()
         {
-            _anchor.SetActive(true);
-            _canvasGroup.interactable = true;
-            _canvasGroup
-                .DOFade(1, _fadeDuration).SetEase(Ease.InExpo);
+            Sequence s = DOTween.Sequence();
+            s.AppendCallback(() => _anchor.SetActive(true));
+            s.Append(_canvasGroup
+                .DOFade(1, _fadeDuration)
+                .SetEase(Ease.InExpo)
+                .OnComplete(() => _canvasGroup.interactable = true));
+            
+            s.Play();
+            return s;
         }
 
-        public virtual void Hide(bool instant = false)
+        public virtual Tween Hide(bool instant = false)
         {
             _canvasGroup.interactable = false;
+
+            Tween tween = null;
 
             if (instant)
             {
@@ -42,11 +49,13 @@ namespace MetaGame
             }
             else
             {
-                _canvasGroup
+                tween = _canvasGroup
                     .DOFade(0, _fadeDuration)
                     .SetEase(Ease.OutExpo)
                     .OnComplete(() => _anchor.SetActive(false));
             }
+
+            return tween;
         }
     }
 }
