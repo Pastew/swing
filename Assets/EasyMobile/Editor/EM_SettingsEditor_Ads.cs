@@ -44,6 +44,7 @@ namespace EasyMobile.Editor
         const string UnityAdsMonetizationSDKRequiredMsg = "The current built-in Unity Ads service doesn't support banner ads. Please import the Unity Monetization SDK from Assets Store to use Unity's banner ads.";
         const string AdvertisingConstantGenerationIntro = "Generate the static class " + EM_Constants.RootNameSpace + "." + EM_Constants.AdvertisingConstantsClassName + " that contains the constants of the above ad IDs." +
                                                           " Remember to regenerate if you make changes to these IDs.";
+        const string VungleImportInstruction = "Vungle plugin not found. Please download and import it to show ads from Vungle.";
 
         private bool IsAdMobEnabled
         {
@@ -185,6 +186,20 @@ namespace EasyMobile.Editor
                     MarkSubModulEnableStateHasChanged();
             }
         }
+        private bool IsVungleEnabled
+        {
+            get
+            {
+                return AdProperties.vungleAdEnabled.property.boolValue;
+            }
+            set
+            {
+                bool needToUpdate = value != IsVungleEnabled;
+                AdProperties.vungleAdEnabled.property.boolValue = value;
+                if (needToUpdate)
+                    MarkSubModulEnableStateHasChanged();
+            }
+        }
 
 
 #if EM_MOPUB
@@ -221,6 +236,13 @@ namespace EasyMobile.Editor
             // Now draw the GUI.
             if (!isAdModuleEnable.boolValue)
                 return;
+            
+            // Module auto initialization
+            DrawUppercaseSection("AUTO_INITIALIZATION_FOLDOUT_KEY", "AUTO INITIALIZATION", () =>
+            {
+                EditorGUILayout.PropertyField(AdProperties.autoInit.property, AdProperties.autoInit.content);
+            });
+
 
             // Ads auto-load setup
             EditorGUILayout.Space();
@@ -312,6 +334,9 @@ namespace EasyMobile.Editor
             // UnityAds setup
             DrawUnityAdsSettings();
             CheckUnityAdsAutoInit();
+
+            // Draw Vungle setup
+            DrawVungleAdsSettings();
         }
 
         static string AdMobManifestPath
@@ -355,6 +380,7 @@ namespace EasyMobile.Editor
                     EditorGUI.indentLevel++;
                     EditorGUILayout.PropertyField(AdProperties.adColonyDefaultInterstitialAdId.property, AdProperties.adColonyDefaultInterstitialAdId.content, true);
                     EditorGUILayout.PropertyField(AdProperties.adColonyDefaultRewardedAdId.property, AdProperties.adColonyDefaultRewardedAdId.content, true);
+                    EditorGUILayout.PropertyField(AdProperties.adColonyDefaultBannerAdId.property, AdProperties.adColonyDefaultBannerAdId.content, true);
                     EditorGUI.indentLevel--;
 
                     // Custom placements.
@@ -363,6 +389,7 @@ namespace EasyMobile.Editor
                     EditorGUI.indentLevel++;
                     EditorGUILayout.PropertyField(AdProperties.adColonyCustomInterstitialAdIds.property, AdProperties.adColonyCustomInterstitialAdIds.content, true);
                     EditorGUILayout.PropertyField(AdProperties.adColonyCustomRewardedAdIds.property, AdProperties.adColonyCustomRewardedAdIds.content, true);
+                    EditorGUILayout.PropertyField(AdProperties.adColonyCustomBannerAdIds.property, AdProperties.adColonyCustomBannerAdIds.content, true);
                     EditorGUI.indentLevel--;
 
                     // Ad settings.
@@ -455,6 +482,11 @@ namespace EasyMobile.Editor
                     EditorGUILayout.Space();
                     EditorGUILayout.LabelField("Test Mode", EditorStyles.boldLabel);
                     EditorGUILayout.PropertyField(AdProperties.admobEnableTestMode.property, AdProperties.admobEnableTestMode.content);
+
+                    // Adaptive banner mode.
+                    EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("Adaptive Banner", EditorStyles.boldLabel);
+                    EditorGUILayout.PropertyField(AdProperties.admobAdaptiveBanner.property, AdProperties.admobAdaptiveBanner.content);
 
 #endif
                 }, null, false);
@@ -1043,6 +1075,58 @@ namespace EasyMobile.Editor
                 }, null, false);
         }
 
+        void DrawVungleAdsSettings()
+        {
+            EditorGUILayout.Space();
+            IsVungleEnabled = DrawUppercaseSectionWithToggle("VUNGLE_ADS_SETUP_FOLDOUT_KEY", "VUNGLE ADS", IsVungleEnabled, () =>
+            {
+                if (!IsVungleEnabled)
+                    return;
+
+#if !EM_VUNGLE
+                EditorGUILayout.HelpBox(VungleImportInstruction, MessageType.Warning);
+                if (GUILayout.Button("Download Vungle Plugin", GUILayout.Height(EM_GUIStyleManager.buttonHeight)))
+                {
+                    EM_ExternalPluginManager.DownloadVunglePlugin();
+                }
+#else
+
+                EditorGUILayout.Space();
+                EditorGUILayout.LabelField("App ID", EditorStyles.boldLabel);
+                EditorGUI.indentLevel++;
+                EditorGUILayout.PropertyField(AdProperties.vungleAdsAppId.property, AdProperties.vungleAdsAppId.content, true);
+                EditorGUI.indentLevel--;
+
+                // Default Placements.
+                EditorGUILayout.Space();
+                EditorGUILayout.LabelField("Default Placement", EditorStyles.boldLabel);
+                EditorGUI.indentLevel++;
+
+                EditorGUILayout.PropertyField(AdProperties.vungleDefaultInterstitialAdId.property, AdProperties.vungleDefaultInterstitialAdId.content, true);
+                EditorGUILayout.PropertyField(AdProperties.vungleDefaultRewardedAdId.property, AdProperties.vungleDefaultRewardedAdId.content, true);
+                EditorGUILayout.PropertyField(AdProperties.vungleDefaultBannerAdId.property, AdProperties.vungleDefaultBannerAdId.content, true);
+                EditorGUI.indentLevel--;
+
+                // Custom placements.
+                EditorGUILayout.Space();
+                EditorGUILayout.LabelField("Custom Placements", EditorStyles.boldLabel);
+                EditorGUI.indentLevel++;
+                EditorGUILayout.PropertyField(AdProperties.vungleCustomInterstitialAdIds.property, AdProperties.vungleCustomInterstitialAdIds.content, true);
+                EditorGUILayout.PropertyField(AdProperties.vungleCustomRewardedAdIds.property, AdProperties.vungleCustomRewardedAdIds.content, true);
+                EditorGUILayout.PropertyField(AdProperties.vungleCustomBannerAdIds.property, AdProperties.vungleCustomBannerAdIds.content, true);
+                EditorGUI.indentLevel--;
+
+                EditorGUILayout.Space();
+                EditorGUILayout.LabelField("Advanced Settings", EditorStyles.boldLabel);
+                EditorGUILayout.PropertyField(AdProperties.vungleUseAdvancedSettings.property, AdProperties.vungleUseAdvancedSettings.content, true);
+                if (AdProperties.vungleUseAdvancedSettings.property.boolValue)
+                {
+                    EditorGUILayout.PropertyField(AdProperties.vungleAdvancedSettings.property, AdProperties.vungleAdvancedSettings.content, true);
+                }
+#endif
+            });
+        }
+
         void CheckUnityAdsAutoInit()
         {
 #if UNITY_EDITOR
@@ -1121,7 +1205,13 @@ namespace EasyMobile.Editor
                     return false;
 #endif
                 case AdNetwork.UnityAds:
-#if UNITY_ADS
+#if EM_UNITY_ADS
+                    return true;
+#else
+                    return false;
+#endif
+                case AdNetwork.Vungle:
+#if EM_VUNGLE
                     return true;
 #else
                     return false;
@@ -1142,7 +1232,7 @@ namespace EasyMobile.Editor
 #endif
         }
 
-        #region Generate Custom Ads Constants
+#region Generate Custom Ads Constants
 
         private void GenerateAdIdsConstants()
         {
@@ -1153,6 +1243,7 @@ namespace EasyMobile.Editor
                 var adColonySettings = AdProperties.adColonySettings.GetTargetObject() as AdColonySettings;
                 AddCustomAdsResource(finalResult, adColonySettings.CustomInterstitialAdIds, "AdColonyInterstitialAd");
                 AddCustomAdsResource(finalResult, adColonySettings.CustomRewardedAdIds, "AdColonyRewardedAd");
+                AddCustomAdsResource(finalResult, adColonySettings.CustomBannerAdIds, "AdColonyBannerAd");
             }
 
             if (IsPluginAvail(AdNetwork.AdMob))
@@ -1218,9 +1309,9 @@ namespace EasyMobile.Editor
             return baseDict;
         }
 
-        #endregion Generate Custom Ads Constants
+#endregion Generate Custom Ads Constants
 
-        #region Other stuff
+#region Other stuff
 
         void DrawEnumArrayProperty(SerializedProperty property, Type enumType, string displayName)
         {
@@ -1359,6 +1450,6 @@ namespace EasyMobile.Editor
             AssetDatabase.Refresh();
         }
 
-        #endregion
+#endregion
     }
 }

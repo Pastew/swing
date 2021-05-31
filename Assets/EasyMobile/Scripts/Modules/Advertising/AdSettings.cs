@@ -10,6 +10,16 @@ namespace EasyMobile
     public class AdSettings
     {
         /// <summary>
+        /// Gets or sets module auto init
+        /// </summary>
+        public bool AutoInit
+        {
+            get { return mAutoInit; }
+            set { mAutoInit = value; }
+        }
+        
+        
+        /// <summary>
         /// Gets or sets auto ad loading mode.
         /// </summary>
         public AutoAdLoadingMode AutoAdLoadingMode
@@ -138,6 +148,15 @@ namespace EasyMobile
             get { return mUnityAds; }
         }
 
+        /// <summary>
+        /// Gets the Vungle settings.
+        /// </summary>
+        /// <value>The vungle ads.</value>
+        public VungleSettings VungleAds
+        {
+            get { return mVungleAds; }
+        }
+
         [System.Serializable]
         public struct DefaultAdNetworks
         {
@@ -152,6 +171,9 @@ namespace EasyMobile
                 rewardedAdNetwork = rewarded;
             }
         }
+
+        [SerializeField] 
+        private bool mAutoInit = true;
 
         // Automatic ad-loading config.
         [SerializeField]
@@ -190,5 +212,7 @@ namespace EasyMobile
         private TapjoySettings mTapjoy = null;
         [SerializeField]
         private UnityAdsSettings mUnityAds = null;
+        [SerializeField]
+        private VungleSettings mVungleAds = null;
     }
 }

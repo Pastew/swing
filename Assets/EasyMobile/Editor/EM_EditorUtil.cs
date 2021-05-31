@@ -7,6 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEditor.SceneManagement;
+using System.Linq;
 
 namespace EasyMobile.Editor
 {
@@ -851,9 +852,13 @@ namespace EasyMobile.Editor
         /// <returns>The jdk path.</returns>
         public static string GetJdkPath(bool verboseLog = false)
         {
-            var jdkPath = UnityEditor.EditorPrefs.GetString("JdkPath");
+#if UNITY_ANDROID && UNITY_2019_3_OR_NEWER
+            var jdkPath = UnityEditor.Android.AndroidExternalToolsSettings.jdkRootPath;
+#else
+            var jdkPath = string.Empty; // we'll use JAVA_HOME
+#endif
 
-            if (string.IsNullOrEmpty(jdkPath))
+            if (string.IsNullOrEmpty(jdkPath) || !System.IO.Directory.Exists(jdkPath))
             {
                 if (verboseLog)
                     Debug.Log(
@@ -872,6 +877,19 @@ namespace EasyMobile.Editor
         public static Type GetInspectorWindowType()
         {
             return Type.GetType("UnityEditor.InspectorWindow,UnityEditor.dll");
+        }
+
+        /// <summary>
+        /// Gets all constants defined in a type via reflection.
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        public static List<FieldInfo> GetConstants(Type type)
+        {
+            FieldInfo[] fieldInfos = type.GetFields(BindingFlags.Public |
+                 BindingFlags.Static | BindingFlags.FlattenHierarchy);
+
+            return fieldInfos.Where(fi => fi.IsLiteral && !fi.IsInitOnly).ToList();
         }
     }
 }

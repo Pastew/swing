@@ -76,6 +76,15 @@ namespace EasyMobile.Editor
     {
         public static void PreBuildProcessing(BuildTarget target, string path)
         {
+            // Auto initialization check warning
+            if (!EM_Settings.IsRuntimeAutoInitializationEnabled)
+            {
+                Debug.LogWarning(
+                    "Easy Mobile's Auto Runtime Initialization feature is turned off. " +
+                    "Make sure you call RuntimeManager.Init() before using Easy Mobile API in your code. " +
+                    "You can re-enable the feature in menu Window > Easy Mobile > Build tab > Auto Initialization.");
+            }
+
             if (target == BuildTarget.Android)
             {
                 // Force regenerating manifest at every build to avoid issues due to
@@ -111,6 +120,10 @@ namespace EasyMobile.Editor
 
                 // Add required flags.
                 project.AddBuildProperty(targetGUID, "OTHER_LDFLAGS", "-ObjC");
+
+                // Fixing bug unrecognized category selector in Xcode 12.3:
+                // -ObjC needs to be added to project-wide build properties.
+                project.AddBuildProperty(project.ProjectGuid(), "OTHER_LDFLAGS", "-ObjC");
 
                 // Write PBX project.
                 project.WriteToFile(pbxPath);
@@ -200,7 +213,7 @@ namespace EasyMobile.Editor
                 return plistRoot;
 
             if (string.IsNullOrEmpty(value))
-                Debug.LogWarning("Dectected an empty Info.plist item value with the key: " + key);
+                Debug.LogWarning("Detected an empty Info.plist item value with the key: " + key);
 
             plistRoot.SetString(key, value);
             return plistRoot;

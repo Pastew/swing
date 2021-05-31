@@ -7,23 +7,17 @@ namespace EasyMobile
     {
         GooglePlay,
         AmazonAppStore,
-        CloudMoolah,
         SamsungApps,
-        XiaomiMiPay,
         MacAppStore,
         AppleAppStore,
-        WinRT,
-        TizenStore,
-        FacebookStore
+        WinRT
     }
 
     public enum IAPAndroidStore
     {
         GooglePlay,
         AmazonAppStore,
-        CloudMoolah,
         SamsungApps,
-        XiaomiMiPay,
         NotSpecified
     }
 }

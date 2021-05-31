@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections;
+using System;
 
 namespace EasyMobile.Editor
 {
@@ -34,6 +35,13 @@ namespace EasyMobile.Editor
         // TapJoy
         public const string TapJoyNameSpace = "TapjoyUnity";
 
+        //UnityAds
+        public const string UnityAdNameSpace = "UnityEngine.Advertisements";
+        public const string UnityAdvertisementClass = "Advertisement";
+
+        //Vungle
+        public const string VungleClassName = "Vungle";
+
         // Unity Monetization
         public const string UnityMonetizationClass = "UnityEngine.Monetization";
 
@@ -57,6 +65,16 @@ namespace EasyMobile.Editor
         // PlayMaker Unity UI add-on
         public const string PlayMakerUguiAddOnClass = "PlayMakerUGuiSceneProxy";
 
+        // External Dependency Manager namespaces and classes
+        public const string GoogleNameSpace = "Google";
+        public const string IosResolverClass = "IOSResolver";
+        public const string JarResolverNamespace = "Google.JarResolver";
+        public const string JarResolverDependencyClass = "Dependency";
+        public const string PackageManagerResolverClass = "PackageManagerResolver";
+
+        // URP namespace
+        public const string URPNamespace = "UnityEngine.Rendering.Universal";
+
         // Advertising 3rd party plugins URLs
         public const string AdColonyDownloadURL = "https://github.com/AdColony/AdColony-Unity-Plugin";
         public const string ChartboostDownloadURL = "https://answers.chartboost.com/en-us/articles/download";
@@ -67,6 +85,7 @@ namespace EasyMobile.Editor
         public const string IronSourceDownloadURL = "https://developers.ironsrc.com/ironsource-mobile/unity/unity-plugin/#step-1";
         public const string MoPubDownloadURL = "https://github.com/mopub/mopub-unity-sdk/";
         public const string TapJoyDownloadURL = "https://ltv.tapjoy.com/d/sdks";
+        public const string VungleDownloadURL = "https://publisher.vungle.com/sdk/plugins/unity";
 
         // Game Services 3rd party plugins URLs
         public const string GooglePlayGamesDownloadURL = "https://github.com/playgameservices/play-games-plugin-for-unity";
@@ -179,6 +198,26 @@ namespace EasyMobile.Editor
             return EM_EditorUtil.NamespaceExists(TapJoyNameSpace);
         }
 
+        /// Determindes if UnityAds plugin is available.
+        /// </summary>
+        /// <returns><c>true</c> if UnityAds plugin is available, otherwise <c>false</c>.</returns>
+        public static bool IsUnityAdAvail()
+        {
+            if (!EM_Settings.Advertising.UnityAds.Enable)
+                return false;
+            return EM_EditorUtil.NamespaceExists(UnityAdNameSpace) && EM_EditorUtil.FindClass(UnityAdvertisementClass, UnityAdNameSpace) != null;
+        }
+
+        //Determindes if Vungle plugin is available.
+        /// </summary>
+        /// <returns><c>true</c> if Vungle plugin is available, otherwise <c>false</c>.</returns>
+        public static bool IsVungleAvail()
+        {
+            if (!EM_Settings.Advertising.VungleAds.Enable)
+                return false;
+            return EM_EditorUtil.FindClass(VungleClassName) != null;
+        }
+
         /// Determines if Unity Monetization plugin is available.
         /// </summary>
         /// <returns><c>true</c> if Unity Monetization plugin is available, otherwise <c>false</c>.</returns>
@@ -227,6 +266,15 @@ namespace EasyMobile.Editor
         {
             System.Type firMsg = EM_EditorUtil.FindClass(FirebaseMessagingClassName, FirebaseMessagingNameSpace);
             return firMsg != null;
+        }
+
+        /// <summary>
+        /// Determines if URP is in use.
+        /// </summary>
+        /// <returns><c>true</c> if URP is not used; otherwise, <c>false</c>.</returns>
+        public static bool IsUsingURP()
+        {
+            return EM_EditorUtil.NamespaceExists(URPNamespace);
         }
 
         /// <summary>
@@ -309,6 +357,11 @@ namespace EasyMobile.Editor
             Application.OpenURL(TapJoyDownloadURL);
         }
 
+        public static void DownloadVunglePlugin()
+        {
+            Application.OpenURL(VungleDownloadURL);
+        }
+
         public static void InstallPlayMakerActions(bool interactive)
         {
             // First check if the PlayMaker Actions package has been imported.
@@ -352,7 +405,13 @@ namespace EasyMobile.Editor
 
         public static bool IsPlayServicesResolverImported()
         {
-            return EM_ProjectSettings.Instance.GetBool(EM_Constants.PSK_ImportedPlayServicesResolver, false);
+            var imported = EM_ProjectSettings.Instance.GetBool(EM_Constants.PSK_ImportedPlayServicesResolver, false);
+
+            var iosResolver = EM_EditorUtil.FindClass(IosResolverClass, GoogleNameSpace);
+            var jarResolver = EM_EditorUtil.FindClass(JarResolverDependencyClass, JarResolverNamespace);
+            var packageResolver = EM_EditorUtil.FindClass(PackageManagerResolverClass, GoogleNameSpace);
+
+            return iosResolver != null || jarResolver != null || packageResolver != null || imported;
         }
 
         public static void ImportPlayServicesResolver(bool interactive)

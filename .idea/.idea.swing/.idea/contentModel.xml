@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Credits.txt" t="Include" />
@@ -342,6 +340,7 @@
                   <e p="NoOpClientImpl.cs" t="Include" />
                   <e p="TapjoyClientImpl.cs" t="Include" />
                   <e p="UnityAdsClientImpl.cs" t="Include" />
+                  <e p="VungleClientImpl.cs" t="Include" />
                 </e>
                 <e p="NetworkSettings" t="Include">
                   <e p="AdColonySettings.cs" t="Include" />
@@ -356,6 +355,7 @@
                   <e p="MoPubSettings.cs" t="Include" />
                   <e p="TapjoySettings.cs" t="Include" />
                   <e p="UnityAdsSettings.cs" t="Include" />
+                  <e p="VungleSettings.cs" t="Include" />
                 </e>
               </e>
               <e p="GameServices" t="Include">
@@ -420,12 +420,45 @@
                 </e>
               </e>
               <e p="GIF" t="Include">
+                <e p="3DI70R_GIF" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="EM_3DI70R_GIF.cs" t="Include" />
+                    <e p="Runtime" t="Include">
+                      <e p="Decode" t="Include">
+                        <e p="GifBitBlockReader.cs" t="Include" />
+                        <e p="GifCanvas.cs" t="Include" />
+                        <e p="GifLzwDictionary.cs" t="Include" />
+                      </e>
+                      <e p="GifStream.cs" t="Include" />
+                      <e p="Model" t="Include">
+                        <e p="GifApplicationExtension.cs" t="Include" />
+                        <e p="GifDisposalMethod.cs" t="Include" />
+                        <e p="GifGraphicControl.cs" t="Include" />
+                        <e p="GifHeader.cs" t="Include" />
+                        <e p="GifImage.cs" t="Include" />
+                        <e p="GifImageDescriptor.cs" t="Include" />
+                        <e p="GifNetscapeExtension.cs" t="Include" />
+                        <e p="GifPalette.cs" t="Include" />
+                        <e p="GifPlainText.cs" t="Include" />
+                        <e p="GifVersion.cs" t="Include" />
+                      </e>
+                      <e p="UnityGifDecoder.asmdef" t="Include" />
+                      <e p="Utils" t="Include">
+                        <e p="BitUtils.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
                 <e p="AnimatedClip.cs" t="Include" />
                 <e p="ClipPlayer.cs" t="Include" />
                 <e p="ClipPlayerScaleMode.cs" t="Include" />
                 <e p="ClipPlayerUI.cs" t="Include" />
                 <e p="Editor" t="Include">
                   <e p="RecorderEditor.cs" t="Include" />
+                </e>
+                <e p="EM_GIF_URP_Feature" t="Include">
+                  <e p="EM_GIFRecorderFeature.cs" t="Include" />
+                  <e p="EM_GIFRecorderPass.cs" t="Include" />
                 </e>
                 <e p="Gif.cs" t="Include" />
                 <e p="GifExportTask.cs" t="Include" />
@@ -504,6 +537,7 @@
                       </e>
                     </e>
                     <e p="IOS" t="Include">
+                      <e p="InternalUIAdaptivePresentationControllerDelegate.cs" t="Include" />
                       <e p="InternalUIImagePickerControllerDelegate.cs" t="Include" />
                       <e p="IOSDeviceCamera.cs" t="Include" />
                       <e p="IOSDeviceGallery.cs" t="Include" />
@@ -565,6 +599,8 @@
                 <e p="OneSignalNotificationPayload.cs" t="Include" />
               </e>
               <e p="Privacy" t="Include">
+                <e p="AppTrackingAuthorizationStatus.cs" t="Include" />
+                <e p="AppTrackingSettings.cs" t="Include" />
                 <e p="ConsentDialog.cs" t="Include" />
                 <e p="ConsentManager.cs" t="Include" />
                 <e p="ConsentStatus.cs" t="Include" />
@@ -583,8 +619,13 @@
                   </e>
                 </e>
                 <e p="GlobalConsentManager.cs" t="Include" />
+                <e p="IAppTrackingManager.cs" t="Include" />
                 <e p="IConsentRequirable.cs" t="Include" />
                 <e p="Internal" t="Include">
+                  <e p="AppTrackingManager" t="Include">
+                    <e p="iOSAppTrackingManager.cs" t="Include" />
+                    <e p="UnsupportedAppTrackingManager.cs" t="Include" />
+                  </e>
                   <e p="ConsentDialogContentSerializer.cs" t="Include" />
                   <e p="EditorUI" t="Include">
                     <e p="EditorConsentDialogButtonUI.cs" t="Include" />
@@ -641,6 +682,9 @@
                 <e p="InteropObjectFactory.cs" t="Include" />
               </e>
               <e p="IOS" t="Include">
+                <e p="AppTrackingTransparency" t="Include">
+                  <e p="ATTrackingManager.cs" t="Include" />
+                </e>
                 <e p="Common" t="Include">
                   <e p="iOSDelegateForwarder.cs" t="Include" />
                   <e p="iOSInteropObject.cs" t="Include" />
@@ -737,6 +781,7 @@
                     <e p="UIFunctions_ImagesAndPDF_PhotoAlbum.cs" t="Include" />
                   </e>
                   <e p="Internal" t="Include">
+                    <e p="UIAdaptivePresentationControllerDelegateForwarder.cs" t="Include" />
                     <e p="UIImagePickerControllerDelegateForwarder.cs" t="Include" />
                   </e>
                   <e p="UIActivity.cs" t="Include" />
@@ -744,6 +789,7 @@
                   <e p="UIApplication.cs" t="Include" />
                   <e p="UIImage.cs" t="Include" />
                   <e p="UIImagePickerController.cs" t="Include" />
+                  <e p="UIPresentationController.cs" t="Include" />
                   <e p="UIViewController.cs" t="Include" />
                 </e>
               </e>
@@ -788,50 +834,9 @@
             <e p="ETFXRotation.cs" t="Include" />
           </e>
         </e>
-        <e p="Plugins" t="Include">
-          <e p="Android" t="Include">
-            <e p="EasyMobile" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-            </e>
-          </e>
-          <e p="UDP" t="Include">
-            <e p="Editor" t="Include">
-              <e p="Analytics" t="Include">
-                <e p="Common.cs" t="Include" />
-                <e p="EditorAnalytcisApi.cs" t="Include" />
-                <e p="ProjectBuildEvent.cs" t="Include" />
-                <e p="ProjectOpenEvent.cs" t="Include" />
-                <e p="SdkImportEvent.cs" t="Include" />
-                <e p="WebRequestQueue.cs" t="Include" />
-              </e>
-              <e p="AppStoreModel.cs" t="Include" />
-              <e p="AppStoreOnboardApi.cs" t="Include" />
-              <e p="AppStoreSettingsEditor.cs" t="Include" />
-              <e p="AppStoreStyles.cs" t="Include" />
-              <e p="Utils.cs" t="Include" />
-            </e>
-          </e>
-          <e p="UnityPurchasing" t="Include">
-            <e p="Editor" t="Include">
-              <e p="IAPButtonEditor.cs" t="Include" />
-              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
-            </e>
-            <e p="license.txt" t="Include" />
-            <e p="script" t="Include">
-              <e p="CodelessIAPStoreListener.cs" t="Include" />
-              <e p="ComboBox.cs" t="Include" />
-              <e p="Demo" t="Include">
-                <e p="DemoInventory.cs" t="Include" />
-              </e>
-              <e p="IAPButton.cs" t="Include" />
-              <e p="IAPConfigurationHelper.cs" t="Include" />
-              <e p="IAPDemo.cs" t="Include" />
-              <e p="IAPDemoProductUI.cs" t="Include" />
-              <e p="IAPListener.cs" t="Include" />
-              <e p="link.xml" t="Include" />
-              <e p="PurchasingCheck.cs" t="Include" />
-            </e>
-            <e p="third party notices.txt" t="Include" />
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_version-1.2.165_manifest.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
@@ -913,6 +918,7 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="swing.sln" t="IncludeFlat" />
       <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="UnityGifDecoder.csproj" t="IncludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_swing.-1041192412.00" t="ExcludeRecursive" />

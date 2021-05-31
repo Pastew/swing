@@ -10,7 +10,7 @@ namespace Components.UIStars
     public class StarUI : MonoBehaviour
     {
         [SerializeField] private Image _image;
-        [SerializeField] private float _imageFadeInDuration = 2f;
+        [SerializeField] private float _imageFadeInDuration = 0.8f;
         [SerializeField] private AnimationCurve _imageFadeInAnimCurve;
         
         private TweenerCore<Color, Color, ColorOptions> _tween;
