@@ -1,3 +1,5 @@
+![Alt text](s1.png?raw=true "s1.png")  
+
 # How to compile.
 1. Clone the repo.
 1. Open in Unity.
@@ -9,3 +11,4 @@
 1. IAP
 1. Import -> Install Now -> Import everything
 1. It should work now.
+
